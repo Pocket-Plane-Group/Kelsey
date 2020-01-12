@@ -1,0 +1,10 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("J#Kelsey")
+		CreateCreature("FWKELVIM",[802.1134],11)
+		ActionOverride("FWKELVIM",Dialogue("J#Kelsey"))
+END
+
+

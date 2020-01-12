@@ -1,0 +1,60 @@
+IF
+  !Global("J#KelseyRomanceActive","GLOBAL",0)
+  !Global("J#KelseyRomanceActive","GLOBAL",3)
+  Global("J#KelseyMatch","GLOBAL",1)
+  See(Player1)
+  !AreaType(DUNGEON)
+  CombatCounter(0)
+  Global("J#LoveTalk","LOCALS",45)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+THEN
+  RESPONSE #100
+    PlaySong(123456)
+    MoveViewObject("J#Kelsey",INSTANT)
+    IncrementGlobal("J#LoveTalk","LOCALS",1)
+    PlaySound("FWKSong")
+    RealSetGlobalTimer("J#KelseyRomance","GLOBAL",1)
+    Interact(Player1)
+END
+
+IF
+	InParty(Myself)
+	Global("FWKelseySOAMornAfter","LOCALS",1)
+	CombatCounter(0)
+THEN
+    RESPONSE #100
+             SetGlobal("FWKelseySOAMornAfter","LOCALS",2)
+             RestParty()
+END
+
+
+IF
+  Global("J#KelseyRomanceActive","GLOBAL",2)
+  See(Player1)
+  CombatCounter(0)
+  GlobalGT("J#LoveTalk","LOCALS",50)
+  GlobalGT("J#KelseyVampire","GLOBAL",5)
+  Global("FWPostVampSleepTalk","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("FWPostVampSleepTalk","LOCALS",1)
+    RestParty()
+END
+
+IF
+  Global("J#KelseyRomanceActive","GLOBAL",2)
+  See(Player1)
+  !AreaType(DUNGEON)
+  CombatCounter(0)
+  GlobalGT("J#LoveTalk","LOCALS",50)
+  GlobalGT("J#KelseyVampire","GLOBAL",5)
+  Global("FWPostVampSleepTalk","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("FWPostVampSleepTalk","LOCALS",2)
+    PlaySong(123456)
+    MoveViewObject("J#Kelsey",INSTANT)
+    PlaySound("FWKSong")
+    Interact(Player1)
+END
+

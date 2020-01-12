@@ -1,0 +1,15 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("J#Kelsey")
+		AddSpecialAbility("FWOATS02")
+		ActionOverride("Jan",JoinParty())
+		Wait(1)
+		ActionOverride("Jan",Wait(1))
+		ActionOverride("Jan",StartDialogueNoSet(Player1))
+		ActionOverride("Jan",SetGlobal("KickedOut","LOCALS",0))
+		EndCutSceneMode()
+END
+
+

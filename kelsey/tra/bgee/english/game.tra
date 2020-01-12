@@ -1,0 +1,528 @@
+// -*- coding: utf-8 -*-
+
+@2    = ~Kelsey~
+@3    = ~Hello! My name is Kelsey. I've been hoping we would meet before long. I thought I saw you in the middle of that firestorm in the Promenade...anyone who can walk away from a pack of Shadow Thieves and Cowled Wizards must be worth knowing, I figure.~ [FWKLSY00]
+@4    = ~Sorry, this is out of my league!~ [FWKLSY01]
+@5    = ~We should really be proud of what we're doing.~ [FWKLSY02]
+@6    = ~Miscreants are a dime a dozen. I thought we would set our standards a little higher.~ [FWKLSY03]
+@7    = ~You really seem to have a cruel streak in you.~ [FWKLSY04]
+@8    = ~This is just too much...I can't be associated with you any longer.~ [FWKLSY05]
+@9    = ~If only the family could see me now...~ [FWKLSY06]
+@10   = ~I have just about had it. Let's put up our feet and rest a while.~ [FWKLSY07]
+@11   = ~I could find us more action at a swap meet. Let's get moving!~ [FWKLSY08]
+@12   = ~Say good night!~ [FWKLSY09]
+@13   = ~Watch out, my magic is stronger than you think!~ [FWKLSY10]
+@14   = ~You'll never see it coming!~ [FWKLSY11]
+@15   = ~You have miscalculated!~ [FWKLSY12]
+@16   = ~No more! No more!~ [FWKLSY13]
+
+
+@19   = ~I hope I've got a healing potion somewhere...help...~ [FWKLSY20]
+@20   = ~If the forest could talk...I wonder if it would complain about the bugs?~ [FWKLSY21]
+@21   = ~Love them or hate them, cities are good for business.~ [FWKLSY22]
+@22   = ~It's at times like this I wish I knew how to cast Infravision.~ [FWKLSY23]
+@23   = ~Nice day, isn't it?~ [FWKLSY24]
+@24   = ~Anybody know any good ghost stories? Keep them to yourself!~ [FWKLSY25]
+@25   = ~Ready, boss.~ [FWKLSY26]
+@26   = ~What do you need?~ [FWKLSY27]
+@27   = ~Yeah?~ [FWKLSY28]
+@28   = ~Just tell me once.~ [FWKLSY29]
+@29   = ~Give the word.~ [FWKLSY30]
+@30   = ~Point the way.~ [FWKLSY31]
+@31   = ~I'm on the job.~ [FWKLSY32]
+@32   = ~Got it, boss.~ [FWKLSY33]
+@33   = ~You won't need to double-check my work.~ [FWKLSY34]
+@34   = ~It's done.~ [FWKLSY35]
+@35   = ~On your orders.~ [FWKLSY36]
+@36   = ~Watch me work.~ [FWKLSY37]
+@37   = ~I heard you the first time.~ [FWKLSY38]
+@38   = ~Kelsey's your man.~ [FWKLSY39]
+@39   = ~Ready for action.~ [FWKLSY40]
+@40   = ~That'll teach you!~ [FWKLSY41]
+@41   = ~Whoops!~ [FWKLSY42]
+@42   = ~I'm not getting through!~ [FWKLSY43]
+@43   = ~I'm a sorcerer, not a walking Bag of Holding. I had to drop that.~ [FWKLSY44]
+@44   = ~I can't believe I'm stealing from others, but I did it.~ [FWKLSY45]
+@45   = ~Sneaky Kelsey's out of sight.~ [FWKLSY46]
+@46   = ~Damn! That's a wasted spell!~ [FWKLSY47]
+@47   = ~Don't step anywhere near there.~ [FWKLSY48]
+@48   = ~KELSEY sounds for all the world like a young man who wants something he will never truly be able to have: a normal life. Born into a well-to-do trading company that does healthy business throughout most of the civilized Realms, Kelsey thought his life would take a relatively easy path, until he discovered in his mid-teens that he had innate magical powers. From what you can make out, relations with his family have become somewhat strained, but the remote business expeditions they sent him on as a result allowed him the opportunity to meet a few other sorcerers like himself as well as spend short periods of time in minor adventuring companies, and he learned to shape and develop his talents. Still, Kelsey is quite clearly troubled at being a mage by birth in a land where magic is greatly frowned upon, and at the same time he seems to feel unworthy of his obvious gifts.~
+@49   = ~Lilla~
+@50   = ~Distraught? Wounded? Disturbed? Inconsolable?~ [FWLILL00]
+@51   = ~Clinn~
+@52   = ~Merritt~
+@53   = ~At last! Kelsey. My lady Ceara is so very disappointed that you have not paid her a visit since returning to Amn. She is quite...ah...~ [FWMERR00]
+@54   = ~Rumil~
+@55   = ~Ceara~
+@56   = ~Kelsey! Why have you forced me to chase you all over Amn?~ [FWCEAR09]
+@57   = ~Morridhan~
+@58   = ~Cossun~
+@59   = ~Kassetha~
+@60   = ~Piotr~
+@61   = ~Vlaming~
+@62   = ~Pura Parteth~
+@63   = ~Bharle~
+@64   = ~Kelsey's Body~
+@65   = ~Snargle-grack.  Acka, acka.  Where's the gronk?
+
+ZwoooOOOoooot.~
+@66   = ~Kelsey was captured by Bodhi and infected with vampirism, forcing you to slay him. There may be some way to revive him, though you don't know what it would be.~
+@67   = ~Jansen Sorcerer Visual Enhancement Sphere~
+@68   = ~Jan Jansen, tinker extraordinare, made a gift of this strange mechanical device to his travelling companion Kelsey, whom he felt was not "flashy" enough in combat. The odd sphere floats above the user's head of its own accord, and in addition to the stray wires and bits of metal has a small button, just daring the "wearer" to press it.
+
+Effects: Jan assured Kelsey it will make him appear more formidable in combat.
+Side-effects: Jan told Kelsey he has nothing to worry about.
+
+Charges: 50
+
+Only usable by: Kelsey ~
+@69   = ~Ceara's Amulet~
+@70   = ~Amulet of Wild Magic~
+@71   = ~Ceara's amulet positively jumps with magical energy, but whatever specific purpose it may serve remains unclear.~
+@72   = ~Ceara's power-mad research left no school of magic unattended. The discipline of wild magic caught her eye, and after extensive trials, including some spectacular failures, she managed to create a device that would allow any mage to release and shape a rush of wild magic. Even more impressive is the fact that the device saves enough of the wild surge to recharge itself for further use.
+
+
+Abilities:
+
+Cast Nahal's Reckless Dweomer once per day
+
+Usable by:
+  Mages
+  Bards~
+@73   = ~Kelsey's Oil~
+@74   = ~Words of wisdom from Ghreyfain:
+
+When speaking with an irate dragon, under no circumstances should you offer them a tic-tac.~
+@75   = ~Kelsey used his unique sorcery on some fairly ordinary makeup to create this special facial oil for <CHARNAME> as a gift and token of affection. He promises it will only enhance her natural beauty, and perhaps make others see her in the same rose-tinted light he does.
+
+Kelsey's enchantment is fairly unstable, however, and the effect is not permanent. A good cold cream may be necessary to remove the more mundane foundation.
+
+STATISTICS:
+Effects: Increases the user's Charisma by 2 for one hour.
+Usable by:
+  <CHARNAME>~
+@76   = ~Indelible Minor Sequencer~
+@77   = ~Presumably a creation of the mad sorceress Ceara, or one of her lieutenants, this unusual magical parchment describes all of the incantations necessary to invoke the fourth-level wizard spell Minor Sequencer. Unlike a conventional scroll, however, the paper is not consumed in the casting--the magical ink fades from view, to reappear a day later.
+
+Abilities: Cast Minor Sequencer once per day.
+
+Usable by:
+Mages
+Sorcerers~
+@78   = ~Kelsey's Cloak~
+@79   = ~In your pathetic attempts to identify this item, you stumble across two poems sewn on the inside of the robe...
+
+Float like a fairy
+Sting like a bee
+If you piss off Kelsey
+He's gonna kill thee
+
+
+Dragons are red
+Frost Giants are blue
+If you like Kelsey
+Then good luck to you~
+@80   = ~On a brief tour with an adventuring company in the Golden Marches, Kelsey came under the tutelage and protection of one Bryan Linn, himself a sorcerer of considerable power. Over the years Bryan had worked a number of usefull enchantments into what had once been a conventional Cloak of Protection, attuning the magical garment to the particular needs and strains of sorcery. Interested in retiring and starting a family, lest he meet an untimely end on the road, Linn made a gift of the cloak he no longer needed. Its value to Kelsey is far more than sentimental.
+
+STATISTICS:
+
+Special: Can cast Fire Shield (Green) once per day. Provides 50% protection from acid attacks, causes acid damage to enemies.
+
+20% Magic Resistance
++1 Armor Class
++1 All Saves
++1 Level 1 Spell
++1 Level 2 Spell
++1 Constitution While Worn
+Usable by Sorcerers only.~
+@81   = ~Rod~
+@82   = ~Inquisitor's Friend~
+@83   = ~This is a short, iron-reinforced rod. Tiny runes run the length, and a bare, oval spot may indicate where a former owner's insignia has been burned or scraped off.~
+@84   = ~Rumor has it that this rod was commissioned by the Order of the Radiant Heart for the use of its anti-magic Inquisitor paladins, but the Cowled Wizards got wind of its construction and permanently discouraged its maker. The Radiant Heart officially denies all knowledge of how this device came to be...but nonetheless, it is a powerful tool for hunting and disabling wizards.
+
+Abilities:
+
+- Cast Clairvoyance (one charge)
+- Cast Remove Magic (one charge)
+Usable By:
+  Anyone~
+@85   = ~Kelsey Bounty Letter~
+@86   = ~Merritt,
+
+          You KNOW how important Kelsey is to my research...without him, I simply do not know how I will proceed, and that is bad for your continued employment and well-keeping. Be a dear and fetch him. I will gladly triple your men's pay for the tenday, and you will find something quite special waiting for you as well.
+
+          If you must use force and carelessly kill him, be mindful to leave enough intact for Cossun to raise once you return. His kind does not grow on trees! Yet.
+
+          - C
+~
+@87   = ~Fire Shield (Green)~
+
+@101=~Kelsey AI~
+@102=~This simple AI script allows Kelsey to perform some rudimentary actions without player intervention. If Kelsey sees an enemy sufficiently close to himself he may activate his Fire Shield: Green, provided he is wearing his cloak. If he has a ranged weapon equipped he may use it to attack enemies. If an enemy gets too close he will switch to a melee weapon. Kelsey will not automatically cast any spells he has memorised, nor will be perform any actions unless he's idle.~
+
+
+
+
+//ToB
+@253=~Kelsey's Cloak~
+@254=~In your pathetic attempts to identify this item, you stumble across two poems sewn on the inside of the robe...
+
+Float like a fairy
+Sting like a bee
+If you piss off Kelsey
+He's gonna kill thee
+
+
+Dragons are red
+Frost Giants are blue
+If you like Kelsey
+Then good luck to you~
+
+@255=~On a brief tour with an adventuring company in the Golden Marches, Kelsey came under the tutelage and protection of one Bryan Linn, himself a sorcerer of considerable power. Over the years Bryan had worked a number of usefull enchantments into what had once been a conventional Cloak of Protection, attuning the magical garment to the particular needs and strains of sorcery. Interested in retiring and starting a family, lest he meet an untimely end on the road, Linn made a gift of the cloak he no longer needed. Its value to Kelsey is far more than sentimental.
+
+STATISTICS:
+
+Special: Can cast Fire Shield (Green) once per day. Provides 50% protection from acid attacks, causes acid damage to enemies.
+
+20% Magic Resistance
++1 Armor Class
++1 All Saves
++1 Level 1 Spell
++1 Level 2 Spell
++1 Constitution While Worn
+Usable by:
+  Kelsey~
+
+@2554=~Kelsey's New Cloak~
+
+@2553=~On a brief tour with an adventuring company in the Golden Marches, Kelsey came under the tutelage and protection of one Bryan Linn, himself a sorcerer of considerable power. Over the years Bryan had worked a number of usefull enchantments into what had once been a conventional Cloak of Protection, attuning the magical garment to the particular needs and strains of sorcery. Interested in retiring and starting a family, lest he meet an untimely end on the road, Linn made a gift of the cloak he no longer needed. Its value to Kelsey is far more than sentimental.
+
+This cloak has been upgraded by <CHARNAME>'s butler, Cespenar.
+
+STATISTICS:
+
+Special:
+  Can cast Fire Shield (Green) once per day. Provides 50% protection from acid attacks, causes acid damage to enemies.
+  Can cast Spell Sequencer once per day.
+
++20% Magic Resistance
++2 Armor Class
++2 All Saves
++1 Level 1 Spell
++1 Level 2 Spell
++1 Constitution While Worn
+Usable by:
+  Kelsey~
+
+
+/////////////////////////////
+
+
+@256=~Kelsey~
+@258=~Sorry, this is out of my league!~ [FWKLSY01]
+@259=~We should really be proud of what we're doing.~ [FWKLSY02]
+@2510=~Miscreants are a dime a dozen. I thought we would set our standards a little higher.~ [FWKLSY03]
+@2511=~You really seem to have a cruel streak in you.~ [FWKLSY04]
+@2512=~This is just too much...I can't be associated with you any longer.~ [FWKLSY05]
+@2599=~You're the boss. So if you want me to be the boss... then I'm the boss.~ [FWKL2591]
+@2514=~I have just about had it. Let's put up our feet and rest a while.~ [FWKLSY07]
+@2515=~I could find us more action at a swap meet. Let's get moving!~ [FWKLSY08]
+@2516=~Say good night!~ [FWKLSY09]
+@2517=~Watch out, my magic is stronger than you think!~ [FWKLSY10]
+@2518=~You'll never see it coming!~ [FWKLSY11]
+@2519=~You have miscalculated!~ [FWKLSY12]
+@2520=~No more! No more!~ [FWKLSY13]
+@2521=~~ [FWKLSY18]
+@2522=~~ [FWKLSY19]
+@2523=~I hope I've got a healing potion somewhere...help...~ [FWKLSY20]
+@2524=~If the forest could talk...I wonder if it would complain about the bugs?~ [FWKLSY21]
+@2525=~Love them or hate them, cities are good for business.~ [FWKLSY22]
+@2526=~It's at times like this I wish I knew how to cast Infravision.~ [FWKLSY23]
+@2527=~Nice day, isn't it?~ [FWKLSY24]
+@2528=~Anybody know any good ghost stories? Keep them to yourself!~ [FWKLSY25]
+@2529=~Ready, boss.~ [FWKLSY26]
+@2530=~What do you need?~ [FWKLSY27]
+@2531=~Yeah?~ [FWKLSY28]
+@2532=~Just tell me once.~ [FWKLSY29]
+@2533=~Give the word.~ [FWKLSY30]
+@2534=~Point the way.~ [FWKLSY31]
+@2535=~I'm on the job.~ [FWKLSY32]
+@2536=~Got it, boss.~ [FWKLSY33]
+@2537=~You won't need to double-check my work.~ [FWKLSY34]
+@2538=~It's done.~ [FWKLSY35]
+@2539=~On your orders.~ [FWKLSY36]
+@2540=~Watch me work.~ [FWKLSY37]
+@2541=~I heard you the first time.~ [FWKLSY38]
+@2542=~Kelsey's your man.~ [FWKLSY39]
+@2543=~Ready for action.~ [FWKLSY40]
+@2544=~That'll teach you!~ [FWKLSY41]
+@2545=~Whoops!~ [FWKLSY42]
+@2546=~I'm not getting through!~ [FWKLSY43]
+@2547=~I'm a sorcerer, not a walking Bag of Holding. I had to drop that.~ [FWKLSY44]
+@2548=~I can't believe I'm stealing from others, but I did it.~ [FWKLSY45]
+@2549=~Sneaky Kelsey's out of sight.~ [FWKLSY46]
+@2550=~Damn! That's a wasted spell!~ [FWKLSY47]
+@2551=~Don't step anywhere near there.~ [FWKLSY48]
+@2552=~KELSEY sounds for all the world like a young man who wants something he will never truly be able to have: a normal life. Born into a well-to-do trading company that does healthy business throughout most of the civilized Realms, Kelsey thought his life would take a relatively easy path, until he discovered in his mid-teens that he had innate magical powers. From what you can make out, relations with his family have become somewhat strained, but the remote business expeditions they sent him on as a result allowed him the opportunity to meet a few other sorcerers like himself as well as spend short periods of time in minor adventuring companies, and he learned to shape and develop his talents. Still, Kelsey is quite clearly troubled at being a mage by birth in a land where magic is greatly frowned upon, and at the same time he seems to feel unworthy of his obvious gifts.~
+// @2553 is taken by upgrade cloak description
+// @2554 is taken by upgrade cloak
+///////////////////////////////////
+
+@2555=~Kelsey's Ring~
+@2556=~Kelsey enchanted this ring for his beloved <CHARNAME> as a constant reminder of their love. It puts her mind at ease, both symbolically and magically.
+
+STATISTICS:
+
+Grants Resist Fear to the wearer.~
+
+@2558=~Eila~
+@2559=~Rlaash~
+@2560=~Birinar~
+
+@2563=~Kelvim~
+@2564=~Mirena~
+
+/////////////
+//
+// Epilogues
+//
+/////////////
+
+
+@2565=~As the band <CHARNAME> assembled disbanded in the weeks following the battle for the Throne of Bhaal, Kelsey was faced with more options than he had known in a lifetime. No longer the uncertain young man who inwardly feared a runaway fireball, when he wandered into the small hamlet of Dailale near Amkethran shortly after the defeat of Melissan, he mused that with a word and a wave he could obliterate what passed for the town square... and sat down to laugh at how much had changed in his life.
+
+With nothing to fear and no interest in a reign of terror, Kelsey returned home to the Deepwash, where he found Birinar, still defiant, trying to delay reprisal. What hirelings he could muster did not last long against the sorcerer's wrath. Eventually, a severely chastened Birinar was exiled from the house to be hunted by his creditors, and Kelsey and Kelvim reconciled and reunited with their mother. Relieved, but uncomfortable with the idea of waiting so long to reclaim his father's legacy, Kelsey convinced them to work together to restore the family name, saw to their comfort with his considerable spoils, and set out seeking direction once more.
+
+After a disgusted outburst at the town elders of Duhlnarim in Ahlarkhem where he had taken up residence, Kelsey found his bluff called when the townspeople ejected their leaders and appointed him mayor and protector, where he stayed for several months while cleaning out corruption in the town guard and guild structures. His experience in Duhlnarim became a blueprint for his travels, and he eventually became a reformist leader of no less than five cities, three trading networks, and two craft guilds.
+
+His proudest moment came when Logan Coprith personally selected him to succeed to Lord Protector of Trademeet, a post that fit Kelsey like a glove. Despite the hail of objections from Trademeet's established oligarchy, the city became the safest, most open commerce hub in Amn and the surrounding lands. Few bandit gangs dared defy the virtually unlimited magical resources of the ruler and militia leader, and those that did found their numbers vastly reduced as survivors staggered to their bolt-holes, singed and hurting. Trademeet's reach and influence spread, arguably becoming more of a city-state, and amidst all the commerce found a new role as a haven for sorcerers seeking to learn more about their talents. It was not unusual to see Kelsey flocked by a half-dozen bewildered young men and women as he explained the art of spell shaping before signing off on a trade agreement.
+
+Blending his pragmatic benevolence with awe-inspiring displays of raw magic turned him into a master of persuasion, and his reputation often preceded him. He would never entirely deny reports that he melted the treasure hoard of the Cowled Wizards to slag as a response to discovering their agents attempting to interfere with Trademeet business.
+
+He left the city after a decade of prosperity for a three-year appointment as the Chancellor of the Realm of Erlkazar. He privately hoped the young king-in-waiting saw him as a father figure--although Kelsey had come to peace with his own abilities, his fear of passing along a difficult gift kept him from having children of his own. He retired to Trademeet as Protector Emeritus, and spent much of his long, profitable retirement inspiring others with his recollections and lessons in overthrowing bureaucracy and dealing fairly, and of the months with <CHARNAME> that changed him--and the world--forever.~
+
+
+
+
+
+@2566=~After parting company with <CHARNAME>, Kelsey and Imoen were inseparable. The only people more surprised than Imoen's friends were Kelsey's friends, but the opposites definitely attracted. Kelsey seemed to never grow tired of being Imoen's victim, and in turn she appreciated that he took her seriously as a person. He hung up his abacus and took Imoen to see the world, since like <CHARNAME>, she had hardly been outside Candlekeep, let alone to all the ports of call he had seen.
+
+As far as he was concerned, there was no finer way to see the world than through Imoen's eyes, and even cities he had visited a dozen times on business were special again. While primarily tourists, the duo were also among the most powerful archmages in the Realms, and while they hardly agreed on everything, they shared a sense of fair play. During their travels, they they stumbled across (and promptly ended) an Iron Throne plot to invade Calimshan.
+
+The couple traveled by land and sea, even air--Imoen wanted to make a grand return to Candlekeep, so the two levitated into the fortress. Being introduced as "my boy toy, Kelsey" to the monks and residents gave him an incredible thrill. Despite the unorthodox entry and introduction, the pair were allowed to stay to contribute to the Keep's archive of the arcane. Of course, Imoen and Kelsey spent just as much time in Winthrop's pub as they did in the library.
+
+Kelsey had never been so in love, and one night Kelsey steeled himself, and knew that he wanted to ask Imoen to marry him. He wanted to make it a memorable experience for Imoen, do things formally, and ask Winthrop for his approval. But Winthrop was in a festive mood that evening, and kept pouring mead instead of letting Kelsey get a word in edgewise. Kelsey woke up under a table, unsure if he had declared his intentions, unsure of anything but the throbbing in his temples.
+
+Before Kelsey had a chance to try again, however, he and Imoen had a terrible argument. The fight started as most lovers' quarrels do... over nothing. But by time it was done, Kelsey had called Imoen "frivolous and immature" and Imoen was no kinder. They split up, and Kelsey left Candlekeep on foot just a few hours later.
+
+It was not as though they had stopped loving each other--despite the hot-tempered shouting match between archmages, neither so much as invoked a cantrip. But whether it was luck or tolerance, something had run out between them, and Kelsey did not know how to replace it. He was frustrated and lonely, and tried to start fresh.
+
+After leaving Candlekeep, Kelsey traveled to the Deepwash where he found that Birinar, fearing Kelsey's return, had liquidated much of the family's holdings and stolen away, leaving his mother with a small living fund and a pre-paid inn room. The family reconciled as best they could. Although Kelsey's wealth from his travels with <CHARNAME> more than made up for what Birinar had embezzled, he never got over feeling guilty for his years of inaction.
+
+His enthusiasm for magical research spoiled by the memory of his departure from Candlekeep, Kelsey returned to business, and in the years that followed, became a permanent resident and respected citizen of Trademeet, eventually succeeding Logan Coprith as Lord Protector. He tried to track Imoen's impressive travels over the years, but never knew how to approach her to apologize for the fight. It took more than five years, but in the end, he didn't even have to get out of bed to make things right.~
+
+
+
+
+
+
+@2567=~Imoen was surprised at how much she hurt inside after her relationship with Kelsey abruptly ended. She joked, weakly but often, to anyone who would listen, that the sorcerer had cast "Geek Obsession" on her and wouldn't release the spell.
+
+Instead of dwelling, though, Imoen renewed her commitment to living. She exemplified the motto "I'll try anything once," and while <CHARNAME> was clearly the most famous of all the Bhaalspawn, Imoen showed up at far more parties in her lifetime.
+
+She adapted surprisingly well to the power and responsibility of being an archmage, but was easily among the more unpredictable and impulsive members of their ranks. Khelben Blackstaff and even Elminster came to respect her power, her insight, and her company. But she wanted to do more, and be more than a stuffy fireworks display in a robe, so she took to travelling under assumed names, looking for ways to have fun without the responsibility of being "Imoen."
+
+She indulged her taste for "borrowing" and management when she took over the thieves' guild of Neverwinter, after calling the brutish guildmaster a "drooling hog" and then turning him into one to prove her point. Imoen's former companions were shocked when they realized that the city's renowned new guildmistress matched her description. She embraced the position with the best of intentions--ridding the city of the worst abuses of thievery and focusing on intelligence and infiltration--but she learned a hard lesson, that not all idealists bring about permanent change. Her guild members, as it turned out, rather enjoyed purse-snatching, assassination, and drug trafficking, and some months later she left the city quietly one evening, with a better understanding of human nature.
+
+Not long after leaving Neverwinter, Imoen tried to pin on a magical broach Kelsey had made for her, and watched in amazement as it vanished from her hands. Imoen was furious over the loss of one of her favorite accessories, and could only think that her old boyfriend had found a way at long last to spitefully snatch back the gift. She checked a few connections, learned he was in Trademeet, and made a beeline for the city.
+
+A few evenings later, Imoen snuck into the Lord Protector's mansion and found Kelsey asleep, in bed, looking ridiculous. His wrists were bound by his bedsheets and looped through the headboard, pinned in place by the broach. Also pinned to the sheets was a small note, which read simply "Tickle Kelsey, and you will both feel better. - E"
+
+Imoen could not quite stop herself from laughing, and Kelsey awoke with a start. His look of surprise, followed by his straining to be free only enticed Imoen to follow the note's advice with devilish abandon. After abusing Kelsey's ticklish sides and stomach for a few minutes, Imoen found that the advice had worked. She barely remembered why she and Kelsey had ever fought in the first place, and Kelsey (once mercifully freed from his bonds) could only tell Imoen how much he had missed being tickled by her in the middle of the night.
+
+After the two got over the shock and the laughter, Imoen realized that the setup was Elminster's "revenge" for a rather elaborate prank she had pulled on him before leaving for Neverwinter. Not one to let a debt go unpaid, or to let a friend's flagging love life alone, he personally appropriated the broach and planted it on Kelsey. The reunited couple stayed up the rest of the night catching up on old times and sharing stories of their recent accomplishments. What started out as an amiable exchange between old colleagues became more and more personal as the night wore on--Kelsey's arm finding itself around Imoen's waist, Imoen finding her hand running through his hair. Without a word, they decided to table further stories, and made love at sunrise.
+
+Kelsey was late for a number of important appointments that day, but he followed through on the engagement he had hoped to make years ago. Kelsey and Imoen were wed that evening at the Temple of Waukeen. This time around, he simply sent a letter to Winthrop. And as any couple should, they sometimes fought over nothing, disagreed over trivia, and committed unspeakable practical jokes on the other. But they never again lost sight of how special they were, together.~
+
+
+
+
+
+@2568=~Crushed by the loss of his beloved <CHARNAME>, Kelsey sank into a deep depression, and quickly fell out of contact with his old comrades. Accounts of his whereabouts for several months are sketchy. One legend places him sinking so low as to live in the ruined rubble of Irenicus' lair beneath Athkatla. Another had him obsessively retracing <CHARNAME>'s movements through the Sword Coast and Amn, in an attempt to collect artifacts and stories of her life on Faerun.
+
+In truth, four months after Melissan's defeat, Kelvim found his brother Kelsey living in a tent near the burned-out city of Saradush. What began as a self-imposed exile of introspection and an attempt to come to terms with grief had spiraled downward, out of control, and it took some doing to return Kelsey to full physical and mental health.
+
+Kelsey, Kelvim, and Mirena returned to Deepwash, whereupon they found that Birinar, fearing Kelsey's return, had liquidated much of the family's holdings and stolen away, leaving their mother with a small living fund and a pre-paid inn room. The family reconciled as best they could. Although Kelsey's wealth from his travels with <CHARNAME> more than made up for what Birinar had embezzled, he never got over feeling guilty for his years of inaction.
+
+After re-establishing his mother and hosting Kelvim's wedding, Kelsey made an ill-fitting return to the trading circuit, realizing quickly that shuttling goods from Point A to B could not take the place of the power and exhilaration of adventuring at his beloved's side. He amused himself for a time working on unusual enchanted items just outside the border of Amn, but the Cowled Wizards were too curious about Kelsey's immense command of sorcery to live and let live. In a massive kidnapping attempt at his home, Kelsey killed five of their senior members but was left badly injured and scarred, and carried a large white shock of hair amid his fading red pate for the rest of his life.
+
+As for Kelsey's personal life, eventually he tried to move on and took other lovers, most notably an on-again, off-again relationship spanning several years with Busya of Trademeet. He could never find it within himself to commit to start and raise a family, still somewhat spooked by the "collapse" of his own.
+
+He returned to adventuring in his middle years with some of <CHARNAME>'s former companions to infiltrate and destroy an evil cult in Tethyr's Gorge of the Fallen Idol. The zealots glorified the power and violence of the Five while depicting <CHARNAME> as a meddling demoness, infuriating Kelsey. Even some of those who had not seen her since Sarevok's defeat at Baldur's Gate came to his aid.
+
+Kelsey turned his eye to celestial matters as he aged, hoping to commune with his unearthly love once more, and searching for further information on Waukeen's "disappearance" as a secondary matter. It pleased him to say that he knew his efforts were not wasted, although he could never be sure. But wherever he was, whatever he was doing, Kelsey always strained to hear the voice of <CHARNAME> again, whispering his name in the wind.~
+
+
+
+
+@2569=~Kelsey struggled to be philosophical after the love of his life departed for the heavens. He tempered the hurt and disappointment with the confidence that soon a new love--the child he and <CHARNAME> created--would brighten his world. In the meantime, rather than sit about crying into a beer (which, admittedly, happened more than once) he took a figurative deep breath and set out to write a personal chronicle of <CHARNAME>'s life, tracing her path backwards from the moment they met outside the Firecam Estate in Athkatla. The walkabout had its somber moments, but it cheered him to interview townspeople and officials and mercenary captains and record everything they could recall about her travels and the impact she had on the Sword Coast.
+
+Two days out from the mines of Nashkel, Kelsey woke to find the Solar standing above him, a newborn baby girl in her arms. He was surprised by the timing-the birth should still have been months away, by human standards, but he was hardly going to argue. With nothing more than "Care for her, mortal, for as long as she may survive this plane," the Solar was gone.
+
+The child appeared to be a perfectly normal blend of father and mother, but for the considerable mane of red hair she sported at birth, and her unnaturally shiny eyes which glowed bright cerulean--almost enough to light a room--whenever she was happy. Kelsey decided to finish the tour with Sapphire, and as he narrated his findings and recollections of <CHARNAME> to her, the girl seemed to almost understand, shining a bright blue light at him whenever he began to tell a tale. While the monks were reluctant to accept the story of the man who claimed to have fathered <CHARNAME>'s baby, even Candlekeep could not resist his plea to show Sapphire where her mother came to adulthood.
+
+Sapphire grew somewhat faster than normal girls, and it became clear that she had inherited not only elements of Kelsey's sorcery, but in some way had incorporated special talents from her mother. She could see into the future, answering her father's questions or anticipating his needs before he could articulate them, or even thought about them. She possessed innate powers of healing and the ability to instill calm and confidence in others, which as far as the "experts" could tell drew directly upon her mother's favor. At age 11 Sapphire began to speak, after a fashion, with <CHARNAME> in occasional dreams. Kelsey, desperately hoping for it to be true but aware of the fancies of a young girl's mind, disbelieved her at first, until Sapphire recounted the exact conversation her mother and father had when <CHARNAME> told him of her pregnancy. The messages were rarely new words, but feelings, and Kelsey knew that his love was happy in what she had chosen, and relieved to have maintained a link with their daughter that transcended distance. Sapphire's eyes always shone brightest the mornings after her mother had touched her mind in slumber.
+
+Although Kelsey devoted his attention to Sapphire after reclaiming the family's Deepwash villa from a terrified Uncle Birinar, he eventually found time to help others and return to the public eye. His negotiation skills became highly prized, with traders and even feuding mayors and landholders coming to him for arbitration and compromise. Money not spent indulging his mystical daughter went towards opening a nurturing college for sorcerers, where they could experiment and learn about their capabilities free of the scorn of family or Cowled Wizards. Kelsey even talked his old friend Bryan Linn into becoming an instructor, and the two spent considerable time working with Sapphire to help her focus her abilities.
+
+In time, the Coltrane Academy became one of the most significant public centers for magical research in Faerun. Kelsey served with distinction in the Defense of Ithal Pass, single-handedly covering the advance of the vastly outnumbered Amnish/Tethyrian fighting force with a dizzying array of assault and misdirection spells, turning the tide of the battle.
+
+Young Sapphire was not with her father to celebrate in all these accomplishments, however. As her thirteenth birthday approached, the girl became listless, then ill, then almost insubstantial as she wasted away. Kelsey called in every favor, tried every cure he knew, but could only watch as he lost his daughter as he had lost his father years before. He wept regularly for her suffering, but Sapphire appeared at peace through it all, and although her face eventually became too tired to smile, as the condition advanced her eyes glowed brighter and brighter.
+
+Her breathing stopped, and in the simultaneous brilliant explosion of light from her eyes Kelsey could only barely make out the return of the Solar, who wordlessly peeled Kelsey away from the deathbed and took Sapphire's near-ghostly form into her arms. Crushed, feeling that he had failed both Sapphire and <CHARNAME>, Kelsey gasped wordlessly at the celestial messenger, tears carving rivers into his face. The Solar caught his tears in a cupped hand, and vanished from sight... and from that moment, all we know is what the storybooks tell us.
+
+The tales say the Solar brought the girl back to her mother's celestial domain. <CHARNAME> mixed her own tears with Kelsey's, crystallizing them into artifacts of good fortune and great power, one of which she used to revitalize Sapphire. The girl, for her part, seemed to know all along that her destiny was tied to her mother, and began a new life as a unique inhabitant of the planes. Neither truly mortal nor truly celestial, her unique insight, combined with the lessons Kelsey taught her over the years, proved to be a calming influence on <CHARNAME> as she continued to adapt to the responsibilities of being a Power.
+
+Kelsey's trail also ends shortly after Sapphire returned to her mother. Rumor has it that the Solar brought him one of the Grieving Tears forged by <CHARNAME>, and the crystal focused Kelsey's dreams to commune with mother and daughter, just as Sapphire had once done. Legend says that he tried to use the crystal as a planar beacon, to lead him to their domain, but whether he was ultimately successful is unknown. All that is certain is that the night he discovered the crystal lying on his pillow and felt his departed lover touch his soul, he slept far, far better than he had since the last night he lay with <CHARNAME> in his arms, what seemed like a lifetime ago.~
+
+
+
+
+@2570=~Despondent at the knowledge that he would live out his days without either <CHARNAME> or his daughter, Kelsey sank into a deep depression, and quickly fell out of contact with his old comrades. Accounts of his whereabouts for several months are sketchy. One legend places him sinking so low as to live in the ruined rubble of Irenicus' lair beneath Athkatla. Another had him obsessively retracing <CHARNAME>'s movements through the Sword Coast and Amn, in an attempt to collect artifacts and stories of her life on Faerun.
+
+In truth, four months after Melissan's defeat, Kelvim found his brother Kelsey living in a tent near the burned-out city of Saradush. What began as a self-imposed exile of introspection and an attempt to come to terms with grief had spiraled downward, out of control, and it took some doing to return Kelsey to full physical and mental health.
+
+Kelsey, Kelvim, and Mirena returned to Deepwash, whereupon they found that Birinar, fearing Kelsey's return, had liquidated much of the family's holdings and stolen away, leaving their mother with a small living fund and a pre-paid inn room. The family reconciled as best they could. Although Kelsey's wealth from his travels with <CHARNAME> more than made up for what Birinar had embezzled, he never got over feeling guilty for his years of inaction.
+
+After re-establishing his mother and hosting Kelvim's wedding, Kelsey made an ill-fitting return to the trading circuit, realizing quickly that shuttling goods from Point A to B could not nearly fill the holes in his heart or replace the guilty pleasures of adventuring. He amused himself for a time working on unusual enchanted items just outside the border of Amn, but the Cowled Wizards were too curious about Kelsey's immense command of sorcery to live and let live. In a massive kidnapping attempts at his home, Kelsey killed five of their senior members but was left badly injured and scarred, and carried a large white shock of hair amid his fading red pate for the rest of his life.
+
+As for Kelsey's personal life, eventually he tried to move on and took other lovers, most notably an on-again, off-again relationship spanning several years with Busya of Trademeet. But he felt it would be somehow disloyal to the daughter he could not know to start his own family.
+
+Yet Kelsey did come to know his baby girl. The girl was born just a few months after <CHARNAME>'s ascension, and not without complications, owing to the unusual effects of celestial transformation. She was attuned, yet somehow separate and unique from her mother's growing power base. Conceived on Faerun as she was, her soul retained a mortal instinct that had been lost in her mother's transformation. Magic and clairvoyance were her specialties, and she became strangely enamored with predicting her father's next moves as she spied upon him.
+
+Never quite at home among the planes, and the intended victim of more than one assault from Cyric, the girl tried to seek shelter on Faerun, in the guise of a human bard named Amber. She sought Kelsey in Tethyr, where he was busy investigating the rise of Bhaalspawn-worshipping cults. "Amber" befriended Kelsey, encouraging him to reminisce about her mother under the guise of fleshing out her tales of the Sword Coast, Amn, and Tethyrian lore. Kelsey was eager to recount the best months of his life, and Amber grew to love the man who sired her, hoping desperately to find a way to bridge the worlds between her parents and somehow rekindle their love. Telling him the truth, however, seemed cruel while full reunion remained impossible and her own time on his world was limited.
+
+Unfortunately, by lingering with Kelsey, Amber proved a sitting target, and she carelessly dismissed portents because she did not want to leave him. As they rode towards Kelsey's estate to explore his artifacts of the Bhaalspawn War, demonic agents of Cyric struck. Father and daughter fought bravely but were dramatically outnumbered. Kelsey saved his daughter's life by calling down a potent meteor that blasted her clear of danger, destroyed the combatants, but left him drained and near death. Amber called fervently upon her mother to intervene, and, at great personal cost, <CHARNAME> took her first avatar form to raise her dying beloved with a word and a kiss. However, Amber was forced to return, and swore never to endanger her father again.
+
+She always believed that her father did not understand the sacrifice he had made for his daughter, since she never told him anything but the lie of being Amber the bard. Yet her eyes, such a mirror of her mother's, told him everything he needed to know upon their first meeting. As long as he lived, Kelsey was never quite so satisfied again as he was the moment he realized that his daughter, born into an alien world and exposed to near-limitless power from her very first breath, loved him.~
+
+
+
+@2571=~The end of Melissan's crazed grab for power, and the end of Bhaal's interference in <CHARNAME>'s life, meant a new beginning for Kelsey and his "favorite heroine." Their considerable celebrity and infamy made the months that followed a grueling challenge, as the pair were beset by favor-seekers virtually every day along the journey from Tethyr to the Deepwash. While the couple were not quite too busy to stop and lend an occasional helping hand, Kelsey rushed things along so that he could start his new family in style, marrying <CHARNAME> in his ancestral home.
+
+Kelsey's plan was to finally evict Birinar and marry his love on the same day, on the spot, so a slightly bewildered wedding party followed the pair as Kelsey bellowed threats and fired warning spells into the home. The craven uncle slunk out a back entrance, clearing the wedding to proceed. Kelsey's bewildered mother even found a gown waiting for her, to join the bride's party. Despite the unorthodox beginning, the ceremony was a thing of beauty, with Kelsey and <CHARNAME> exchanging vows of love and caring to each other, and to their unborn child beneath an arch of sweet-smelling yellow roses. After drinking from the shared goblet they embraced in a kiss which lasted for several minutes, boring even the rowdiest hecklers in the audience, but Kelsey waved them away and remained locked to his love.
+
+The reception, catered by Kelsey's request to the Five Flagons to "send one of everything", was extremely eclectic, with guests ranging from Winthrop of Candlekeep to a representative of Elliseme's court. The bride allowed herself to be pampered and praised for her beauty as any blushing bride might, although she showed no mercy dispatching a crazed Githyanki gate-crasher who claimed to be on a holy mission to destroy the couple. Her gown remained un-rumpled through it all.
+
+The couple journeyed on to the home Kelsey had purchased in Berdusk, where Kelsey convinced <CHARNAME> to stay at least through the birth of their daughter. Hardly one to be shut up around the house, <CHARNAME> took Kelsey with her on a number of excursions in the surrounding countryside, keeping them both fit and sharp during the quietest period they had known in months.
+
+Their child was born at home and on schedule, a beautiful girl who seemed to have a zest for life even before she could crawl. The girl was born free of the taint of Bhaal, purged of any inherited essence just as her mother was. That was not to say she was not remarkable--and considering her parents, how could she be anything but a wonder? Her eyes actually glowed dimly when she was happy--whether a sorcerous inheritance or a legacy of divine heritage, none could say. Kylia, as the girl was known, grew to be healthy and strong, learning of strength, independence, and the value of understanding and friendship from her parents. She could never seem to learn enough, and even in her teenage years became a respected scholar and researcher, as well as a feared student of the martial arts.
+
+Kylia's wide interests often took her away from her worried parents, but they accompanied her on several "research adventures" into long-sealed crypts and unknown caves, and following Kylia's lead, uncovered unique artifacts of great power that had only been longingly whispered about in the halls of kings and wizards. Volo once wrote that they were "the most powerful and resourceful family in all the Realms," and those who did not heed his words and threatened their home or their persons rarely lived to regret the mistake.
+
+When not travelling with their daughter, the married couple made an excellent pair throughout the years, although they were hardly idle. Kelsey often answered calls for trade mediation between Amn and her neighbors, and worked to defend the rights of sorcerers to learn their abilities unmolested. <CHARNAME> was a caring wife and mother, but neither role fully replaced the pull of adventure that she had become accustomed to. They traveled together often, and whether at home or on the road, they were rarely too far from one another to exchange a kiss or a look. Their love was one that grew stronger with the passing years, never passing into complacency.
+
+Kelsey remained true to his commitment to <CHARNAME>. Decades removed from their chance meeting in Athkatla's government district, he could still make her smile by calling her "boss," and he remained loyal to her in all things, caring for her in strength and in weakness. When an evil Yaga-Shuran cult took Kylia hostage and threatened to kill her and cut a path of firey destruction across Amn, it was Kelsey's precise execution of <CHARNAME>'s clever attack plan that won the day and freed their daughter. In the confusion of the battle, however, a cult agent managed to infiltrate the line and poisoned <CHARNAME> with a substance that seemed to burn her body from the inside. Kelsey would not leave her side, stroking her hair obsessively as the healers worked to restore her. Ultimately it was her inner strength and will to live--for herself, her daughter, and for her beloved Kelsey--that neutralized the poison.
+
+After that experience, Kelsey and <CHARNAME> devoted much of their time to stomping out the Bhaalspawn cults that plagued the land, especially those that invoked her name in unjust causes. This time, there was no Solar to guide the way, but they hardly needed one. Kelsey never had cause to be anything other than proud of the woman he could not stop loving, and she never grew tired of Kelsey's attentions. They were a good balance of pragmatism and adventure, of confidence and caution, and they knew that between their own accomplishments and the fine young woman they had raised in Kylia, they had done more for the world than two people could ever be asked to do.
+
+Kelsey never got to have the normal life he once felt he needed. He did far, far better.~
+
+
+
+
+@2572=~The end of Melissan's crazed grab for power, and the end of Bhaal's interference in <CHARNAME>'s life, meant a new beginning for Kelsey and his "favorite heroine." Their considerable celebrity and infamy made the months that followed a grueling challenge, as the pair were beset by favor-seekers virtually every day along the journey from Tethyr to the Deepwash, where Kelsey and <CHARNAME> made quick work of what remaining resistance Birinar chose to mount. Kelsey sent him limping away, met up with Kelvim and Mirena, and tried to make peace with his mother. She offered to let the couple stay and raise their unborn daughter with her, but Kelsey did not feel comfortable starting a new life under the cloud of his family's past.
+
+The couple journeyed on to the home Kelsey had purchased in Berdusk, where Kelsey convinced <CHARNAME> to stay at least through the birth of their daughter. Hardly one to be shut up around the house, <CHARNAME> took Kelsey with her on a number of excursions in the surrounding countryside, keeping them both fit and sharp during the quietest period they had known in months.
+
+Their child was born at home and on schedule, a beautiful girl who seemed to have a zest for life even before she could crawl. The girl was born free of the taint of Bhaal, purged of any inherited essence just as her mother was. That was not to say she was not remarkable--and considering her parents, how could she be anything but a wonder? Her eyes actually glowed dimly when she was happy--whether a sorcerous inheritance or a legacy of divine heritage, none could say. Kylia, as the girl was known, grew to be healthy and strong, learning of leadership, independence, and the value of understanding and friendship from her parents. She could never seem to learn enough, and even in her teenage years became a respected scholar and researcher, as well as a feared student of the martial arts.
+
+Kylia's wide interests often took her away from her worried parents, but they accompanied her on several "research adventures" into long-sealed crypts and unknown caves, and following Kylia's lead, uncovered unique artifacts of great power that had only been longingly whispered about in the halls of kings and wizards. Volo once wrote that they were "the most powerful and resourceful family in all the Realms," and those who did not heed his words and threatened their home or their persons rarely lived to regret the mistake.
+
+When not travelling with their daughter, the two made an excellent pair throughout the years, although they were hardly idle. Kelsey often answered calls for trade mediation between Amn and her neighbors, and worked to defend the rights of sorcerers to learn their abilities unmolested. <CHARNAME> was a caring companion and mother, but neither replaced the rush of adventure and accomplishment she had become accustomed to. They traveled together often, and whether at home or on the road, they were rarely too far from one another to exchange a kiss or a look. Their love was one that grew stronger with the passing years, never passing into complacency.
+
+Kelsey remained true to his commitment to <CHARNAME>. Decades removed from their chance meeting in Athkatla's government district, he could still make her smile by calling her "boss," and he remained loyal to her in all things, caring for her in strength and in weakness. When an evil Yaga-Shuran cult took Kylia hostage and threatened to kill her and cut a path of firey destruction across Amn, it was Kelsey's precise execution of <CHARNAME>'s clever attack plan that won the day and freed their daughter. In the confusion of the battle, however, a cult agent managed to infiltrate the line and poisoned <CHARNAME> with a substance that seemed to burn her body from the inside. Kelsey would not leave her side, stroking her hair obsessively as the healers worked to restore her. Ultimately it was her inner strength and will to live--for herself, her daughter, and for her beloved Kelsey--that neutralized the poison.
+
+After that experience, Kelsey and <CHARNAME> devoted much of their time to stomping out the Bhaalspawn cults that plagued the land, especially those that invoked her name in unjust causes. This time, there was no Solar to guide the way, but they hardly needed one. Kelsey never had cause to be anything other than proud of the woman he could not stop loving, and she never grew tired of Kelsey's attentions. The two never married--one or the other or both always seemed to have a good reason not to stop and plan, or simply pointed out that it seemed unnecessary as the years went by, and Kylia certainly did not mind--but their bond was unquestioned. Together, they were a good balance of pragmatism and adventure, of confidence and caution, and they knew that between their own accomplishments and the fine young woman they had raised in Kylia, they had done more for the world than two people could ever be asked to do.
+
+Kelsey never got to have the normal life he once felt he needed. He did far, far better.~
+
+
+
+
+@2573=~The end of Melissan's crazed grab for power, and the end of Bhaal's interference in <CHARNAME>'s life, meant a new beginning for Kelsey and his "favorite heroine." Their considerable celebrity and infamy made the months that followed a grueling challenge, as the pair were beset by favor-seekers virtually every day along the journey from Tethyr to the Deepwash, where Kelsey and <CHARNAME> made quick work of what remaining resistance Birinar chose to mount. Kelsey sent him limping away, and met up with Kelvim and Mirena, and tried to make peace with his mother. She offered to let the couple stay and plan their next adventures there, but Kelsey felt it was better to begin elsewhere.
+
+The couple journeyed on to the home Kelsey had purchased in Berdusk, but the contemplative life was not a good fit. Even with Bhaal removed from the equation, both Kelsey and <CHARNAME> were people of destiny.
+
+Kelsey often answered calls for trade mediation between Amn and her neighbors, and worked to defend the rights of sorcerers to learn their abilities unmolested. The estate he had originally intended as a home became a haven for sorcerers and other mages who opposed the Cowled Wizards. Kelsey continued to experiment with enchantments. Most of his projects turned into gifts (<CHARNAME> had an endless supply of feel-good baubles and charmed necklaces), but a few were actually insightful breakthroughs, such as a ring that allowed the wearer to pass through walls. He also developed an enchantment to block the effect, and sold both--it was just good business.
+
+<CHARNAME> was even busier. Kelsey's vision for her future proved quite prophetic, and while she was not universally loved, people saw past the Bhaalspawn prejudice and learned to judge her by her actions and her accomplishments. Most importantly, Kelsey stayed by her side. They traveled together often, and whether at home or on the road, they were rarely too far from one another to exchange a kiss or a look. Their love was one that grew stronger with the passing years, never passing into complacency.
+
+Kelsey remained true to his commitment to <CHARNAME>. Decades removed from their chance meeting in Athkatla's government district, he could still make her smile by calling her "boss," and he remained loyal to her in all things. Several years after defeating Melissan <CHARNAME> gave birth to twins. The girl, Cerena, was an enhanced portrait of her father's best qualities--forthright, earnest, and dependable. The boy, Paolo, was fiercely independent but loyal to his family and true friends.
+
+The pair were often harassed by the Bhaalspawn cults that came to power a decade after <CHARNAME> and Kelsey defeated the Five. The Underdark spawned a vicious Cult of Sendai that mercilessly raided areas where Kelsey and <CHARNAME> were known to have been, or even were linked through a former travelling companion. The Yaga-Shurans were particularly vicious, and managed to elude destruction even though the lovers and their allies consistently won battles against their raiding parties. Not all of their engagements were so easy. Kelsey was nearly killed in a fight not far from the original exit from Ust Natha when the two were lured into an ambush by forces posing as Elliseme's troops. While nearly comatose state, Kelsey missed a family fight that ended with Paolo running away from home. He was intercepted by Sendai cultists, hoping to finish the work the Yaga-Shurans had started. They made quick work of the boy and left him for dead. After finding him and seeing to his safety, <CHARNAME> left the men in Cerena's care and stormed out in full battle gear. She returned home weeks later and refused to discuss the situation. But both father and son made a complete recovery, and the Cult of Sendai was never heard from again.
+
+Kelsey never had cause to be anything other than proud of the woman he could not stop loving, and she never grew tired of Kelsey's attentions. Together, they were a good balance of pragmatism and adventure, of confidence and caution, and they knew that between their own accomplishments and the children they raised, they had done more for the world than two people could ever be asked to do.
+
+Kelsey never got to have the normal life he once felt he needed. He did far, far better.~
+
+
+
+
+/////////////////////////
+
+@2579=~Polymorph Other: Oats~
+@2580=~Polymorph Other: Oats
+Level: 6
+Sphere:  Alteration
+Range: 40 feet
+Duration: Instant
+Casting Time: 6
+Area of Effect: 40
+Saving Throw: Polymorph at -2
+
+Kelsey acquired this spell during an attempt by Jan to protect him from the dreaded Granary Mages.  Instead it has given Kelsey the ability to polymorph anyone he chooses into a bowl of oatmeal.  Tasty!~
+
+@2581=~Bowl of Oatmeal~
+@2582=~Bowl of Oatmeal
+
+This delicious bowl of oatmeal was not always a delicious bowl of oatmeal, but due to a bizarre chain of events involving sorcery and a Jan Jansen invention, what was once a higher life form is now breakfast.~
+@2583=~Indelible Minor Sequencer~
+@2584=~Presumably a creation of the mad sorceress Ceara, or one of her lieutenants, this unusual magical parchment describes all of the incantations necessary to invoke the fourth-level wizard spell Minor Sequencer. Unlike a conventional scroll, however, the paper is not consumed in the casting--the magical ink fades from view, to reappear a day later.
+
+Abilities: Cast Minor Sequencer once per day.
+
+Usable by:
+Mages
+Sorcerers~
+
+@2586=~The end of Melissan's crazed grab for power, and the end of Bhaal's interference in <CHARNAME>'s life, meant a new beginning for Kelsey and his "favorite heroine." Their considerable celebrity and infamy made the months that followed a grueling challenge, as the pair were beset by favor-seekers virtually every day along the journey from Tethyr to the Deepwash, where Kelsey and <CHARNAME> made quick work of what remaining resistance Birinar chose to mount. Kelsey sent him limping away, and met up with Kelvim and Mirena, and tried to make peace with his mother. She offered to let the couple stay and plan their next adventures there, but Kelsey and <CHARNAME> had made other commitments.
+
+The couple journeyed on to the home Kelsey had purchased in Berdusk, where they set about building a life that involved taking far less of it. Kelsey threw himself fully into the creation of a trading post befitting a near-goddess. The two labored to make their homestead reflect the unique intersection of their talents and interests, the same give-and-take that strengthened their relationship in times of crisis. Kelsey could not have been more pleased at the birth of daughter Kylia, a girl of singularly unique breeding whose energy and insight glowed even brighter than her enchanted eyes. One friend of the family remarked that while the mother had nearly fought her way to the heavens before her twenty-second year, her daughter could have talked the gods out of their portfolios by her eleventh.
+
+Their estate grew to accommodate a combination museum and adventurer's shop, which soon became a hub of intrigue and a prime destination for accomplished travelers passing through the Sword Coast. Of course, <CHARNAME> and Kelsey did more than just tend to the store. Surrounded by rumors and half-completed tales of daring as they were, they often indulged themselves to don their traveling boots and try their experienced hands (and feet) on an escapade.
+
+It took a few years for the excitement to die down, but eventually Kelsey and <CHARNAME> had the peace and quiet they needed to start constructing the offbeat sorcerer's tower he envisioned. From the road leading past their estate you would never notice it, but for an observer on the grounds the four-story structure seemed to pop into being before one's very eyes. While the door was always open to his beloved, the tower was undeniably Kelsey's, and true to his vision he spent many a famished afternoon and evening on a variety of unusual projects.
+
+Left to his own devices and working on his own, Kelsey happened upon some amazing discoveries, such as an enchanted mirror that would increase the intensity of any light source it reflected, which had applications ranging from cooking to weaponry to communication. Some of his failures were considerably more spectacular, however, and the tower indeed became rickety not due to poor construction or maintenance, but due to the occasional earth-shaking explosion or beam-charring fire.
+
+Their lives were not free of conflict. As the years passed, old traveling companions came to the post more often with news of the death or disappearance of friends. One autumn, in an attempt to avenge a master fallen at their hands, draconic agents laid siege to the estate for a tenday. But they never lost sight of what made their relationship special under the most difficult of circumstances. After fighting off the invaders Kelsey and <CHARNAME> would later swear that they deliberately hung back in their safe bunker, locked in passionate embrace, until the drakes and imps let down their guard.
+
+The busy years of Kelsey's life with <CHARNAME> passed quickly, the quiet ones even faster. But they were wholly fulfilling. As much as the world could conspire to dish out to the pair, they always found the resolve to repay it-naturally, with interest.~
+
+
+@2587=~The end of Melissan's crazed grab for power, and the end of Bhaal's interference in <CHARNAME>'s life, meant a new beginning for Kelsey and his "favorite heroine." Their considerable celebrity and infamy made the months that followed a grueling challenge, as the pair were beset by favor-seekers virtually every day along the journey from Tethyr to the Deepwash, where Kelsey and <CHARNAME> made quick work of what remaining resistance Birinar chose to mount. Kelsey sent him limping away, and met up with Kelvim and Mirena, and tried to make peace with his mother. She offered to let the couple stay and plan their next adventures there, but Kelsey and <CHARNAME> had made other commitments.
+
+The couple journeyed on to the home Kelsey had purchased in Berdusk, where they set about building a life that involved taking far less of it. Kelsey threw himself fully into the creation of a trading post befitting a near-goddess. The two labored to make their homestead reflect the unique intersection of their talents and interests, the same give-and-take that strengthened their relationship in times of crisis.
+
+Their estate grew to accommodate a combination museum and adventurer's shop, which soon became a hub of intrigue and a prime destination for accomplished travelers passing through the Sword Coast. Of course, <CHARNAME> and Kelsey did more than just tend to the store. Surrounded by rumors and half-completed tales of daring as they were, they often indulged themselves to don their traveling boots and try their experienced hands (and feet) on an escapade.
+
+It took a few years for the excitement to die down, but eventually Kelsey and <CHARNAME> had the peace and quiet they needed to start constructing the offbeat sorcerer's tower he envisioned. From the road leading past their estate you would never notice it, but for an observer on the grounds the four-story structure seemed to pop into being before one's very eyes. While the door was always open to his beloved, the tower was undeniably Kelsey's, and true to his vision he spent many a famished afternoon and evening on a variety of unusual projects.
+
+Left to his own devices and working on his own, Kelsey happened upon some amazing discoveries, such as an enchanted mirror that would increase the intensity of any light source it reflected, which had applications ranging from cooking to weaponry to communication. Some of his failures were considerably more spectacular, however, and the tower indeed became rickety not due to poor construction or maintenance, but due to the occasional earth-shaking explosion or beam-charring fire.
+
+Their lives were not free of conflict. As the years passed, old traveling companions came to the post more often with news of the death or disappearance of friends. One autumn, in an attempt to avenging a master fallen at their hands, draconic agents laid siege to the estate for a tenday. But they never lost sight of what made their relationship special under the most difficult of circumstances. After fighting off the invaders Kelsey and <CHARNAME> would later swear that they deliberately hung back in their safe bunker, locked in passionate embrace, until the drakes and imps let down their guard.
+
+The busy years of Kelsey's life with <CHARNAME> passed quickly, the quiet ones even faster. But they were wholly fulfilling. As much as the world could conspire to dish out to the pair, they always found the resolve to repay it-naturally, with interest.~
+
+@2588=~Zap!~

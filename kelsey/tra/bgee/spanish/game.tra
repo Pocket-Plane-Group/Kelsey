@@ -1,0 +1,543 @@
+// -*- coding: utf-8 -*-
+
+// IMPORTANT NOTE FOR TRANSLATORS:
+// You do not have to translate these lines:
+// @65, @74, @79. They are jokes, and do not appear in the game. :)
+
+
+
+@2    = ~Kelsey~
+@3    = ~Hola! Me llamo Kelsey. Esperaba que nos encontraramos dentro de poco. Creo que te vi en medio de esa tormenta de fuego en el Paseo...cualquiera que pueda salir sano de un encuentro con los Ladrones de las Sombras y mados vale la pena ser conocido, creo.~ [FWKLSY00]
+@4    = ~Perdona, esto está fuera de mis capacidades!~ [FWKLSY01]
+@5    = ~Deberíamos estar orgullosos de lo que hacemos.~ [FWKLSY02]
+@6    = ~Los bandidos se pagan una moneda la docena. Pensé que colocaríamos nuestros estándares un poco mas elevados.~ [FWKLSY03]
+@7    = ~De verdad pareces muy cruel.~ [FWKLSY04]
+@8    = ~Esto es demasiado...No puedo seguir asociado a ti.~ [FWKLSY05]
+@9    = ~Si solo mi familia pudiera verme ahora...~ [FWKLSY06]
+@10   = ~He tenido suficiente. Detengámonos y descansemos un poco.~ [FWKLSY07]
+@11   = ~Podríamos encontrar mas acción en un mercado. Movámonos!~ [FWKLSY08]
+@12   = ~Di buenas noches!~ [FWKLSY09]
+@13   = ~Cuidado, mi magia es mas poderosa de lo que parece!~ [FWKLSY10]
+@14   = ~Ni lo verás venir!~ [FWKLSY11]
+@15   = ~Has calculado mal!~ [FWKLSY12]
+@16   = ~No mas! No mas!~ [FWKLSY13]
+
+
+@19   = ~Espero tener una poci de curación por ahi...ayuda...~ [FWKLSY20]
+@20   = ~Si el bosque pudiera hablar...se quejaría de los bichos?~ [FWKLSY21]
+@21   = ~Amalas u odialas, las ciudades son buenas para los negocios.~ [FWKLSY22]
+@22   = ~En momentos como éste me gustaría lanzar Infravisión.~ [FWKLSY23]
+@23   = ~bonito día, no?~ [FWKLSY24]
+@24   = ~Alguien sabe una buena historia de fantasmas? Guardarsela!~ [FWKLSY25]
+@25   = ~Listo, jefe.~ [FWKLSY26]
+@26   = ~Que necesitas?~ [FWKLSY27]
+@27   = ~Si?~ [FWKLSY28]
+@28   = ~Sólo dilo una vez.~ [FWKLSY29]
+@29   = ~Dime.~ [FWKLSY30]
+@30   = ~Marca el camino.~ [FWKLSY31]
+@31   = ~Estoy en eso.~ [FWKLSY32]
+@32   = ~Vale, jefe.~ [FWKLSY33]
+@33   = ~No necesitarás controlar mi trabajo.~ [FWKLSY34]
+@34   = ~Hecho.~ [FWKLSY35]
+@35   = ~A tus órdenes.~ [FWKLSY36]
+@36   = ~Mírame trabajar.~ [FWKLSY37]
+@37   = ~Te oí la primera vez.~ [FWKLSY38]
+@38   = ~Kelsey es tu tío.~ [FWKLSY39]
+@39   = ~Listo para la acción.~ [FWKLSY40]
+@40   = ~Eso te enseñará!~ [FWKLSY41]
+@41   = ~Ooops!~ [FWKLSY42]
+@42   = ~No puedo!~ [FWKLSY43]
+@43   = ~Soy un hechicero, no una Bolsa caminante. Tengo que dejar eso.~ [FWKLSY44]
+@44   = ~No puedo creer que esté robando, pero lo he hecho.~ [FWKLSY45]
+@45   = ~Kelsey está escondido.~ [FWKLSY46]
+@46   = ~Mierda! que gastadero de hechizos!~ [FWKLSY47]
+@47   = ~No pises cerca de ahí.~ [FWKLSY48]
+@48   = ~KELSEY para todo el mundo es un chico que nunca podrá tener lo que quiere: una vida normal. Nacido en una buena compañia de mercaderes que hace negocios en casi todo lugar civilizado de los Reinos, Kelsey pensó que su vida seguiría un camino fácil, hasta que en su adolescencia conoció sus poderes mágicos. Por lo que sabes, su relación con su familia se volvió tensa, pero las expediciones de negocios remotas a las que le mandaron le dieron la oportunidad de conocer a otros hechiceros además de pasar cortos períodos de tiempo en compañías de aventureros, así aprendió a dar forma y hacer crecer sus talentos. Aún así, Kelsey no se acostumbra a ser un mago de nacimiento en un lugar donde se desconfía de la magia, y al mismo tiempo cree no merecer su don.~
+@49   = ~Lilla~
+@50   = ~Ofendida? Herida? Molesta? Inconsolable?~ [FWLILL00]
+@51   = ~Clinn~
+@52   = ~Merritt~
+@53   = ~Al fin! Kelsey. Mi señora Ceara está tan decepcionada de que no le has visitado cuando llegaste a Amn. Está un poco...ah...~ [FWMERR00]
+@54   = ~Rumil~
+@55   = ~Ceara~
+@56   = ~Kelsey! Por qué me has obligado a seguirte por todo Amn?~ [FWCEAR09]
+@57   = ~Morridhan~
+@58   = ~Cossun~
+@59   = ~Kassetha~
+@60   = ~Piotr~
+@61   = ~Vlaming~
+@62   = ~Pura Parteth~
+@63   = ~Bharle~
+@64   = ~Cuerpo de Kelsey~
+@65   = ~Snargle-grack.  Acka, acka.  Where's the gronk?
+
+ZwoooOOOoooot.~
+@66   = ~Kelsey fué capturado e infectado de vampirismo por Bodhi, forzándote a matarle. debe haber alguna forma de restaurarle, aunque no sabes como.~
+@67   = ~Esfera Visual Mejorada para Hechiceros Jansen~
+@68   = ~Jan Jansen, maestro creador, creó este objeto para su compañero Kelsey, del cual pensó que no era muy "brillante" en combate. La esfera flota sobre la cabeza de quien la usa, y en adición del metal retorcido y los cables tiene un botón, desafiando al "usuario" a presionarlo.
+
+Efectos: Jan le aseguró a Kelsey que le haría parecer mas formidable en combate.
+Efectos secundarios: Jan le dijo a Kelsey que no tenía nada de que preocuparse.
+
+Cargas: 50
+
+Sólo usable por: Kelsey ~
+@69   = ~Amuleto de Ceara~
+@70   = ~Amuleto de Magia Salvaje~
+@71   = ~El amuleto de Ceara está lleno de energía mágica, pero no está claro paa que sirve.~
+@72   = ~La busqueda loca de Ceara por poderes mágicos no ha dejado de lado ninguna escuela. Le interesó la disciplina de la magia salvaje, y luego de muchas pruebas, incluyendo fallos excepcionales, se las ha arreglado para crear un objeto que permite a cualquier mago el lanzar y dar forma a un rayo de magia salvaje. Lo mas impresionante es que el objeto guarda energía luego de su uso para reczargarse para luego.
+
+
+Habilidades:
+
+Lanza Nahal's Reckless Dweomer una vez al día
+
+Usable por:
+  Magos
+  Bardos~
+@73   = ~Aceite de Kelsey~
+@74   = ~Palabras sabias de Immotality:
+
+Pos cuando vea un draco me lo cargo.~
+@75   = ~Kelsey usó su hechicería en un maquillaje ordinario para crear este aceite facial para <CHARNAME> como regalo y muestra de su afecto. Prometió que sólo mejorará su belleza natural, y tal vez hará que otros vean la luz rosa que el ve en ella.
+
+En encantamiento de Kelsey es inestable, y el efecto no es permanente. Una buena crema fría será buena para remover la otra mascarilla.
+
+ESTADISTICAS:
+Efectos: Aumenta el carisma de quien la usa 2 puntos durante 1 hora.
+Usable por:
+  <CHARNAME>~
+@76   = ~Indelible Minor Sequencer~
+@77   = ~Presumiblemente una creación de la hechicera loca Ceara, o uno de sus tenientes, este trozo de papiro tiene escrito lo que se tiene que decir para invocar el hechizo de nivel 4 Secuenciador Menor. Pero a diferencia de un pergamino normal, el papel no se consume al lanzarlo--la tinta mágica desaparece, para aparecer un día después.
+
+Habilidades: Lanza Secuenciador Menor una vez al día.
+
+Usable por:
+Magos
+Hechiceros~
+@78   = ~Capa de Kelsey~
+@79   = ~In your pathetic attempts to identify this item, you stumble across two poems sewn on the inside of the robe...
+
+Float like a fairy
+Sting like a bee
+If you piss off Kelsey
+He's gonna kill thee
+
+
+Dragons are red
+Frost Giants are blue
+If you like Kelsey
+Then good luck to you~
+@80   = ~En un breve tour con una compañía de aventureros en las Marchas Doradas, Kelsey estuvo bajo la mirada y tutelage de Bryan Linn, un hechicero de considerable poder. Al pasar los años Bryan lanzó varios encantamientos a lo que una vez fué una Capa de Protección normal, agregándole propiedades útiles para los hechiceros. Interesado en retirarse y comenzar una familia, a menos que llegara a otro fin en el camino, Linn la regaló ya que no era necesaria para el. Su valor para Kelsey es mucho mas que sentimental.
+
+ESTADISTICAS:
+
+Especial: Puede lanzar Escudo de Fuego (Verde) una vez al día. Da 50% de protección de los ataques ácidos, causa daño ácido a sus enemigos.
+
+20% de Resistencia Mágica
++1 a Clase de Armadura
++1 a todos los salvados
++1 Hechizo de nivel 1
++1 Hechizo de nivel 2
++1 a Constitución cuando se usa
+Usable sólo por Hechiceros.~
+@81   = ~Varita~
+@82   = ~Amigo del Inquisidor~
+@83   = ~Esta es una varita corta de hierro. Pequeñas runas recorren el largo, y una mancha marca el lugar dónde estaba grabada la insignia de su dueño.~
+@84   = ~Los rumores dicen que ésta varita fué comisionada por la Orden del Corazón Radiante para ser usada por los paladines Inquisidores, pero los magos controlaron prohibieron su construcción. El Corazón Radiante niega cualquier conocimiento de como se ha creado este artefacto oficialmente...pero de todos modos, es una herramienta muy útil para cazar y deshabilitar magos.
+
+Habilidades:
+
+- Lanza Clarividencia (una carga)
+- Lanza Remover Magia (una carga)
+Usable por:
+  Cualquiera~
+@85   = ~Carta de Recompensa por Kelsey~
+@86   = ~Merritt,
+
+          SABES cuán importante es Kelsey para mis experimentos...sin el, simplemente no se como proceder, y eso es malo para la continuación de tu empleo aqui. Se majo y tráelo. Alegremente triplicaré tu sueldo por diez dias, además de encontrar algo bastante especial para cuando regreses también.
+
+          Si debes usar la fuerza entonces mátalo, pero cuenta en dejar algo para que Cossun lo restaure cuando regreses. Los de su clase no crecen en los árbboles! Todavía.
+
+          - C
+~
+@87   = ~Escudo de Fuego (Verde)~
+
+//ToB
+@253=~Capa de Kelsey~
+@254=~En medio de tus intentos patéticos para identificar este objeto, encuentras por casualidad dos poemas cosidos al interior de la prenda...
+
+Vuela cual hada
+Pica cual abeja
+Si incordias a Kelsey
+No llegaras a vieja
+
+
+Los dragones son rojos
+Los gigantes son fuertes
+Si te gusta Kelsey
+Te deseo suerte~
+
+@255=~En una corta travesía con un grupo de aventureros en las Golden Marches, Kelsey se sometió a la tutela y protección de un tal Bryan Linn, un hechicero de considerable poder. Con el pasar de los años Bryan había tejido numerosos hechizos prácticos en lo que una vez fue una Capa de Protección convencional, adaptando los atavíos mágicos a las necesidades propias de la hechicería. Con ganas de retirarse y formar una familia, por temor a encontrarse con un final prematuro, Linn regaló la capa que ya no necesitaría más. Su valor para Kelsey va más allá de lo sentimental.
+
+ESTADÍSTICAS
+
+Especial: Puede invocar Escudo de Fuego (Verde) una vez al día. Concede un 50% de protección contra el ácido, provoca daño por ácido a los enemigos.
+
+20% de Resistencia mágica
+Clase de armadura +1
++1 en todas las Tiradas de Protección
++1 Hechizo de nivel 1
++1 Hechizo de nivel 2
+Constitución +1 mientras se lleve puesta
+Utilizable por:
+  Kelsey~
+
+@2554=~Capa Nueva de Kelsey~
+
+@2553=~En una corta travesía con un grupo de aventureros en las Golden Marches, Kelsey se sometió a la tutela y protección de un tal Bryan Linn, un hechicero de considerable poder. Con el pasar de los años Bryan había tejido numerosos hechizos prácticos en lo que una vez fue una Capa de Protección convencional, adaptando los atavíos mágicos a las necesidades propias de la hechicería. Con ganas de retirarse y formar una familia, por temor a encontrarse con un final prematuro, Linn regaló la capa que ya no necesitaría más. Su valor para Kelsey va más allá de lo sentimental.
+
+Esta capa ha sido mejorada por el mayordomo de <CHARNAME>, Cespenar.
+
+ESTADÍSTICAS
+
+Especial:
+  Especial: Puede invocar Escudo de Fuego (Verde) una vez al día. Concede un 50% de protección contra el ácido, provoca daño por ácido a los enemigos.
+  Puede lanzar Secuenciador de conjuros una vez al día.
+
++20% de Resistencia mágica
+Clase de armadura +2
++2 en todas las tiradas de protección
++1 Hechizo de nivel 1
++1 Hechizo de nivel 2
+Constitución +1 mientras se lleve puesta
+Utilizable por:
+  Kelsey~
+
+
+/////////////////////////////
+
+
+@256=~Kelsey~
+@258=~¡Lo siento, esto está fuera de mi alcance!~ [FWKLSY01]
+@259=~Deberíamos estar verdaderamente orgullosos de lo que estamos haciendo.~ [FWKLSY02]
+@2510=~Estos bribones son del montón. Creo que deberíamos colocar nuestro listón un poco más alto.~ [FWKLSY03]
+@2511=~De verdad que pareces estar teniendo una mala racha.~ [FWKLSY04]
+@2512=~Esto ya es demasiado... no puedo estar aliado contigo ni un minuto más.~ [FWKLSY05]
+@2599=~Tú estás al mando. Por lo que si quieres que yo esté al mando... entonces ya estoy al mando.~ [FWKL2591]
+@2514=~Ha estado muy cerca. Paremos y demos descanso a nuestros pies un momento.~ [FWKLSY07]
+@2515=~No podríamos estar más activos en un campeonato de ajedrez. ¡Venga, moveos!~ [FWKLSY08]
+@2516=~¡Decid buenas noches!~ [FWKLSY09]
+@2517=~¡Ten cuidado, mi magia es más poderosa de lo que crees!~ [FWKLSY10]
+@2518=~¡No lo verás venir!~ [FWKLSY11]
+@2519=~¡Has cometido un grave error!~ [FWKLSY12]
+@2520=~¡Nunca más! ¡Nunca más!~ [FWKLSY13]
+@2521=~~ [FWKLSY18]
+@2522=~~ [FWKLSY19]
+@2523=~Creo que tengo un poción de curación en algún sitio... ayuda...~ [FWKLSY20]
+@2524=~Si el bosque pudiera hablar... me pregunto si se quejaría de los bichos.~ [FWKLSY21]
+@2525=~Te gustarán más o te gustarán menos, pero las ciudades son buenas para los negocios.~ [FWKLSY22]
+@2526=~Es en ocasiones como ésta cuando desearía saber cómo se lanza Infravisión.~ [FWKLSY23]
+@2527=~Hace un buen día, ¿verdad?~ [FWKLSY24]
+@2528=~¿Alguien sabe historias de miedo? ¡Que se las guarde para él!~ [FWKLSY25]
+@2529=~Todo listo.~ [FWKLSY26]
+@2530=~¿Qué necesitas?~ [FWKLSY27]
+@2531=~¿Sí?~ [FWKLSY28]
+@2532=~Dímelo solo una vez.~ [FWKLSY29]
+
+
+
+
+
+
+
+
+@2533=~Concede la palabra.~ [FWKLSY30]
+@2534=~Señala el camino.~ [FWKLSY31]
+@2535=~Estoy en ello.~ [FWKLSY32]
+@2536=~Lo tengo.~ [FWKLSY33]
+@2537=~No tendrás ni que preocuparte por mi trabajo.~ [FWKLSY34]
+@2538=~Eso está hecho.~ [FWKLSY35]
+@2539=~A la orden.~ [FWKLSY36]
+@2540=~Mira cómo lo hago.~ [FWKLSY37]
+@2541=~Ya te oí la primera vez.~ [FWKLSY38]
+@2542=~Kelsey es tu hombre.~ [FWKLSY39]
+@2543=~Listo para la acción.~ [FWKLSY40]
+@2544=~¡Eso te enseñará!~ [FWKLSY41]
+@2545=~¡Uups!~ [FWKLSY42]
+@2546=~¡No me explico con claridad!~ [FWKLSY43]
+@2547=~Soy un hechicero, no un burro de carga andante. Tengo que soltar esto.~ [FWKLSY44]
+@2548=~No puedo creer que esté robando a alguien, pero lo he hecho.~ [FWKLSY45]
+@2549=~Kelsey el Escurridizo está fuera de mi alcance.~ [FWKLSY46]
+
+@2550=~¡Maldición! ¡He malgastado un hechizo!~ [FWKLSY47]
+@2551=~Ni se os ocurra poner los pies cerca de allí.~ [FWKLSY48]
+@2552=~El nombre de KELSEY es para todo el mundo sinónimo de un joven que desea algo que de ninguna manera podrá conseguir: una vida normal. Nacido en el seno de una familia acomodada propietaria de una sociedad mercantil que realiza negocios provechosos a lo largo y ancho de muchos de los Reinos civilizados, Kelsey pensaba que su vida discurriría por un camino relativamente fácil, hasta que descubrió en mitad de su adolescencia que tenía unas habilidades innatas para la magia. De lo que se puede deducir que las relaciones con su familia se volvieron un poco tirantes, y acabó siendo enviado a una expedición a lugares remotos por negocios, lo que le dio la oportunidad de conocer a otros hechiceros como él y también a pasar breves periodos de tiempo en grupos pequeños de aventureros, y aprendió a perfilar y desarrollar sus talentos. Kelsey aún está visiblemente afectado por el hecho de ser mago de nacimiento en unas tierras donde la magia está muy mal vista, y al mismo tiempo parece sentirse indigno de tales dones.~
+// @2553 es tomado para mejorar la descripción de la capa
+// @2554 es tomado para mejorar la capa
+///////////////////////////////////
+
+@2555=~Anillo de Kelsey~
+@2556=~Kelsey encantó este anillo para su amada <CHARNAME> como recordatorio eterno de su amor. Esto la serenaba, simbólicamente y mágicamente a la vez.
+
+ESTADÍSTICAS
+
+Concede Resistencia al Miedo al portador.~
+
+@2558=~Eila~
+@2559=~Rlaash~
+@2560=~Birinar~
+
+@2563=~Kelvim~
+@2564=~Mirena~
+
+/////////////
+//
+// Epilogues
+//
+
+/////////////
+
+
+@2565=~Mientras que la banda que <CHARNAME> había formado se disolvía en las semanas postreras a la batalla por el Trono de Baal, Kelsey se topó con más posibilidades de las que nunca se había encontrado en su vida. No mucho más tarde, el joven indeciso que en lo más profundo de sí mismo temía que se le descontrolara una bola de fuego, entró tranquilamente en la pequeña aldea de Dailale cerca de Amkethran al poco de la derrota de Melissan, y se fantaseó sobre cómo con una palabra y un gesto podría borrar lo que parecía la plaza del pueblo... y se sentó para reírse de cuánto había cambiado su vida.
+
+Sin nada que temer y sin ganas de crear un reino de terror, Kelsey regresó a casa, a Deepwash, donde se encontró con Birinar, todavía desafiante, tratando de posponer su venganza. Ningún grupo de matones que pudiera reunir resistiría lo suficiente la cólera del hechicero. Finalmente, el severamente castigado Birinar fue exiliado de su casa para ser perseguido por sus acreedores, y Kelsey y Kelvim se reconciliaron y se reunieron con su madre. Aliviado, pero incómodo por la idea de esperar demasiado para reclamar el legado de su padre, Kelsey los convenció para que trabajasen juntos en restaurar el buen nombre de su familia, se ocupó de su comodidad con los considerables botines que había reunido, y partió de nuevo sin rumbo alguno.
+
+Tras un lamentable incidente con los ancianos del pueblo de Duhlnarim en Ahlarkhem donde se había asentado, Kelsey fue cogido por sorpresa cuando la gente del pueblo expulsó a sus líderes y lo designaron alcalde y protector, y durante varios meses acabó con la corrupción en la guardia de la ciudad y las estructuras gremiales. Su experiencia en Duhlnarim llegó a marcar la pauta a seguir en sus viajes, y finalmente se convirtió en un líder reformista de más de cinco ciudades, tres redes de comercio, y dos gremios artesanos.
+
+Su momento de mayor exaltación llegó cuando Logan Coprith lo eligió personalmente para sucederlo como Señor Protector de Caravasar, un puesto que le sentaba a Kelsey como un guante. A pesar de la lluvia de objeciones por parte de la oligarquía establecida en Caravasar, esta ciudad se convirtió en el más seguro y más accesible centro comercial de Amn y sus contornos. Pocas cuadrillas de bandidos osaron desafiar los recursos mágicos prácticamente ilimitados del gobernador y líder de la milicia, y aquéllos que lo hicieron fueron fuertemente diezmados al tiempo que los supervivientes salían desperdigados hacia sus madrigueras, chamuscados y doloridos. El alcance y la influencia de Caravasar se propagaron, hasta llegar a ser casi más que una ciudad-estado, y entre tanto comercio desempeñó también un nuevo papel como refugio para hechiceros deseosos de aprender más sobre sus talentos. No era extraño ver a Kelsey rodeado por media docena de asombrados jóvenes, hombres y mujeres mientras los ilustraba en el arte de plasmar hechizos antes de aprobar formalmente un acuerdo comercial.
+
+Fundiendo su generosidad pragmática con grandiosos despliegues de magia pura se convirtió en un maestro de la persuasión, y su reputación le precedía a menudo. Nunca negaría enteramente los informes que dicen que se quedó con la gran cantidad de tesoros de los Magos Encapuchados, como réplica por haber descubierto a sus agentes intentando interferir en los asuntos de Caravasar.
+
+Abandonó la ciudad tras una década de prosperidad al ser designado por tres años Canciller del Reino de Erlkazar. El albergaba en secreto la esperanza de que el joven príncipe heredero lo vería como a una figura paterna--aunque Kelsey había llegado a estar en paz con sus talentos especiales, su miedo a dejar en herencia este don lacerante le impidió tener sus propios hijos. Se retiró a Caravasar como Protector Honorario, y pasó gran parte de su largo y provechoso retiro inspirando a los demás con sus recuerdos y enseñanzas sobre cómo derrotar a la burocracia y negociar honestamente, y sobre los meses que pasó con <CHARNAME>, que lo cambiaron a él--y al mundo--para siempre.~
+
+
+
+
+
+@2566=~Tras separarse de <CHARNAME>, Kelsey e Imoen se hicieron inseparables. Los únicos que estaban más sorprendidos que los amigos de Imoen fueron los amigos de Kelsey, pero sin duda los polos opuestos se atraen. Kelsey no parecía cansarse nunca de ser la víctima de Imoen, y a su vez ella valoraba que él la tomara verdaderamente en serio como persona. Él colgó sus bártulos y se llevó a Imoen a ver el mundo, puesto que al igual que <CHARNAME>, ella apenas había estado lejos de Candelero, y mucho menos se había acercado a los sitios donde él había hecho escala.
+
+En lo que a él respectaba, no había modo más exquisito de ver el mundo que a través de los ojos de Imoen, e incluso ciudades que había visitado docenas de veces por negocios era como si las visitara por primera vez. Aunque viajaban principalmente como turistas, la pareja se reunía con los archimagos más poderosos de los Reinos, y aunque rara vez estaban de acuerdo en todo, se respiraba una sensación de juego limpio, y se enfrentaron (y acabaron rápidamente) con una trama del Trono de Hierro para invadir Calimshan.
+
+La pareja viajó por tierra y mar, hasta por aire--Imoen quería regresar a lo grande a Candelero, así que ambos levitaron sobre la fortaleza. Ser presentado como "mi juguetito, Kelsey" a los monjes y residentes le causó un estremecimiento increíble. A pesar de una entrada e introducción poco ortodoxas, les fue permitido quedarse para contribuir al archivo de lo arcano en el Torreón. Por supuesto, Imoen y Kelsey pasaron tanto tiempo en la Posada de Winthrop como en la biblioteca.
+
+Kelsey nunca había estado tan enamorado, y una noche Kelsey se armó de coraje, seguro de querer pedir a Imoen en matrimonio. Quería que fuera una experiencia memorable para Imoen, haciendo las cosas formalmente, y pidiéndole a Winthrop su aprobación. Pero Winthrop estaba de buen humor esa noche, y no paró de escanciar hidromiel en lugar de dejar a Kelsey meter baza. Kelsey se despertó bajo una mesa, poco seguro de haber declarado sus intenciones, poco seguro de nada excepto del doloroso latir de sus sienes.
+
+Sin embargo, antes de que Kelsey tuviera la oportunidad de volverlo a intentar, Imoen y él tuvieron una discusión terrible. La pelea se inició como la mayoría de riñas de enamorados... por nada. Pero para cuando se acabó, Kelsey había llamado a Imoen "frívola e inmadura" e Imoen no fue más amable. Rompieron, y Kelsey dejó Candelero a pie al cabo de unas cuantas horas.
+
+No fue como si hubieran dejado de amarse--a pesar del contencioso a gritos entre los archimagos, ni fue tanto como para invocar un cántico. Pero ya fuera suerte o conformismo, algo se había perdido entre ellos, y Kelsey no sabía cómo reemplazarlo. Estaba frustrado y solo, e intentó empezar de nuevo.
+
+Tras abandonar Candelero, Kelsey se dirigió a Deepwash donde se encontró con que Birinar, que temiendo el regreso de Kelsey, había restaurado las cuentas de los bienes de la familia y había devuelto lo robado, dejando a su madre con unos pocos fondos para vivir y una habitación de prepago en la posada. La familia se reconcilió lo mejor que pudo. Aunque la fortuna de Kelsey amasada en sus viajes con <CHARNAME> era más que lo que Birinar había malversado, nunca se sobrepuso a su sentimiento de culpabilidad por esos años sin haber entrado en acción.
+
+Su entusiasmo por la investigación mágica se vino abajo con los recuerdos de su partida de Candelero, Kelsey volvió a dedicarse a los negocios, y en los años que siguieron, se convirtió en residente y ciudadano respetable de Caravasar, sucediendo finalmente a Logan Coprith como Señor Protector. Intentó seguir la pista de los impresionantes viajes que hizo Imoen a través de los años, pero nunca encontró la manera de acercarse a ella para disculparse por la disputa. Le llevó más de cinco años, pero al final, ni siquiera tenía que salir de la cama para hacer las cosas.~
+
+
+
+
+
+
+@2567=~Imoen estaba sorprendida de cuánto dolor albergaba en su interior tras el repentino final de su relación con Kelsey. Ella bromeaba, levemente pero a menudo, con cualquiera que quisiera escucharla, respecto a que el hechicero había lanzado "Obsesión por Persona estrafalaria" sobre ella y no pudo deshacer el hechizo.
+
+Sin embargo, en lugar de establecerse, Imoen reinstauró de nuevo su propósito de vivir. Ella personificaba el proverbio "Volveré a intentarlo una vez más", y mientras <CHARNAME> era claramente la más famosa de todos los vástagos de Baal, Imoen destacó de largo en muchas compañías de aventureros a lo largo de su vida.
+
+Se adaptaba sorprendentemente bien al poder y la responsabilidad de ser un archimago, pero sin duda se encontraba entre los más impredecibles e impulsivos miembros de su rango. Khelben Blackstaff e incluso Elminster llegaron a respetar su poder, su intuición y su compañía. Pero ella quería hacer más, y ser más que un montón de aburridos fuegos artificiales envueltos en una túnica, así que emprendió viaje bajo nombres falsos, buscando formas divertirse sin la responsabilidad de ser "Imoen".
+
+Hizo gala de sus dotes para los "préstamos" y la gestión cuando se hizo cargo del gremio de ladrones de Neverwinter, tras llamar "puerco baboso" al maestro gremial y luego convertirlo en uno para demostrar que lo era. Los anteriores compañeros de Imoen quedaron impresionados cuando se dieron cuenta de que la renombrada nueva maestra gremial en la ciudad encajaba con su descripción. Ella aceptó el cargo con la mejor de las intenciones--liberando a la ciudad de los peores abusos de latrocinio y concentrándose en tareas de inteligencia e infiltración--pero aprendió una dura lección, que no todos los idealistas originan cambios permanentes. Los miembros de su gremio, a sus espaldas, preferían robar bolsas, asesinar, y el tráfico de drogas, y unos meses más tarde, una noche abandonó la ciudad tranquilamente, con un mejor entendimiento de la naturaleza humana.
+
+No mucho después de dejar Neverwinter, Imoen intentó prenderse un broche mágico que Kelsey había hecho para ella, y vio asombrada cómo éste se desvanecía entre sus manos. Imoen estaba furiosa por la pérdida de uno de sus pertenencias preferidas, y solo podía pensar en que su viejo novio había finalmente encontrado la manera de arrebatarle el regalo rencorosamente. Tocó varias conexiones, supo que estuvo en Caravasar y salió disparada a la ciudad.
+
+Unas noches después, Imoen se infiltró en la mansión del Señor Protector y encontró a Kelsey dormido, en la cama, ridículo. Sus caderas se dibujaban bajo las sábanas, sujetas con el broche a un lado de la cama. También sujeta a las sábanas había una pequeña nota, que decía simplemente "Haz cosquillas a Kelsey, y ambos os sentiréis mejor. - E"
+
+Imoen casi no podía parar de reír, y Kelsey se despertó sobresaltado. Su mirada de sorpresa y su esfuerzo por salir de ahí, solo indujeron a Imoen a seguir el consejo de la nota endiabladamente a pies juntillas. Tras abusar de los flancos sensibles a las cosquillas de Kelsey y de su estómago durante unos minutos, Imoen se dio cuenta de que el consejo había funcionado. Ella apenas recordaba por qué ella y Kelsey habían empezado a discutir, y Kelsey (una vez liberado misericordiosamente de sus ataduras) solo podía decirle a Imoen lo mucho que había echado de menos sentir sus cosquillas en mitad de la noche.
+
+Después que los dos se recuperaron del impacto y de las risas, Imoen se percató de que esto fue un plan de Elminster a modo de "venganza" a causa de una travesura muy bien tramada por ella antes de partir de Neverwinter. Nadie debe dejar una deuda pendiente, o dejar que el corazón roto de un amigo siga tontamente roto, así que Elminster se apropió personalmente del broche y se lo puso a Kelsey. La pareja reconciliada no se acostó en toda la noche recordando los viejos tiempos y compartiendo las historias de sus últimos logros. Lo que empezó como un afectuoso intercambio entre viejos colegas se fue haciendo más y más personal a medida que la noche transcurría--el brazo de Kelsey rodeando la cintura de Imoen, Imoen pasando su mano por el cabello de él. Sin una palabra, decidieron dejar sus historias para más tarde, e hicieron el amor al amanecer.
+
+Kelsey llegó tarde ese día a numerosas citas importantes, pero llegó hasta el final en su propósito de contraer matrimonio como esperaba hacía ya muchos años. Kelsey e Imoen se casaron esa misma noche en el Templo de Waukeen. Esta vez por eso, solamente le envió una carta a Winthrop. Y como cualquier pareja que se precie, a veces peleaban por nada, no se ponían de acuerdo en lo más trivial, y cometían aberrantes bromas pesadas el uno con el otro. Pero nunca volvieron a olvidar esa cosa tan especial que compartían, cuando estaban juntos.~
+
+
+
+
+
+@2568=~Destrozado a causa de la pérdida de su adorada <CHARNAME>, Kelsey cayó en una profunda depresión, y perdió rápidamente contacto con su viejos camaradas. Las historias acerca de su paradero durante los meses posteriores no se ponen de acuerdo. Una leyenda lo sitúa cayendo tan bajo como para vivir en las ruinas del cubil de Irenicus bajo Athkatla. Otra lo sitúa siguiendo compulsivamente los movimientos de <CHARNAME> por la Costa de la Espada y Amn, en un intento de recoger sus artilugios y las historias de su vida en Faerun.
+
+En realidad, cuatro meses después de la derrota de Melissan, Kelvim halló a su hermano Kelsey viviendo en una tienda de campaña cerca de la incinerada ciudad de Saradush. Lo que empezó como un exilio auto-impuesto para meditar e intentar hacer las paces desesperadamente se vino a pique, fuera de control, y fue necesario un gran esfuerzo para que Kelsey recuperara su plena salud física y mental.
+
+
+Kelsey, Kelvim, y Mirena regresaron a Deepwash, para después encontrarse con que Birinar, temiendo el regreso de Kelsey, había restaurado las cuentas de los bienes de la familia y había devuelto lo robado, dejando a su madre con unos pocos fondos para vivir y una habitación de prepago en la posada. La familia se reconcilió lo mejor que pudo. Aunque la fortuna de Kelsey amasada en sus viajes con <CHARNAME> era más que lo que Birinar había malversado, nunca se sobrepuso a su sentimiento de culpabilidad por esos años que no entró en acción...
+
+Tras recuperar a su madre y costear la boda de Kelvim, Kelsey hizo un retorno forzoso al circuito comercial, percatándose rápidamente de que llevar bienes de un Punto A a un Punto B no podía compararse al poder y la euforia de viajar al lado de su amada. Se distrajo por un tiempo trabajando en objetos encantados poco comunes fuera de los límites de Amn, pero los Magos Encapuchados estaban demasiado inquietos con el inmenso control de la hechicería del que Kelsey hacía gala como para dejarlo tranquilo. En un intento masivo por secuestrarlo en su casa, Kelsey mató a cinco de sus miembros veteranos pero fue seriamente herido y magullado, y a raíz de eso, hasta el fin de sus días lució una inmensa mata de pelo blanco en mitad de su roja y fantasmal calva.
+
+En cuanto a la vida privada de Kelsey, finalmente intentó seguir adelante y conocer nuevos amores, el más notable de ellos fue una relación intermitente que mantuvo varios años con Busya de Caravasar. No podía imaginarse comprometiéndose a crear y formar una familia, estando aún algo asustado por el "colapso" en que se sumió.
+
+Él volvió a la búsqueda de aventuras siendo ya un hombre de mediana edad con algunos de los antiguos compañeros de <CHARNAME> para infiltrarse y destruir un culto demoníaco en el Cañón del Ídolo Caído de Tethyr. Esos fanáticos glorificaban el poder y la violencia de los Cinco a la vez que adoraban una representación de <CHARNAME> como diablesa, lo que sacó de sus casillas a Kelsey. Incluso algunos de aquéllos que no la habían visto desde la batalla contra Sarevok en la Puerta de Baldur vinieron en su ayuda.
+
+Kelsey al hacerse mayor volvió sus ojos hacia los asuntos celestiales, esperando poder acercarse a su amada extraterrena una vez más, y como asunto secundario buscaba información adicional sobre la "desaparición" de Waukeen. Le complacía pensar que sus esfuerzos no eran en vano, aunque no podía estar seguro del todo. Pero dondequiera que estuviera, e hiciera lo que hiciera, Kelsey siempre se esforzaba para poder escuchar de nuevo la voz de <CHARNAME>, susurrando su nombre al viento.~
+
+
+
+
+@2569=~Kelsey se esforzó por tomarse con filosofía la ascensión del amor de su vida a los cielos. Suavizaba el dolor y la frustración con la confianza de que pronto sentiría un nuevo amor--el ser que él y <CHARNAME> concibieron--que alegraría su mundo. Mientras tanto, mejor que holgazanear ahogando las penas en cerveza (lo cual, realmente, pasó más de una vez) se tomó un respiro y se dispuso a escribir la biografía personal de <CHARNAME>, volviendo a recorrer su camino desde el momento en que se conocieron fuera del Hacienda de Firecam en Athkatla. La aventura tuvo sus momentos sombríos, pero se animó a hacer preguntas a la gente de las ciudades, los oficiales y capitanes y registró todo lo que pudieron recordar sobre sus viajes y el impacto que ella tuvo en la Costa de la Espada.
+
+A dos días de las minas de Nashkel, Kelsey se despertó para ver a un Solar por encima de él, con una recién nacida entre los brazos. Estaba sorprendido porque el nacimiento debería haber ocurrido varios meses más tarde, en función de los varemos de tiempo humanos, pero no iba a discutir lo más mínimo. Con solo un "Cuida de ella, mortal, tanto tiempo como pueda sobrevivir en este plano", el Solar se fue.
+
+La niña parecía ser un combinado perfecto del padre y la madre, pero por la considerable melena pelirroja que lucía nada más nacer, y sus inusuales ojos brillantes que resplandecían sobre un fondo azul celeste--casi lo suficiente como para iluminar una habitación--siempre que estaba feliz. Kelsey decidió concluir una excursión con Sapphire, contándole sus vivencias y recuerdos de <CHARNAME> a ella, la chica parecía casi entenderlo, deslumbrándolo con una brillante luz azul como siempre que él le contaba una aventura. Mientras que los monjes fueron reacios a aceptar la historia del hombre que clamaba ser el padre de la hija de <CHARNAME>, ni siquiera Candelero pudo resistir su súplica de mostrar a Sapphire el lugar dónde creció su madre.
+
+Sapphire creció algo más deprisa que las niñas normales, y estaba claro que había heredado no solo parte de la magia de Kelsey, sino de alguna forma los talentos especiales de su madre. Ella podía ver el futuro, contestando las preguntas de su padre o anticipándose a sus necesidades antes de que pudiera nombrarlas, o incluso pensaba sobre ellas. Poseía los poderes innatos de curación y la habilidad de inspirar tranquilidad y confianza en los demás, lo cual hasta donde los "expertos" podían opinar provenía directamente del favor de su madre. Al cumplir 11 años Sapphire empezó a hablar, de alguna forma, con <CHARNAME> en sueños. Kelsey, esperando desesperadamente que eso fuera cierto pero consciente de las fantasías que hay en la mente de una niña, no la creyó al principio, hasta que Sapphire describió la conversación exacta que su madre y su padre mantuvieron cuando <CHARNAME> le contó que estaba embarazada. Los mensajes eran rara vez palabras nuevas, más bien sentimientos, y Kelsey supo que su amada era feliz dondequiera que estuviera, y lo reconfortó el que hubiera mantenido un lazo con su hija que trascendía más allá de las distancias. Los ojos de Sapphire siempre brillaban con más fuerza las mañanas que su madre hablaba con ella en sueños.
+
+Aunque Kelsey ponía toda su atención en Sapphire tras reclamar la villa familiar de Deepwash a su terrible Tío Birinar, finalmente halló tiempo para ayudar a los demás y volver la vida pública. Sus habilidades para los negocios fueron muy apreciadas, cuando comerciantes e incluso alcaldes y terratenientes venían a verlo para arbitrar contiendas o sellar acuerdos. El dinero que no se gastó en su mística hija fue destinado a abrir una escuela para hechiceros, donde podrían experimentar y aprender sobre sus capacidades a salvo del desprecio de su familia o de los Magos Encapuchados. Kelsey habló incluso con su viejo amigo Bryan Linn para que fuera maestro, y los dos pasaron mucho tiempo trabajando con Sapphire para ayudarla a concentrarse en sus habilidades.
+
+Con el tiempo, la Academia Coltrane llegó a ser uno de los centros más importantes de investigaciones mágicas en Faerun. Kelsey sirvió con distinción en la Defensa del paso de Ithal, con una sola arma y cubriendo el avance de las innumerables fuerzas de Amnish/Tethyrian con una marabunta vertiginosa de hechizos de asalto y de errar dirección, cambiando el curso de la batalla.
+
+Sin embargo la joven Sapphire no estuvo con su padre para celebrar todos estos logros. A medida que se aproximaba su trece cumpleaños, la chica se fue volviendo apática, luego enferma, y más tarde casi insustancial como si se fuera marchitando. Kelsey solicitó cualquier ayuda, probó todos los remedios que conocía, pero solo podía sentarse y mirar cómo perdía a su hija al igual que tiempo atrás ya perdió a su padre. Se deshacía en llantos al ver cómo su hija sufría, pero Sapphire parecía estar completamente en armonía, y aunque su cara se fue volviendo perezosa hasta para sonreír, al tiempo que su enfermedad avanzaba su ojos resplandecían más y más brillantes.
+
+Dejó de respirar, y tras una brillante explosión de luces que partió de sus ojos Kelsey a duras penas pudo distinguir el retorno del Solar, quien sin mediar palabra, apartó a Kelsey del lecho de muerte y tomó la figura casi fantasmal de Sapphire entre sus brazos. Abatido, sintiendo que había fallado tanto a Sapphire como a <CHARNAME>, Kelsey se quedó sin hálito calladamente ante el mensajero celestial, sus lágrimas trazaban ríos en su rostro. El Solar recogió sus lágrimas con su mano ahuecada, desapareció de su vista... y desde ese instante, todo lo que sabemos es lo que los libros de historia nos cuentan.
+
+Las leyendas cuentan que el Solar llevó a la niña de vuelta al dominio celestial de su madre. <CHARNAME> juntó sus propias lágrimas con las de Kelsey, cristalizándolas en artefactos de buena suerte y gran poder, uno de los cuales usó para devolver la vida a Sapphire. La niña, por su parte, parecía conocer desde el principio que su destino estaba ligado al de su madre, y empezó una nueva vida como un habitante de los planos excepcional. Ni totalmente mortal ni totalmente celestial, su clarividencia particular, combinada con las lecciones que Kelsey le enseñó a través de los años, probaron ser una influencia apaciguante para <CHARNAME> mientras que ésta se seguía adaptando a las responsabilidades de ser un Poder.
+
+El camino de Kelsey finalizó al poco de volver Sapphire al lado de su madre. Por ahí se cuenta que el Solar le entregó una de las Lágrimas de Desolación forjadas por <CHARNAME>, y el cristal enfocaba los sueños de Kelsey a comunicarse con madre e hija, igual que Sapphire hizo una vez. La leyenda cuenta que intentó usar el cristal como brújula planar, para que lo guiara a sus dominios, pero si finalmente lo consiguió sigue siendo un enigma. Lo que sí es cierto es que la noche que descubrió el cristal yaciendo sobre su almohada, sintió que su amor recién extraviado le tocaba el alma, durmió más, mucho más plácidamente que nunca desde la última noche que yació con <CHARNAME> entre sus brazos, cosa que parecía haber sucedido siglos atrás.~
+
+
+
+
+@2570=~Apesadumbrado al conocer que pasaría el resto de sus días sin <CHARNAME> y sin su hija, Kelsey se hundió en una grave depresión, y rápidamente y perdió rápidamente contacto con su viejos camaradas. Las historias acerca de su paradero durante los meses posteriores no se ponen de acuerdo. Una leyenda lo sitúa cayendo tan bajo como para vivir en las ruinas del cubil de Irenicus bajo Athkatla. Otra lo sitúa siguiendo compulsivamente los movimientos de <CHARNAME> por la Costa de la Espada y Amn, en un intento de recoger sus artilugios y las historias de su vida en Faerun.
+
+En realidad, cuatro meses después de la derrota de Melissan, Kelvim halló a su hermano Kelsey viviendo en una tienda de campaña cerca de la incinerada ciudad de Saradush. Lo que empezó como un exilio auto-impuesto para meditar e intentar hacer las paces desesperadamente se vino a pique, fuera de control, y fue necesario un gran esfuerzo para que Kelsey recuperara su plena salud física y mental.
+
+
+Kelsey, Kelvim, y Mirena regresaron a Deepwash, para después encontrarse con que Birinar, temiendo el regreso de Kelsey, había restaurado las cuentas de los bienes de la familia y había devuelto lo robado, dejando a su madre con unos pocos fondos para vivir y una habitación de prepago en la posada. La familia se reconcilió lo mejor que pudo. Aunque la fortuna de Kelsey amasada en sus viajes con <CHARNAME> era más que lo que Birinar había malversado, nunca se sobrepuso a su sentimiento de culpabilidad por esos años en que no entró en acción...
+
+Tras recuperar a su madre y costear la boda de Kelvim, Kelsey hizo un retorno forzoso al circuito comercial, percatándose rápidamente de que llevar bienes de un Punto A a un Punto B no podía compararse al poder y la euforia de viajar al lado de su amada. Se distrajo por un tiempo trabajando en objetos encantados poco comunes fuera de los límites de Amn, pero los Magos Encapuchados estaban demasiado inquietos con el inmenso control de la hechicería del que Kelsey hacía gala como para dejarlo tranquilo. En un intento masivo por secuestrarlo en su casa, Kelsey mató a cinco de sus miembros veteranos pero fue seriamente herido y magullado, y a raíz de eso, hasta el fin de sus días lució una inmensa mata de pelo blanco en mitad de su roja y fantasmal calva.
+
+En cuanto a la vida privada de Kelsey, finalmente intentó seguir adelante y conocer nuevos amores, el más notable de ellos fue una relación intermitente que mantuvo varios años con Busya de Caravasar. Pero de alguna forma se sentía como si traicionara a la hija que no podría conocer de crear una nueva familia.
+
+Aunque Kelsey llegó a conocer a su bebé. La niña nació a los pocos meses de la ascensión de <CHARNAME>, y no sin complicaciones, a causa de los efectos atípicos de una transformación celestial. Ella estaba en armonía, de alguna forma unida y al tiempo distante del creciente poder de su madre. Al ser concebida en Faerun, su alma retuvo el instinto de los mortales que había perdido su madre en la transformación. La magia y la clarividencia fueron sus especialidades, y llegó a deleitarse en grado sumo en predecir los próximos movimientos de su padre, mientras lo observaba.
+
+Sin estar totalmente a gusto entre los planos, y siendo víctima de más de un ataque de Cyric, la chica trató de buscar refugio en Faerun, bajo la apariencia de una bardo humana llamada Amber. Vio a Kelsey en Tethyr, donde estuvo ocupado investigando el auge de unos cultos que adoraban a los vástagos de Baal. "Amber" trabó amistad con Kelsey, animándolo a recordar los momentos que pasó con su madre con el pretexto de servir como material para sus leyendas de la Costa de la Espada, Amn, y Tethyr. Kelsey estaba deseoso de relatar los mejores meses de su vida, y Amber sintió crecer su amor por el hombre que la engendró, esperando desesperadamente hallar el modo de juntar los mundos de sus padres y de algún modo encender la llama de su amor. Sin embargo, contarle la verdad, le resultaba cruel mientras fuera imposible poder reunirlos a todos y su tiempo en ese mundo era limitado.
+
+Lamentablemente, por quedarse demasiado tiempo con Kelsey, Amber se volvió sedentaria, y despreocupadamente desechó innumerables portentos a causa de no querer separarse de él. Yendo hacia la hacienda de Kelsey para investigar sus artilugios de la Guerra de los vástagos de Baal, unos agentes demoníacos de Cyric se abatieron sobre ellos. Padre e hija lucharon valientemente pero les sobrepasaban desproporcionadamente en número. Kelsey salvó la vida de su hija invocando un potente meteoro que hizo explosión alejando el peligro y eliminando a los atacantes, pero dejándolo exhausto, al borde de la muerte. Amber llamó afanosamente a su madre para que intercediera, y con mucho esfuerzo, <CHARNAME> tomó su forma inicial de avatar para sanar a su bienamado agonizante con una palabra y un beso. Sin embargo, Amber fue obligada a regresar, y juró no poner nunca en peligro a su padre otra vez.
+
+Siempre creyó que su padre no sabría que se había sacrificado por su hija, pues ella nunca le habló de nada más que la mentira de que ella era Amber la bardo. Aunque sus ojos, eran un espejo de los de su madre, y le dijeron todo lo que necesitó saber desde que se encontraron. En toda su vida, Kelsey no volvió a sentir una satisfacción igual a la del momento en que se dio cuenta de que su hija, nacida en un mundo lejano y expuesta a un poder casi ilimitado desde el mismo momento en que nació, lo quería.~
+
+
+@2571=~El final de la demencial ansia de poder de Melissan, y el final de la interferencia de Baal en la vida de <CHARNAME>, significaron un nuevo comienzo para Kelsey y su "heroína favorita". Su fama y reconocimiento alcanzados en los meses que siguieron a esta sacrificada prueba, hicieron que la pareja fuera asediada por "pidefavores" prácticamente todo el día en el viaje de Tethyr a Deepwash. Aunque la pareja no estaba demasiado ocupada como para parar y tender una mano ocasionalmente, Kelsey apretaba el paso para así poder fundar una familia como es debido, casándose con <CHARNAME> en su hogar ancestral.
+
+El plan de Kelsey era expulsar definitivamente a Birinar y casarse con su amada el mismo día, en el mismo lugar, así es que un cortejo nupcial poco convencional vino dado por Kelsey gritando amenazas y lanzando hechizos de advertencia en la casa. Su cobarde tío se escabulló por la puerta trasera, pudiendo así proceder al matrimonio. Hasta la atónita madre de Kelsey se pudo un vestido de gala, para unirse al cortejo de la novia. A pesar del inicio poco ortodoxo, la ceremonia fue preciosa, con Kelsey y <CHARNAME> renovando sus votos de amor y cariño el uno al otro, y dando la bienvenida a su futura criatura con una corona de rosas amarillas de dulce perfume. Tras beber del mismo cáliz se abandonaron en un beso que duró varios minutos, aburriendo incluso a los más alborotadores de la sala, pero Kelsey no les prestó ninguna atención y siguió aferrado a su amor.
+
+La fiesta de recibimiento, atendida a instancias de Kelsey por the Las Cinco Jarras con instrucciones de "manda una cosa de cada", fue extremadamente ecléctico, con invitados como Winthrop de Candelero o un representante de la corte de Elliseme. La novia permitió que la adularan y elogiaran por su belleza como solo una novia radiante puede hacer, aunque no mostró piedad alguna deshaciéndose de un Githyanki destroza-puertas enloquecido que clamaba tener como sagrada misión la de destruir la pareja. Su vestido ni tan siquiera se arrugó.
+
+La pareja viajó hasta la casa que Kelsey había adquirido en Berdusk, donde Kelsey convenció a <CHARNAME> para que se quedara al menos hasta el nacimiento de su hija. Imposible de confinar en una casa, <CHARNAME> se llevó a Kelsey consigo para hacer numerosas excursiones por los contornos campestres, manteniéndose así ambos en buena forma durante el período más apacible de que habían disfrutado en meses.
+
+Su bebé nació en casa y saliendo de cuentas, una preciosa niña que parecía tener alegría de vivir incluso antes de que pudiera gatear. La niña nació libre de la sombra de Baal, ya purgada toda su esencia del interior de su madre. Con esto no quiero decir que no fuera extraordinaria--y teniendo en cuenta quienes son sus padres, ¿cómo no iba a ser una maravilla? Sus ojos resplandecían levemente cuando estaba contenta--ya fuera por herencia hechicero o por legado divino, no sabría decirlo--. Kylia, así la conocían, creció fuerte y saludable, aprendiendo de la fuerza, la independencia y el valor de la comprensión y la amistad de sus padres. Nunca parecía aprender suficiente, e incluso en sus años de adolescencia fue una investigadora y erudita respetable, como también una temible estudiante de artes marciales.
+
+La gran cantidad de materias que interesaban a Kylia la distanciaban a menudo de sus preocupados padres, pero la acompañaron en distintas "aventuras de investigación" por entre criptas selladas desde la antigüedad y cavernas desconocidas, y siguiendo las indicaciones de Kylia, descubrieron artefactos únicos de gran poder de los que solo se susurraba sobre su existencia en los salones de magos y reyes. Volo escribió una vez que fueron "la familia más poderosa y resolutiva de todos los Reinos", y aquéllos que no atendieron a sus palabras y amenazaron su hogar o sus personas, en contadas ocasiones vivieron para arrepentirse de su error.
+
+Cuando no viajaban junto a su hija, marido y mujer hacían una excelente pareja a todas horas, aunque difícilmente estaban ociosos. Kelsey respondía a menudo llamadas para mediar transacciones entre Amn y sus vecinos, y peleó para defender los derechos de los hechiceros de aprender a controlar sus talentos sin ser estorbados. <CHARNAME> fue una esposa y madre cariñosa, pero ninguna actividad podía reemplazar por completo el sabor de la aventura al que se había acostumbrado. Viajaron juntos a menudo, y ya fuera bajo techo o en los caminos, rara vez estuvieron a más distancia el uno del otro que la que les permitía lanzarse un beso o una miradita. Su amor era de los que crecía con el pasar de los años, su amor nunca era demasiado.
+
+Kelsey permaneció fiel a su compromiso con <CHARNAME>. Décadas después de su encuentro casual en el distrito del gobierno de Athkatla, todavía la hacía sonreír llamándola "jefa", y fue leal a ella en todas las cosas, cuidando de ella en lo bueno y en lo malo. Cuando el malvado culto Yaga-Shuran tomó como rehén a Kylia y amenazó con matarla y dejar un sendero de furia y destrucción a través de Amn, fueron Kelsey y su precisa ejecución de de un inteligente plan de ataque de <CHARNAME> los que triunfaron finalmente y liberaron a su hija. Sin embargo, en el fragor de la batalla, un agente del culto se las ingenió para romper sus defensas y envenenar a <CHARNAME> con una substancia que parecía quemar su cuerpo desde dentro. Kelsey no se apartó de su lado, acariciando su pelo continuamente mientras los sanadores trataban de curarla. Al final fue su fuerza interior y su deseo de vivir--por ella, su hija y su amado Kelsey--lo que neutralizó el veneno.
+
+Tras esta experiencia, Kelsey y <CHARNAME> dedicaron la mayor parte de su vida a perseguir los cultos a los vástagos de Baal que plagaban la tierra, especialmente aquéllos que invocaron el nombre de <CHARNAME> en causas innobles. Esta vez, no hubo ningún Solar que los guiara, pero ya no lo necesitaban. Kelsey nunca tuvo razones para no estar más que orgulloso de la mujer que no podía dejar de amar, y ella nunca se cansaba de las atenciones de Kelsey. Eran un buen ejemplo de pragmatismo y aventura, de confianza y cautela, y sabían que entre sus propios logros y la delicada joven que habían formado en Kylia, habían hecho más por el mundo de lo que nadie podría pedir a tan solo dos personas.
+
+Kelsey nunca llegó a tener la vida normal que una vez ansió. Consiguió mucho, mucho más.~
+
+
+
+
+@2572=~El final de la demencial ansia de poder de Melissan, y el final de la interferencia de Baal en la vida de <CHARNAME>, significaron un nuevo comienzo para Kelsey y su "heroína favorita". Su fama y reconocimiento alcanzados en los meses que siguieron a esta sacrificada prueba, hicieron que la pareja fuera asediada por "pidefavores" prácticamente todo el día en el viaje de Tethyr a Deepwash, donde Kelsey y <CHARNAME> acabaron deprisa con la resistencia que Birinar logró reunir. Kelsey lo mandó a freír monas, se encontró con Kelvim y Mirena, e intentó hacer las paces con su madre. Ella se ofreció a dejar que la pareja se quedara y criara a su futura hija, pero Kelsey no se sentía a gusto trayendo otra vida al mundo bajo la sombra del pasado de su familia.
+
+La pareja viajó hasta la casa que Kelsey había adquirido en Berdusk, donde Kelsey convenció a <CHARNAME> para que se quedara al menos hasta el nacimiento de su hija. Imposible de confinar en una casa, <CHARNAME> se llevó a Kelsey consigo para hacer numerosas excursiones por los contornos campestres, manteniéndose así ambos en buena forma durante el período más apacible de que habían disfrutado en meses.
+
+Su bebé nació en casa y saliendo de cuentas, una preciosa niña que parecía tener alegría de vivir incluso antes de que pudiera gatear. La niña nació libre de la sombra de Baal, ya purgada toda su esencia del interior de su madre. Con esto no quiero decir que no fuera extraordinaria--y teniendo en cuenta quienes son sus padres, ¿cómo no iba a ser una maravilla? Sus ojos resplandecían levemente cuando estaba contenta--ya fuera por herencia hechicero o por legado divino, no sabría decirlo--. Kylia, así la conocían, creció fuerte y saludable, aprendiendo de la fuerza, la independencia y el valor de la comprensión y la amistad de sus padres. Nunca parecía aprender suficiente, e incluso en sus años de adolescencia fue una investigadora y erudita respetable, como también una temible estudiante de artes marciales.
+
+La gran cantidad de materias que interesaban a Kylia la distanciaban a menudo de sus preocupados padres, pero la acompañaron en distintas "aventuras de investigación" por entre criptas selladas desde la antigüedad y cavernas desconocidas, y siguiendo las indicaciones de Kylia, descubrieron artefactos únicos de gran poder de los que solo se susurraba sobre su existencia en los salones de magos y reyes. Volo escribió una vez que fueron "la familia más poderosa y resolutiva de todos los Reinos", y aquéllos que no atendieron a sus palabras y amenazaron su hogar o sus personas, en contadas ocasiones vivieron para arrepentirse de su error.
+
+Cuando no viajaban junto a su hija, marido y mujer hacían una excelente pareja a todas horas, aunque difícilmente estaban ociosos. Kelsey respondía a menudo llamadas para mediar transacciones entre Amn y sus vecinos, y peleó para defender los derechos de los hechiceros de aprender a controlar sus talentos sin ser estorbados. <CHARNAME> fue una esposa y madre cariñosa, pero ninguna actividad podía reemplazar por completo el sabor de la aventura al que se había acostumbrado. Viajaron juntos a menudo, y ya fuera bajo techo o en los caminos, rara vez estuvieron a más distancia el uno del otro que la que les permitía lanzarse un beso o una miradita. Su amor era de los que crecía con el pasar de los años, su amor nunca era demasiado.
+
+Kelsey permaneció fiel a su compromiso con <CHARNAME>. Décadas después de su encuentro casual en el distrito del gobierno de Athkatla, todavía la hacía sonreír llamándola "jefa", y fue leal a ella en todas las cosas, cuidando de ella en lo bueno y en lo malo. Cuando el malvado culto Yaga-Shuran tomó como rehén a Kylia y amenazó con matarla y dejar un sendero de furia y destrucción a través de Amn, fueron Kelsey y su precisa ejecución de de un inteligente plan de ataque de <CHARNAME> los que triunfaron finalmente y liberaron a su hija. Sin embargo, en el fragor de la batalla, un agente del culto se las ingenió para romper sus defensas y envenenar a <CHARNAME> con una substancia que parecía quemar su cuerpo desde dentro. Kelsey no se apartó de su lado, acariciando su pelo continuamente mientras los sanadores trataban de curarla. Al final fue su fuerza interior y su deseo de vivir--por ella, su hija y su amado Kelsey--lo que neutralizó el veneno.
+
+
+Tras esta experiencia, Kelsey y <CHARNAME> dedicaron la mayor parte de su vida a perseguir los cultos a los vástagos de Baal que plagaban la tierra, especialmente aquéllos que invocaron el nombre de <CHARNAME> en causas innobles. Esta vez, no hubo ningún Solar que los guiara, pero ya no lo necesitaban. Kelsey nunca tuvo razones para no estar más que orgulloso de la mujer que no podía dejar de amar, y ella nunca se cansaba de las atenciones de Kelsey. Nunca se casaron--o uno u otro o ambos siempre tenían una buena razón para no pararse a planificar la boda, o simplemente señalaban que no les parecía necesario conforme pasaban los años, y a Kylia no le importaba en absoluto--pues su amor era incuestionable. Juntos, fueron un buen ejemplo de pragmatismo y aventura, de confianza y cautela, y sabían que entre sus propios logros y la delicada joven que habían formado en Kylia, habían hecho más por el mundo de lo que nadie podría pedir a tan solo dos personas.
+
+Kelsey nunca llegó a tener la vida normal que una vez ansió. Consiguió mucho, mucho más.~
+
+
+
+
+@2573=~ El final de la demencial ansia de poder de Melissan, y el final de la interferencia de Baal en la vida de <CHARNAME>, significaron un nuevo comienzo para Kelsey y su "heroína favorita". Su fama y reconocimiento alcanzados en los meses que siguieron a esta sacrificada prueba, hicieron que la pareja fuera asediada por "pidefavores" prácticamente todo el día en el viaje de Tethyr a Deepwash, donde Kelsey y <CHARNAME> acabaron deprisa con la resistencia que Birinar logró reunir. Kelsey lo mandó a freír monas, se encontró con Kelvim y Mirena, e intentó hacer las paces con su madre. Ella se ofreció a dejar que la pareja se instalara y planificara sus próximas aventuras allí, pero Kelsey sabía que era mejor empezar en otro lugar.
+
+La pareja viajó hasta la casa que Kelsey había adquirido en Berdusk, pero la vida contemplativa no fue era para ellos. Hasta con Baal expulsado de la ecuación, tanto a Kelsey como a <CHARNAME> los podía su destino.
+
+Kelsey a menudo contestaba peticiones para mediar las transacciones entre Amn y sus vecinos, y trabajó para preservar los derechos de los magos para controlar sus habilidades sin ser molestados. La hacienda que originalmente debía ser su hogar se convirtió en un refugio para los hechiceros y magos que se oponían a los Magos Encapuchados. Kelsey continuó experimentando con encantamientos. Muchos de sus proyectos acabaron siendo regalos (<CHARNAME> tuvo un surtido sin fin de baratijas para sentirse bien y collares encantados), pero unos pocos fueron increíbles hallazgos, como un anillo que permitía al portador atravesar las paredes. También desarrolló un encantamiento para bloquear el efecto, y vendió los dos--eran solo negocios.
+
+<CHARNAME> estaba aún más ocupada. La visión de su futuro que tuvo Kelsey resultó ser bastante acertada, y aunque ella no era querida en todas las partes del mundo, la gente se olvidó de que fue un vástago de Baal y aprendió a juzgarla por sus acciones y compromisos. Y lo más importante, Kelsey estaba a su lado. Viajaron juntos a menudo, y ya fuera bajo techo o en los caminos, rara vez estuvieron a más distancia el uno del otro que la que les permitía lanzarse un beso o una miradita. Su amor era de los que crecía con el pasar de los años, su amor nunca era demasiado.
+
+Kelsey permaneció fiel a su compromiso con <CHARNAME>. Décadas después de su encuentro casual en el distrito del gobierno de Athkatla, todavía la hacía sonreír llamándola "jefa", y fue leal a ella en todas las cosas, cuidando de ella en lo bueno y en lo malo. Años más tarde de haber vencido a Melissan, <CHARNAME> dio a luz a gemelos. La niña, Cerena, era el vivo retrato de las mejores cualidades de su padre--sincera, impetuosa y responsable. El niño, Paolo, era encarnizadamente independiente pero leal a su familia y a sus amigos.
+
+La pareja fue acosada a menudo por los cultos de los vástagos de Baal que incrementaron su presencia una década después de que <CHARNAME> y Kelsey derrotaran a los Cinco. Los Underdark dieron lugar a un culto sanguinario de Sendai que atacaron zonas donde Kelsey y <CHARNAME> fueron vistos, o incluso las vinculadas a un anterior compañero de viaje. Los Yaga-Shurans eran especialmente crueles, y encontraron el modo de escabullirse de la destrucción total si bien los enamorados y sus aliados ganaron batallas de forma regular contra sus series de atacantes. No todas sus batallas fueron tan fáciles. Kelsey estuvo cerca de morir en una pelea cerca de la puerta de salida original de Ust Natha cuando los dos cayeron en una emboscada por un contingente que se hizo pasar por tropas de Elliseme. Aun casi en estado de coma, Kelsey salió malparado en una pelea familiar que acabó con Paolo marchándose de casa. Éste fue interceptado por agentes del culto Sendai, que esperaban acabar el trabajo que los Yaga-Shurans habían iniciado. Hicieron un trabajo rápido con el chico y lo dieron por muerto. Tras encontrarlo y encargarse de su seguridad, <CHARNAME> dejó a sus hombres al cuidado de Cerena y salió violentamente plenamente preparada para la batalla. Regresó a casa unas semanas más tarde y se negó a discutir la situación. Pero padre e hijo se restablecieron totalmente, y del Culto de Sendai nada más se supo.
+
+Kelsey nunca tuvo razones para no estar más que orgulloso de la mujer que no podía dejar de amar, y ella nunca se cansaba de las atenciones de Kelsey. Juntos, fueron un buen ejemplo de pragmatismo y aventura, de confianza y cautela, y sabían que entre sus propios logros y los chicos que habían formado, habían hecho más por el mundo de lo que nadie podría pedir a tan solo dos personas.
+
+Kelsey nunca llegó a tener la vida normal que una vez ansió. Consiguió mucho, mucho más.~
+
+
+
+
+/////////////////////////
+
+@2579=~Polimorfizar a otros: Avena~
+@2580=~Polimorfizar a otros: Avena
+Nivel: 6
+Esfera: Alteración
+Rango: 12 metros
+Duración: Instantánea
+Tiempo de Lanzamiento: 6
+Área de Efecto: 12 m
+Tirada de salvación: -2 contra polimorfismos
+
+Kelsey consiguió este hechizo durante un intento de Jan de protegerlo contra los temidos Magos del Granero. En lugar de eso le dio a Kelsey la habilidad de transformar a cualquiera en un tazón de harina de avena. ¡Rico, rico!~
+
+@2581=~Tazón de harina de avena~
+@2582=~Tazón de harina de avena
+
+Este delicioso tazón de harina de avena no fue siempre un delicioso tazón de harina de avena, sino que debido a una cadena de extraños sucesos en los que se mezclaron la hechicería y una invención de Jan Cansen, lo que una vez fue una forma de vida superior es ahora un desayuno.~
+@2583=~Secuenciador Menor Indeleble~
+@2584=~Presumiblemente fue una creación de la hechicera loca Ceara, o de uno de sus tenientes, este pergamino mágico poco habitual describe todos los encantamientos necesarios para invocar el hechizo de cuarto nivel Secuenciador Menor. Sin embargo, al contrario que un pergamino convencional, el papel no se destruye al leerlo--la tinta mágica desaparece de la vista, para reaparecer al día siguiente.
+
+Características: Lanza Secuenciador Menor una vez al día.
+
+
+Utilizable por:
+Magos
+Hechiceros~
+
+
+
+@2586=~El final de la demencial ansia de poder de Melissan, y el final de la interferencia de Baal en la vida de <CHARNAME>, significaron un nuevo comienzo para Kelsey y su "heroína favorita". Su infamia y reconocimiento alcanzados en los meses que siguieron a esta sacrificada prueba, hicieron que la pareja fuera asediada por "pidefavores" prácticamente todo el día en el viaje de Tethyr a Deepwash, donde Kelsey y <CHARNAME> acabaron deprisa con la resistencia que Birinar logró reunir. Kelsey lo mandó a freír monas, se encontró con Kelvim y Mirena, e intentó hacer las paces con su madre. Ella se ofreció a dejar que la pareja se instalara y planificara sus próximas aventuras allí, pero Kelsey sabía que era mejor empezar en otro lugar.
+
+La pareja viajó hasta la casa que Kelsey había adquirido en Berdusk, donde intentaron vivir una vida tranquila. Kelsey se dió de lleno a la construcción del puesto de venta digno de una casi-diosa. Los dos trabajaron para que fuera un reflejo de sus talentos e intereses. Kelsey no podía estar mas feliz cuando nació su hija Kylia, una niña tan singular que su energía brillaba en los ojos. Un amigo de la familia dijo que mientras la madre casi lucha por su subida a los cielos antes de los veinti dos años, su hija podría hablar con los dioses a los once..
+
+Su casa creció para acomodar una especie de tienda-museo, que pronto se convirtió en punto de encuentro para muchos viajeros de la Costa de la Espada. Rodeados de rumores e hisotrias a medio terminar, varias veces se ponían las botas de aventurero y salían en una escapada.
+
+Les tomó unos años para calmarse, pero luego de unos años se dedicaron de lleno a contruír la torre de hechicería que él tanto quería. Desde la calle nunca la veríais, pero la estructura era de cuatro pisos. Aunque siempre tenía la puerta abierta para su amada, la torre era sin duda de Kelsey, tal y como la había ideado.
+
+Trabajando solo, Kelsey hizo grandes descubrimientos, como un espejo que podía incrementar la luz que se le reflejaba, que tenía tantas aplicaciones como dsde cocinar hasta armas o comunicación. Algunos de sus fallos fueron bastante espectaculares, lo cual hicieron que la torre se tambaleara mas de una vez por las explosiones que movían la tierra.
+
+Sus vidas no estaban libres de conflictos. Al pasar los años, sus viejos compañeros de aventuras llegaban mas a menudo con noticias de desapariciones de amigos. Un otoño, en un intento de vengar a un caido en sus manos, agentes dracónicos sitiaron la torre durante diez dias. Pero nunca perdieron lo que hacía su relación importante bajo las circumstancias mas difíciles. Luego de luchar contra los invasores, Kelsey y <CHARNAME> luego dirían que se abrazaron en su bunker hasta que los imps y drakes bajaron su guardia.
+
+Los años ocupados pasaron rápido, los mas tranquilos aún mas rápido. Pero fueron completos. Por mucho que conspirara el mundo contra ellos, siempre pudieron pagarles con intereses.~
+
+
+@2587=~El final de la demencial ansia de poder de Melissan, y el final de la interferencia de Baal en la vida de <CHARNAME>, significaron un nuevo comienzo para Kelsey y su "heroína favorita". Su fama y reconocimiento alcanzados en los meses que siguieron a esta sacrificada prueba, hicieron que la pareja fuera asediada por "pidefavores" prácticamente todo el día en el viaje de Tethyr a Deepwash, donde Kelsey y <CHARNAME> acabaron deprisa con la resistencia que Birinar logró reunir. Kelsey lo mandó a freír monas, se encontró con Kelvim y Mirena, e intentó hacer las paces con su madre. Ella se ofreció a dejar que la pareja se instalara y planificara sus próximas aventuras allí, pero Kelsey sabía que era mejor empezar en otro lugar
+
+La pareja viajó hasta la casa que Kelsey había adquirido en Berdusk, donde intentaron vivir una vida tranquila. Kelsey se dió de lleno a la construcción del puesto de venta digno de una casi-diosa. Los dos trabajaron para que fuera un reflejo de sus talentos e intereses.
+
+Su casa creció para acomodar una especie de tienda-museo, que pronto se convirtió en punto de encuentro para muchos viajeros de la Costa de la Espada. Of course, <CHARNAME> and Kelsey did more than just tend to the store. Rodeados de rumores e hisotrias a medio terminar, varias veces se ponían las botas de aventurero y salían en una escapada.
+
+Les tomó unos años para calmarse, pero luego de unos años se dedicaron de lleno a contruír la torre de hechicería que él tanto quería. Desde la calle nunca la veríais, pero la estructura era de cuatro pisos. Aunque siempre tenía la puerta abierta para su amada, la torre era sin duda de Kelsey, tal y como la había ideado.
+
+Trabajando solo, Kelsey hizo grandes descubrimientos, como un espejo que podía incrementar la luz que se le reflejaba, que tenía tantas aplicaciones como dsde cocinar hasta armas o comunicación. Algunos de sus fallos fueron bastante espectaculares, lo cual hicieron que la torre se tambaleara mas de una vez por las explosiones que movían la tierra.
+
+Sus vidas no estaban libres de conflictos. Al pasar los años, sus viejos compañeros de aventuras llegaban mas a menudo con noticias de desapariciones de amigos. Un otoño, en un intento de vengar a un caido en sus manos, agentes dracónicos sitiaron la torre durante diez dias. Pero nunca perdieron lo que hacía su relación importante bajo las circumstancias mas difíciles. Luego de luchar contra los invasores, Kelsey y <CHARNAME> luego dirían que se abrazaron en su bunker hasta que los imps y drakes bajaron su guardia.
+
+Los años ocupados pasaron rápido, los mas tranquilos aún mas rápido. Pero fueron completos. Por mucho que conspirara el mundo contra ellos, siempre pudieron pagarles con intereses.~
+
+@2588=~Zap!~

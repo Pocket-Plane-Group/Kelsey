@@ -1,0 +1,15 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~<CHARNAME>... que pasa entre ti y Solaufein? Tengo la impresión de que el cree que vuestra relación es mas que profesional, no?~ [FWKLSYm0]
+@1    = ~Si, lo he notado, le diré que deje de hacerlo.~
+@2    = ~En serio? Creo que imaginas cosas, Kelsey. no estoy interesada en el.~
+@3    = ~Que te importa?~
+@4    = ~Si, y me gusta. El entra, tu sales, hechicero.~
+@5    = ~El... el toma tu mano y te lee un poco de poesía y de repente... yo no significo nada.~
+@6    = ~Yo... luego de todo lo que pasamos y compartimos, no puedo dejar que me uses asi, no puedo.~
+@7    = ~Lo siento si soy celoso pero... gracias, <CHARNAME>. No quiero crear situaciones feas, asique me gustaría que le hicieras saber como son las cosas.~
+@8    = ~No creo que imagino cosas, <CHARNAME>. Cuando le veo mirarte... digamos que veo lo que yo debo ser cuando te miro.~
+@9    = ~Tu eres muy imoprtante para mi y me molesta ver que otros se interpongan entre nosotros. Creo en lo que dices pero por favor... explicale a el.~
+@10   = ~Que me...? <CHARNAME>, luego de todo lo que hemos pasado juntos, como dudas que me importas, o que yo me ponga celoso cuando veo a otro hombre poniendo sus manos encima tuyo?~
+@11   = ~No puedo compartir tu amor, no con otro hombre, no en la forma que creo que el piensa.~
+@12   = ~No entiendo. No entiendo si pensaste que os ignoraría a ti y a Solaufein, o que no notaría que continúas flirteando con el, o que. TE DIJE que me molestaba.~ [FWKLSYm1]

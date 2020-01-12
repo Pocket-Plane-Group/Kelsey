@@ -1,0 +1,40 @@
+IF
+  InParty(Myself)
+  GlobalGT("SolaTalk","GLOBAL",14)
+  OR(2)
+    Global("J#KelseyRomanceActive","GLOBAL",1)
+    Global("J#KelseyRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("J#KelseyRomanceActive","GLOBAL",3)
+END
+
+IF
+  InParty(Myself)
+  See(Player1)
+  OR(2)
+    Global("J#KelseyRomanceActive","GLOBAL",1)
+    Global("J#KelseyRomanceActive","GLOBAL",2)
+  Global("SolaTalk","GLOBAL",12)
+  Global("SolaPCTalk","GLOBAL",0)
+  Global("FWKelseyObjectsSolaufein","LOCALS",0)
+THEN
+  RESPONSE #100
+    Dialog(Player1)
+END
+
+IF
+  InParty(Myself)
+  See(Player1)
+  OR(2)
+    Global("J#KelseyRomanceActive","GLOBAL",1)
+    Global("J#KelseyRomanceActive","GLOBAL",2)
+  Global("SolaTalk","GLOBAL",14)
+  Global("SolaPCTalk","GLOBAL",0)
+  Global("FWKelseyObjectsSolaufein","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("FWKelseyObjectsSolaufein","LOCALS",2)
+    Dialog(Player1)
+END
+

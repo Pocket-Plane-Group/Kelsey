@@ -1,0 +1,29 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("J#Ceara")  //
+    ForceSpell("J#Kelsey",WIZARD_SLEEP)
+    SetGlobal("J#CearaFight","GLOBAL",11)
+    Wait(1)
+    ActionOverride("J#Morridhan",MoveToObject("J#Kelsey"))
+    ActionOverride("J#Kassetha",MoveToObject("J#Kelsey"))
+    ApplySpell("J#Kelsey",SURE_SLEEP)
+    Wait(4)
+    ActionOverride("J#Morridhan",EscapeArea())
+    ActionOverride("J#Kassetha",EscapeArea())
+    ActionOverride("J#Kelsey",GivePartyAllEquipment())
+    ActionOverride("J#Kelsey",LeaveParty())
+    ActionOverride("J#Kelsey",DestroySelf())
+    Wait(2)
+    ActionOverride("J#PuraParteth",EscapeArea())
+    ActionOverride("J#FallenPaladin",EscapeArea())
+    ActionOverride("J#Cossun",EscapeArea())
+    Wait(1)
+    ActionOverride("J#Rumil",EscapeArea())
+    ActionOverride("J#Merritt15",EscapeArea())
+    Wait(1)
+    SetGlobal("J#CearaFight","GLOBAL",11)
+    StartDialogNoSet([ANYONE])
+END
+

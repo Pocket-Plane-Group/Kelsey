@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("J#Kelsey")
+		ActionOverride("Jan",LeaveParty())
+		ForceSpellRES("FWOats01","Jan")
+		ActionOverride("Jan",SetGlobal("KickedOut","LOCALS",2))
+		ActionOverride("Jan",Wait(1))
+		ActionOverride("Jan",SmallWait(7))
+		ActionOverride("Jan",DropItem("FWOats01",[0.0]))
+		ActionOverride("Jan",CreateVisualEffectObject("SPCALLLI","Jan"))
+		ActionOverride("Jan",PlaySound("EFF_P56"))
+		Wait(6)
+		StartDialogueNoSet([ANYONE])
+END
+
+

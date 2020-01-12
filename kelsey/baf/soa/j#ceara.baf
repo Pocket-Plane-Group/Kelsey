@@ -1,0 +1,36 @@
+IF
+  Global("J#CearaFight","GLOBAL",7)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("J#CastAttack","LOCALS",6)
+    Wait(1)
+    SetGlobal("J#CearaFight","GLOBAL",8)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  GlobalLT("J#CearaFight","GLOBAL",9)
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  Allegiance(Myself,NEUTRAL)
+  Global("J#CearaFight","GLOBAL",9)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  GlobalTimerExpired("J#CastAttack","LOCALS")
+  See([GOODCUTOFF])
+  Gender(LastSeenBy(Myself),SUMMONED)
+  HasItem("Scrl7i",Myself)  // ~Death Spell~
+THEN
+  RESPONSE #100
+    UseItem("scrl7i",LastSeenBy(Myself))  // ~Death Spell~
+    SetGlobalTimer("J#CastAttack","LOCALS",6)
+END
+

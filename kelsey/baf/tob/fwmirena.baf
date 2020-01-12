@@ -1,0 +1,10 @@
+IF
+	See(Player1)
+	See("J#Kelsey")
+	Global("FWMETKELVIM","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Dialogue("J#Kelsey")
+END
+
+

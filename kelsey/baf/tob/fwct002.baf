@@ -1,0 +1,13 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("J#Kelsey")
+		ActionOverride("FWRlaash",EscapeArea())
+		Wait(3)
+		CreateCreature("FWBirina",[3229.1476],1)
+		ActionOverride("FWBirinar",MoveToObject("J#Kelsey"))
+		ActionOverride("FWBirinar",StartDialogueNoSet([ANYONE]))
+END
+
+

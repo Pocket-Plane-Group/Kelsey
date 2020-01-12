@@ -1,0 +1,34 @@
+IF
+	Global("FWAnomenTemptsPC","GLOBAL",0)
+	InParty(Myself)
+	InParty("J#Kelsey")
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	CombatCounter(0)
+	!See([ENEMY])
+	See(Player1)
+	See("J#Kelsey")
+	GlobalGT("SPRITE_IS_DEADGROMNIR","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("FWAnomenTemptsPC","GLOBAL",2)
+		StartDialogueNoSet(Player1)
+		Wait(1)
+END
+
+IF
+	Global("FWAnomenTemptsPC","GLOBAL",3)
+	InParty(Myself)
+	InParty("J#Kelsey")
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	CombatCounter(0)
+	!See([ENEMY])
+	See(Player1)
+	See("J#Kelsey")
+THEN
+	RESPONSE #1
+		IncrementGlobal("FWAnomenTemptsPC","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+		Wait(1)
+END
+
+

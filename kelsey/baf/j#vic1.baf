@@ -1,0 +1,14 @@
+IF
+	Global("FWExpViconia1","LOCALS",0)
+	InParty("J#Kelsey")
+	See("J#Kelsey")
+	PartyRested()
+	!AreaCheck("AR4000")
+	!AreaCheck("AR4500")
+THEN
+	RESPONSE #100
+		SetGlobal("FWExpViconia1","LOCALS",1)
+		Interact("J#Kelsey")
+END
+
+

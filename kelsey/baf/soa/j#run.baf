@@ -1,0 +1,8 @@
+IF
+  Heard([GOODCUTOFF],901)
+  Range(LastHeardBy(Myself),15)
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastHeardBy(Myself),30)
+END
+

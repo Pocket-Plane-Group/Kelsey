@@ -1,0 +1,16 @@
+IF
+  !Global("J#CearaFight","GLOBAL",9)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  Global("J#CearaFight","GLOBAL",9)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+

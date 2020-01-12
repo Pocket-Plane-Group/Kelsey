@@ -1,0 +1,46 @@
+// -*- coding: utf-8 -*-
+
+// FWKELSEYSOLA.TRA
+
+@1 = ~No te entiendo, Solaufein.~ [FWKLSYG2]
+@2 = ~Oh? Que es o que te molesta exactamente?~
+@3 = ~Es...bueno, algo que no se puede explicar simplemente conociendote mejor, supongo. Per estas lleno de sorpresas.~
+@4 = ~Cuano nos conocimos, pensé que eras un soldado Drow como cualquiera--el cual consideraba "peligroso", "no de confianza", y "ser evitado."~
+@5 = ~Luego te mostraste como un soldado Drow poco común. Luego un mago? E interesado en lo que consideraría justicia y honor? Y un estudiante de la filosofía de la superficie y poesía?~
+@50 = ~Pareces una persona diferente cada vez que me doy vuelta. Y como sea que quieras llamarlo, no es bueno.~
+@6 = ~Comienzo a ver lo que te hace sentir preocupado. Parece ser que soy una forma de ensueño--la proeza de los drow, pero con muchas cualidades "humanas" que me hacen un aliado muy valioso. Estoy en lo correcto?~
+@7 = ~...mucho.~
+@8 = ~Puedo contestar tus preguntas en cualquier orden?~
+@9 = ~No tienes proque contestarme, Solaufein. Probablemente no tendría que haber dicho nada.~
+@10 = ~El quedarse con las preguntas para uno mismo es mas difícil que aguantar la respiración. No te procupes.~
+@11 = ~Y por lo que a mi conocimiento de las artes marciales y arcanas respecta, seguramente sabes que los elfos de todas las razas tienen una vida muy larga para aprender sobre todas esas cosas.~
+@12 = ~Mientras que es cierto que no todos los hombres Drow pueden sobrepasar la linea entre la Sociedad de Varones Luchadores y la Torre como yo hice, hay algunas cosas mas importantes para mi gente que "aquel que no te conoce puede matarte en las manos de otro."~
+@13 = ~Como también te darás cuenta, los elfos no pierden un tercio de su vida en dormir--los elfos Drow sobretodo porque el dormir es... tener la guardia baja.~
+@14 = ~Asique la oportunidad y la motivación para superarme en cualquier campo siempre ha sido muy fuerte para mi.~
+@15 = ~Me supongo que lo mismo vale para las lecturas de la superficie?~
+@16 = ~No tan asi, porque las escrituras de vustros sabios no son un arma tan útil para "discutir" con las Matronas Madres.~
+@17 = ~Por lo que he escuchado, y lo que vi en tu casa, creo que seo podría matarte muy fácilmente.~
+@18 = ~Muy lentamente, en realdiad.~
+@19 = ~Pero he perseverado. La historia de como he encontrado, y luego como he amado las escrituras de la superficie, me temo, es muy larga.~
+@20 = ~Lo mas importante es que he descubierto que tengo sentimientos y emociones dentro mio que no podía explicar con la filosofía de mi propia gente.~
+@21 = ~El aprender como otros piensan y sienten expande como nosotros sentimos y pensamos, y nos ayuda a articular todo eso.~
+@22 = ~Porque que somos, sino lo que podemos expresar a otra persona?~
+@23 = ~Muy profundo, Solaufein.~
+@24 = ~Todavía espero que te estes quieto, metafóricamente hablando, asi podré dedicir si de verdad me preocupas, o si solo pienso que me preocupas.~
+@25 = ~Una de las escrituras mas rudas que tengo en mi libro habla de lo que uno puede hacer con una mano mientras desea con la otra, pero dejaré ese pensamiento a un lado.~
+@100  = ~<CHARNAME>... que pasa contigo y Solaufein? Tengo la impresión de que el piensa que vuestra relación es mas que profesional. Es asi?~ [FWKLSYm0]
+@101  = ~Si, lo he notado arrimandose a mi. Le diré que deje de hacerlo.~
+@102  = ~En serio? Creo que imaginas cosas, Kelsey. Ciertamente no estoy interesada en el.~
+@103  = ~Que te importa?~
+@104  = ~Asi es. Y me gusta. El entra, tu te vas, hechicero.~
+@105  = ~El... toma tu mano y te lee un poco de poesía y de repente yo no valgo nada.~
+@106  = ~Yo... luego de todo lo que vivimos juntos y compartimos, no puedo dejar que me uses asi. No puedo.~
+@107  = ~Lo siento si soy celoso, pero... gracias, <CHARNAME>. No quiero crear una situación difícil, asique de verdad que apreciaré que lo pongas en su lugar.~
+@108  = ~No creo estar imaginando cosas, <CHARNAME>. Cuando lo veo mirarte... digamos que veo lo que yo soy cuando te miro.~
+@109  = ~De verdad eres especial para mi, y me hace sentir mal el ver a alguien meterse entre nosotros. Creo en lo que dices pero por favor... explícaselo a el.~
+@110  = ~Me importa porque me gustas, <CHARNAME>, y yo... pensé que nos estabamos haciendo mas que compañeros. Si de verdad te importa Solaufein... bueno, creo que lso dos debemos saberlo.~
+@111  = ~Si no, creo que será mejor que el lo sepa antes de que se deje llevar.~
+@112  = ~Que que me...? <CHARNAME>, luego de todo lo que pasamos juntos, como dudas que me importas, o que no setaría celoso cuando otro hombre te pone las manos encima?~
+@113  = ~No puedo compartir tu amor, no con otro hombre, no en la forma que creo que el piensa.~
+@114  = ~No entiendo. No entiendo si esperabas que os ignorara a ti y Solaufein, o si no notaría que continuas flirteando con el, o que. TE DIJE que me molestaba.~ [FWKLSYm1]
+@115  = ~Pero en todo caso... si eso es lo que quieres, asi sea, jefa. Me supongo que tu y el nuevo novio me dejareis saber si necesitais comprar o hacer volar algo.~

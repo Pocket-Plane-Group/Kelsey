@@ -1,0 +1,740 @@
+IF
+AreaCheck("AR2100")
+InParty(Myself)
+G("FWKelseyWasInUD",0)
+THEN
+RESPONSE #100
+SG("FWKelseyWasInUD",1)
+END
+
+
+IF
+  !InParty(Myself)
+  Global("J#KelseyVampire","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("J#KelseyVampire","GLOBAL",5)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  GlobalTimerNotExpired("J#AnomenKelseyFightTimer","GLOBAL")
+  !Dead("Anomen")  // Anomen
+  OR(2)
+    Global("J#AnomenKelseyFight","GLOBAL",1)
+    Global("J#AnomenKelseyFight","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("J#AnomenKelseyFight","GLOBAL",2)
+    EquipMostDamagingMelee()
+    MakeUnselectable(19)
+    Spell(Myself,WIZARD_STONE_SKIN)
+    AttackOneRound("Anomen")
+    Spell("Anomen",WIZARD_FLAME_ARROW)
+    AttackOneRound("Anomen")
+    Spell("Anomen",WIZARD_FLAME_ARROW)
+    AttackOneRound("Anomen")
+END
+
+IF
+  GlobalTimerExpired("J#AnomenKelseyFightTimer","GLOBAL")
+  Global("J#AnomenKelseyFight","GLOBAL",2)
+  Alignment("Anomen",CHAOTIC_NEUTRAL)  // Anomen
+  !Dead("Anomen")  // Anomen
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    MakeUnselectable(26)
+    Spell("Anomen",WIZARD_FINGER_OF_DEATH)
+    AttackOneRound("Anomen")
+    Spell("Anomen",WIZARD_STONE_SKIN)
+    AttackOneRound("Anomen")
+    Spell("Anomen",WIZARD_FLAME_ARROW)
+    AttackOneRound("Anomen")
+    Spell("Anomen",WIZARD_MAGIC_MISSILE)
+    AttackOneRound("Anomen")
+END
+
+IF
+  GlobalTimerExpired("J#AnomenKelseyFightTimer","GLOBAL")
+  Global("J#AnomenKelseyFight","GLOBAL",2)
+  !Alignment("Anomen",CHAOTIC_NEUTRAL)  // Anomen
+  !Dead("Anomen")  // Anomen
+THEN
+  RESPONSE #100
+    SetGlobal("J#AnomenKelseyFight","GLOBAL",3)
+    ClearAllActions()
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("J#AnomenKelseyFight","GLOBAL",2)
+  Dead("ANOMEN")  // ANOMEN
+THEN
+  RESPONSE #100
+    SetGlobal("J#AnomenKelseyFight","GLOBAL",3)
+    Wait(1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  InParty(Myself)
+  Global("J#KelseyRomanceActive","GLOBAL",2)
+  OR(2)
+    Global("AnomenRomanceActive","GLOBAL",1)
+    Global("AnomenRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("AnomenRomanceActive","GLOBAL",3)
+END
+
+IF
+  InParty(Myself)
+  Global("J#CearaFight","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("J#CearaTimer","GLOBAL",TEN_DAYS)
+    SetGlobal("J#CearaFight","GLOBAL",1)
+END
+
+IF
+  GlobalGT("SPRITE_IS_DEADJ#Merritt14","GLOBAL",0)
+  GlobalGT("SPRITE_IS_DEADJ#Lilla","GLOBAL",0)
+  !Exists([EVILCUTOFF])
+  Global("J#CearaFight","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("J#CearaFight","GLOBAL",5)
+END
+
+IF
+  InParty(Myself)
+  Global("J#CearaFight","GLOBAL",5)
+  CombatCounter(0)
+  !See([EVILCUTOFF])
+  !Detect([EVILCUTOFF])
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  InParty(Myself)
+  Global("J#CearaFight","GLOBAL",9)
+  Global("J#CearaLoopFix","LOCALS",0)
+  CombatCounter(0)
+  !See([EVILCUTOFF])
+  !Detect([EVILCUTOFF])
+  Dead("J#Ceara")  // ~Ceara~
+THEN
+  RESPONSE #100
+    SetGlobal("J#CearaLoopFix","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  GlobalTimerExpired("J#CearaTimer2","GLOBAL")
+  Global("J#CearaFight","GLOBAL",6)
+  InParty("J#Kelsey")  // J#Kelsey
+  XPLT(Player1,750001)
+  OR(10)
+    AreaCheck("AR0300")
+    AreaCheck("AR0400")
+    AreaCheck("AR0500")
+    AreaCheck("AR0600")
+    AreaCheck("AR0700")
+    AreaCheck("AR0800")
+    AreaCheck("AR1000")
+    AreaCheck("AR1100")
+    AreaCheck("AR1100")
+    AreaCheck("AR2000")
+THEN
+  RESPONSE #100
+    SetGlobal("J#CearaFight","GLOBAL",7)
+    MoveViewObject("J#Kelsey",VERY_FAST)
+    CreateCreatureObjectOffScreen("J#Ceara","J#Kelsey",0,0,0)  // ~Ceara~
+    Wait(1)
+    CreateCreatureObject("J#Pura","J#Ceara",0,0,0)  // ~Pura Parteth~
+    CreateCreatureObject("J#Kasset","J#Ceara",0,0,0)  // ~Kassetha~
+    CreateCreatureObject("J#Cossun","J#Ceara",0,0,0)  // ~Cossun~
+END
+
+IF
+  GlobalTimerExpired("J#CearaTimer2","GLOBAL")
+  Global("J#CearaFight","GLOBAL",6)
+  InParty("J#Kelsey")  // J#Kelsey
+  XPLT(Player1,1250001)
+  XPGT(Player1,750000)
+  OR(10)
+    AreaCheck("AR0300")
+    AreaCheck("AR0400")
+    AreaCheck("AR0500")
+    AreaCheck("AR0600")
+    AreaCheck("AR0700")
+    AreaCheck("AR0800")
+    AreaCheck("AR1000")
+    AreaCheck("AR1100")
+    AreaCheck("AR1100")
+    AreaCheck("AR2000")
+THEN
+  RESPONSE #100
+    SetGlobal("J#CearaFight","GLOBAL",7)
+    MoveViewObject("J#Kelsey",VERY_FAST)
+    CreateCreatureObjectOffScreen("J#Ceara","J#Kelsey",0,0,0)  // ~Ceara~
+    Wait(1)
+    CreateCreatureObject("J#Pura","J#Ceara",0,0,0)  // ~Pura Parteth~
+    CreateCreatureObject("J#Kasset","J#Ceara",0,0,0)  // ~Kassetha~
+    CreateCreatureObject("J#Morrid","J#Ceara",0,0,0)  // ~Morridhan~
+    CreateCreatureObject("J#Cossun","J#Ceara",0,0,0)  // ~Cossun~
+END
+
+IF
+  GlobalTimerExpired("J#CearaTimer2","GLOBAL")
+  Global("J#CearaFight","GLOBAL",6)
+  InParty("J#Kelsey")  // J#Kelsey
+  XPGT(Player1,1250000)
+  OR(10)
+    AreaCheck("AR0300")
+    AreaCheck("AR0400")
+    AreaCheck("AR0500")
+    AreaCheck("AR0600")
+    AreaCheck("AR0700")
+    AreaCheck("AR0800")
+    AreaCheck("AR1000")
+    AreaCheck("AR1100")
+    AreaCheck("AR1100")
+    AreaCheck("AR2000")
+THEN
+  RESPONSE #100
+    SetGlobal("J#CearaFight","GLOBAL",7)
+    MoveViewObject("J#Kelsey",VERY_FAST)
+    CreateCreatureObjectOffScreen("J#Ceara","J#Kelsey",0,0,0)  // ~Ceara~
+    Wait(1)
+    CreateCreatureObject("J#Falpal","J#Ceara",0,0,0)  // ~Fallen Paladin~
+    CreateCreatureObject("J#Pura","J#Ceara",0,0,0)  // ~Pura Parteth~
+    CreateCreatureObject("J#Kasset","J#Ceara",0,0,0)  // ~Kassetha~
+    CreateCreatureObject("J#Morrid","J#Ceara",0,0,0)  // ~Morridhan~
+    CreateCreatureObject("J#Cossun","J#Ceara",0,0,0)  // ~Cossun~
+END
+
+IF
+  XPLT(Player1,500001)
+  Global("J#CearaFight","GLOBAL",1)
+  GlobalTimerExpired("J#CearaTimer","GLOBAL")
+  InParty("J#Kelsey")  // J#Kelsey
+  OR(10)
+    AreaCheck("AR0300")
+    AreaCheck("AR0400")
+    AreaCheck("AR0500")
+    AreaCheck("AR0600")
+    AreaCheck("AR0700")
+    AreaCheck("AR0800")
+    AreaCheck("AR1000")
+    AreaCheck("AR1100")
+    AreaCheck("AR1100")
+    AreaCheck("AR2000")
+THEN
+  RESPONSE #100
+    SetGlobal("J#MerrittGoons","GLOBAL",1)
+    SetGlobal("J#CearaFight","GLOBAL",2)
+    StartCutSceneMode()
+    MoveViewObject("J#Kelsey",VERY_FAST)
+    CreateCreatureObjectOffScreen("J#MERT14","J#Kelsey",0,0,0)  // ~Merritt~
+    SmallWait(3)
+    CreateCreatureObject("J#LILLA","J#Merritt14",0,0,0)  // ~Lilla~
+    EndCutSceneMode()
+END
+
+
+// Stupid Lilla. If this doesn't work, we'll CreateCreatureObject her by Kelsey, or something.
+// Also have added Start/End Cutscene Mode
+
+
+
+IF
+  XPGT(Player1,500000)
+  XPLT(Player1,1000001)
+  Global("J#CearaFight","GLOBAL",1)
+  GlobalTimerExpired("J#CearaTimer","GLOBAL")
+  InParty("J#Kelsey")  // J#Kelsey
+  OR(10)
+    AreaCheck("AR0300")
+    AreaCheck("AR0400")
+    AreaCheck("AR0500")
+    AreaCheck("AR0600")
+    AreaCheck("AR0700")
+    AreaCheck("AR0800")
+    AreaCheck("AR1000")
+    AreaCheck("AR1100")
+    AreaCheck("AR1100")
+    AreaCheck("AR2000")
+THEN
+  RESPONSE #100
+    SetGlobal("J#MerrittGoons","GLOBAL",2)
+    SetGlobal("J#CearaFight","GLOBAL",2)
+    StartCutSceneMode()
+    MoveViewObject("J#Kelsey",VERY_FAST)
+    CreateCreatureObjectOffScreen("J#MERT14","J#Kelsey",0,0,0)  // ~Merritt~
+    SmallWait(3)
+    CreateCreatureObject("J#LILLA","J#Merritt14",0,0,0)  // ~Lilla~
+    EndCutSceneMode()
+END
+
+
+// Stupid Lilla. If this doesn't work, we'll CreateCreatureObject her by Kelsey, or something.
+
+
+
+IF
+  XPGT(Player1,1000000)
+  Global("J#CearaFight","GLOBAL",1)
+  GlobalTimerExpired("J#CearaTimer","GLOBAL")
+  InParty("J#Kelsey")  // J#Kelsey
+  OR(10)
+    AreaCheck("AR0300")
+    AreaCheck("AR0400")
+    AreaCheck("AR0500")
+    AreaCheck("AR0600")
+    AreaCheck("AR0700")
+    AreaCheck("AR0800")
+    AreaCheck("AR1000")
+    AreaCheck("AR1100")
+    AreaCheck("AR1100")
+    AreaCheck("AR2000")
+THEN
+  RESPONSE #100
+    SetGlobal("J#MerrittGoons","GLOBAL",3)
+    SetGlobal("J#CearaFight","GLOBAL",2)
+    StartCutSceneMode()
+    MoveViewObject("J#Kelsey",VERY_FAST)
+    CreateCreatureObjectOffScreen("J#MERT14","J#Kelsey",0,0,0)  // ~Merritt~
+    SmallWait(3)
+    CreateCreatureObject("J#LILLA","J#Merritt14",0,0,0)  // ~Lilla~
+    EndCutSceneMode()
+END
+
+
+// Stupid Lilla. If this doesn't work, we'll CreateCreatureObject her by Kelsey, or something.
+
+
+
+IF
+  OnCreation()
+  Global("J#KelseyMatch","GLOBAL",0)
+  Global("J#CheckKelseyMatch","GLOBAL",0)
+  Gender(Player1,FEMALE)
+  OR(4)
+    Race(Player1,HUMAN)
+    Race(Player1,HALF_ELF)
+    Race(Player1,HALFLING)
+    Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    SetGlobal("J#CheckKelseyMatch","GLOBAL",1)
+    SetGlobal("J#KelseyMatch","GLOBAL",1)
+END
+
+IF
+  See(Player1)
+  Global("J#KelseyJoined","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("J#KelseyJoined","LOCALS",1)
+    Dialog(Player1)
+END
+
+IF
+  InParty(Myself)
+  AreaCheck("AR0500")
+  Global("FWKelseyBridge","LOCALS",0)
+THEN
+    RESPONSE #100
+             RealSetGlobalTimer("FWKelseyBridgeTalk","LOCALS",200)
+             SetGlobal("FWKelseyBridge","LOCALS",1)
+END
+
+IF
+  InParty(Myself)
+  See(Player1)
+  RealGlobalTimerExpired("FWKelseyBridgeTalk","LOCALS")
+  Global("FWKelseyBridge","LOCALS",1)
+THEN
+    RESPONSE #100
+             SetGlobal("FWKelseyBridge","LOCALS",2)
+             StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+  Global("FWKelseyFlirtsStart","LOCALS",0)
+  GlobalGT("J#Lovetalk","LOCALS",6)
+  OR(2)
+    Global("J#KelseyRomanceActive","GLOBAL",2)
+    Global("J#KelseyRomanceActive","GLOBAL",1)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("FWKelseyFlirt","LOCALS",300)
+    SetGlobal("FWKelseyFlirtsStart","LOCALS",1)
+END
+
+IF
+  RealGlobalTimerExpired("FWKelseyFlirt","LOCALS")
+  Global("FWKelseyStartFlirtSOA","GLOBAL",0)
+  G("FWDisableFlirts",0)
+  InParty(Myself)
+  !StateCheck(Player1,STATE_SLEEPING)
+  !Global("J#LOVETALK","LOCALS",17)
+  OR(2)
+    Global("J#KelseyRomanceActive","GLOBAL",2)
+    Global("J#KelseyRomanceActive","GLOBAL",1)
+  See(Player1)
+  CombatCounter(0)
+  !See([ENEMY])
+  !Range([NEUTRAL],10)
+  !AreaCheck("AR2100")
+  !AreaCheck("AR2101")
+  !AreaCheck("AR2102")
+  !AreaCheck("AR2200")
+  !AreaCheck("AR2201")
+  !AreaCheck("AR2202")
+  !AreaCheck("AR2203")
+  !AreaCheck("AR2204")
+  !AreaCheck("AR2205")
+  !AreaCheck("AR2206")
+  !AreaCheck("AR2207")
+  !AreaCheck("AR2208")
+  !AreaCheck("AR2209")
+  !AreaCheck("AR2210")
+  !AreaCheck("AR2400")
+  !AreaCheck("AR2401")
+  !AreaCheck("AR2402")
+THEN
+  RESPONSE #100
+    SetGlobal("FWKelseyStartFlirtSOA","GLOBAL",1)
+    StartDialogNoSet(Player1)
+    SmallWait(1)
+END
+
+IF
+  RealGlobalTimerExpired("FWKelseyFlirt","LOCALS")
+  Global("FWKelseyStartFlirtSOA","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("FWKelseyStartFlirtSOA","GLOBAL",0)
+    SmallWait(1)
+    RealSetGlobalTimer("FWKelseyFlirt","LOCALS",2500)
+END
+
+IF
+  RealGlobalTimerExpired("FWKelseyFlirt","LOCALS")
+  !CombatCounter(0)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("FWKelseyFlirt","LOCALS",150)
+END
+
+IF
+  InParty(Myself)
+  OR(2)
+    Global("J#NonLoveTalk","LOCALS",0)
+    Global("J#NonLoveTalk","LOCALS",2)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("J#KelseyNonRomance","GLOBAL",2250)
+    IncrementGlobal("J#NonLoveTalk","LOCALS",1)
+END
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("J#KelseyNonRomance","GLOBAL")
+  See(Player1)
+  !See([ENEMY])
+  !Range([NEUTRAL],10)
+  CombatCounter(0)
+  OR(2)
+    Global("J#NonLoveTalk","LOCALS",1)
+    Global("J#NonLoveTalk","LOCALS",3)
+THEN
+  RESPONSE #100
+    IncrementGlobal("J#NonLoveTalk","LOCALS",1)
+    Interact(Player1)
+END
+
+IF
+  InParty(Myself)
+  !StateCheck(Player1,STATE_SLEEPING)
+  ReputationLT(Player1,5)
+  Global("J#KelseyBadRepTalk2","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  InParty(Myself)
+  !StateCheck(Player1,STATE_SLEEPING)
+  ReputationLT(Player1,8)
+  Global("J#KelseyBadRepTalk","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+
+IF
+  InParty(Myself)
+  GlobalGT("FWKelseyHatesStealing","GLOBAL",1)
+  Global("FWKelseyStealingWarn","LOCALS",0)
+  See(Player1)
+  CombatCounter(0)
+THEN
+    RESPONSE #100
+             SetGlobal("FWKelseyStealingWarn","LOCALS",1)
+             Dialogue(Player1)
+END
+
+IF
+  InParty(Myself)
+  GlobalGT("FWKelseyHatesStealing","GLOBAL",4)
+  Global("FWKelseyStealingWarn","LOCALS",2)
+  See(Player1)
+  CombatCounter(0)
+THEN
+    RESPONSE #100
+             SetGlobal("FWKelseyStealingWarn","LOCALS",3)
+             Dialogue(Player1)
+END
+
+IF
+  InParty(Myself)
+  InParty("Valygar")
+  See("Valygar")
+  !Dead("Valygar")
+  GlobalGT("J#BKelsey2","LOCALS",0)
+  AreaCheck("AR0300")
+  Global("FWKelseyValygarDocks","LOCALS",0)
+  CombatCounter(0)
+THEN
+    RESPONSE #100
+      SetGlobal("FWKelseyValygarDocks","LOCALS",1)
+      Interact("Valygar")
+END
+
+
+
+
+IF
+  InParty(Myself)
+  Global("J#LoveTalk","LOCALS",0)
+  AreaCheck("AR1000")
+  Global("J#KelseyMatch","GLOBAL",1)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("J#KelseyRomance","GLOBAL",3800)
+    SetGlobal("J#LoveTalk","LOCALS",1)
+    SetGlobal("J#KelseyRomanceActive","GLOBAL",1)
+END
+
+IF
+  PartyRested()
+  Global("J#KelseyMatch","GLOBAL",1)
+  See(Player1)
+  CombatCounter(0)
+  Global("J#LoveTalk","LOCALS",25)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+THEN
+  RESPONSE #100
+    PlaySong(123456)
+    MoveViewObject("J#Kelsey",INSTANT)
+    IncrementGlobal("J#LoveTalk","LOCALS",1)
+    PlaySound("FWKSong")
+    RealSetGlobalTimer("J#KelseyRomance","GLOBAL",1)
+    Interact(Player1)
+END
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("J#KelseyRomance","GLOBAL")
+  PartyRested()
+  !Global("J#KelseyRomanceActive","GLOBAL",0)
+  !Global("J#KelseyRomanceActive","GLOBAL",3)
+  Global("J#KelseyMatch","GLOBAL",1)
+  See(Player1)
+  !AreaType(DUNGEON)
+  CombatCounter(0)
+  OR(23)
+    Global("J#LoveTalk","LOCALS",1)
+    Global("J#LoveTalk","LOCALS",3)
+    Global("J#LoveTalk","LOCALS",5)
+    Global("J#LoveTalk","LOCALS",7)
+    Global("J#LoveTalk","LOCALS",9)
+    Global("J#LoveTalk","LOCALS",11)
+    Global("J#LoveTalk","LOCALS",13)
+    Global("J#LoveTalk","LOCALS",15)
+    Global("J#LoveTalk","LOCALS",17)
+    Global("J#LoveTalk","LOCALS",19)
+    Global("J#LoveTalk","LOCALS",21)
+    Global("J#LoveTalk","LOCALS",23)
+    Global("J#LoveTalk","LOCALS",25)
+    Global("J#LoveTalk","LOCALS",27)
+    Global("J#LoveTalk","LOCALS",29)
+    Global("J#LoveTalk","LOCALS",31)
+    Global("J#LoveTalk","LOCALS",33)
+    Global("J#LoveTalk","LOCALS",35)
+    Global("J#LoveTalk","LOCALS",37)
+    Global("J#LoveTalk","LOCALS",39)
+    Global("J#LoveTalk","LOCALS",43)
+    Global("J#LoveTalk","LOCALS",45)
+    Global("J#LoveTalk","LOCALS",49)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("J#KelseyRomance","GLOBAL",10)
+END
+
+IF
+  InParty(Myself)
+  !Global("J#KelseyRomanceActive","GLOBAL",0)
+  !Global("J#KelseyRomanceActive","GLOBAL",3)
+  Global("J#KelseyMatch","GLOBAL",1)
+  RealGlobalTimerExpired("J#KelseyRomance","GLOBAL")
+  See(Player1)
+  !AreaType(DUNGEON)
+  !AreaType(FOREST)
+  CombatCounter(0)
+  Global("J#LoveTalk","LOCALS",41)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+THEN
+  RESPONSE #100
+    PlaySong(123456)
+    MoveViewObject("J#Kelsey",INSTANT)
+    IncrementGlobal("J#LoveTalk","LOCALS",1)
+    PlaySound("FWKSong")
+    Interact(Player1)
+END
+
+IF
+  InParty(Myself)
+  !Global("J#KelseyRomanceActive","GLOBAL",0)
+  !Global("J#KelseyRomanceActive","GLOBAL",3)
+  Global("J#KelseyMatch","GLOBAL",1)
+  See(Player1)
+  !AreaType(DUNGEON)
+  CombatCounter(0)
+  Global("J#LoveTalk","LOCALS",47)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+THEN
+  RESPONSE #100
+    PlaySong(123456)
+    MoveViewObject("J#Kelsey",INSTANT)
+    IncrementGlobal("J#LoveTalk","LOCALS",1)
+    PlaySound("FWKSong")
+    Interact(Player1)
+END
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("J#KelseyRomance","GLOBAL")
+  !Global("J#KelseyRomanceActive","GLOBAL",0)
+  !Global("J#KelseyRomanceActive","GLOBAL",3)
+  Global("J#KelseyMatch","GLOBAL",1)
+  !AreaType(DUNGEON)
+  !AreaCheck("AR1300")
+  See(Player1)
+  !See([ENEMY])
+  !Range([NEUTRAL],10)
+  CombatCounter(0)
+  OR(21)
+    Global("J#LoveTalk","LOCALS",1)
+    Global("J#LoveTalk","LOCALS",3)
+    Global("J#LoveTalk","LOCALS",5)
+    Global("J#LoveTalk","LOCALS",7)
+    Global("J#LoveTalk","LOCALS",9)
+    Global("J#LoveTalk","LOCALS",11)
+    Global("J#LoveTalk","LOCALS",13)
+    Global("J#LoveTalk","LOCALS",15)
+    Global("J#LoveTalk","LOCALS",17)
+    Global("J#LoveTalk","LOCALS",19)
+    Global("J#LoveTalk","LOCALS",21)
+    Global("J#LoveTalk","LOCALS",23)
+    Global("J#LoveTalk","LOCALS",27)
+    Global("J#LoveTalk","LOCALS",29)
+    Global("J#LoveTalk","LOCALS",31)
+    Global("J#LoveTalk","LOCALS",33)
+    Global("J#LoveTalk","LOCALS",35)
+    Global("J#LoveTalk","LOCALS",37)
+    Global("J#LoveTalk","LOCALS",39)
+    Global("J#LoveTalk","LOCALS",43)
+    Global("J#LoveTalk","LOCALS",49)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+THEN
+  RESPONSE #100
+    PlaySong(123456)
+    MoveViewObject("J#Kelsey",INSTANT)
+    IncrementGlobal("J#LoveTalk","LOCALS",1)
+    PlaySound("FWKSong")
+    Interact(Player1)
+END
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("J#KelseyRomance","GLOBAL")
+  Global("J#KelseyMatch","GLOBAL",1)
+  Global("J#LoveTalk","LOCALS",46)
+THEN
+  RESPONSE #100
+    IncrementGlobal("J#LoveTalk","LOCALS",1)
+END
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("J#KelseyRomance","GLOBAL")
+  Global("J#KelseyMatch","GLOBAL",1)
+  OR(24)
+    Global("J#LoveTalk","LOCALS",2)
+    Global("J#LoveTalk","LOCALS",4)
+    Global("J#LoveTalk","LOCALS",6)
+    Global("J#LoveTalk","LOCALS",8)
+    Global("J#LoveTalk","LOCALS",10)
+    Global("J#LoveTalk","LOCALS",12)
+    Global("J#LoveTalk","LOCALS",14)
+    Global("J#LoveTalk","LOCALS",16)
+    Global("J#LoveTalk","LOCALS",18)
+    Global("J#LoveTalk","LOCALS",20)
+    Global("J#LoveTalk","LOCALS",22)
+    Global("J#LoveTalk","LOCALS",24)
+    Global("J#LoveTalk","LOCALS",26)
+    Global("J#LoveTalk","LOCALS",28)
+    Global("J#LoveTalk","LOCALS",30)
+    Global("J#LoveTalk","LOCALS",32)
+    Global("J#LoveTalk","LOCALS",34)
+    Global("J#LoveTalk","LOCALS",36)
+    Global("J#LoveTalk","LOCALS",38)
+    Global("J#LoveTalk","LOCALS",40)
+    Global("J#LoveTalk","LOCALS",42)
+    Global("J#LoveTalk","LOCALS",44)
+    Global("J#LoveTalk","LOCALS",48)
+    Global("J#LoveTalk","LOCALS",50)
+THEN
+  RESPONSE #100
+    IncrementGlobal("J#LoveTalk","LOCALS",1)
+    RealSetGlobalTimer("J#KelseyRomance","GLOBAL",2600)
+END
+
+IF
+         Global("FWKelseySOAMornAfter","LOCALS",2)
+THEN
+    RESPONSE #100
+         SetGlobal("FWKelseySOAMornAfter","LOCALS",3)
+         StartDialogueNoSet(Player1)
+         Wait(1)
+END
+
+IF
+  HotKey(K)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    StartCutScene("kfix")
+END
+

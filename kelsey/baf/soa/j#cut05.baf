@@ -1,0 +1,17 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("J#Kelsey")  //
+    CreateCreatureObjectOffScreen("J#Clinn","J#Kelsey",0,0,0)  // ~Clinn~
+    CreateCreatureObjectOffScreen("J#Bharle","J#Kelsey",0,0,0)  // ~Bharle~
+    CreateCreatureObjectOffScreen("J#Vlamin","J#Kelsey",0,0,0)  // ~Vlaming~
+    ActionOverride("J#Vlaming",MoveToObject("J#Merritt14"))
+    ActionOverride("J#Piotr",MoveToObject("J#Merritt14"))
+    ActionOverride("J#Bharle",MoveToObject("J#Kelsey"))
+    ActionOverride("J#Clinn",MoveToObject("J#Lilla"))
+    Wait(6)
+    ClearActions("J#Lilla")
+    ActionOverride("J#Lilla",StartDialogNoSet([ANYONE]))
+END
+

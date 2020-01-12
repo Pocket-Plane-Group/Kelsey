@@ -1,0 +1,25 @@
+IF
+  Global("J#BribedMerritt","GLOBAL",2)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  Global("J#CearaFight","GLOBAL",4)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  OR(2)
+    Global("J#CearaFighter","GLOBAL",0)
+    !See([GOODCUTOFF])
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    NoAction()
+END
+

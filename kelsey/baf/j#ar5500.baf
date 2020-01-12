@@ -1,0 +1,21 @@
+IF
+	Global("J#HalfOrcSpawn","AR5500",0)
+	Global("FWMETKELVIM","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("J#HalfOrcSpawn","AR5500",1)
+		CreateCreature("FWRlaash",[3148.1602],14)
+END
+
+IF
+	Global("FWKelseyLeftSaradush","GLOBAL",1)
+	GlobalTimerExpired("FWKelseyAmkethTimer","GLOBAL")
+	G("FWKelseySaraMoved",0)
+	AreaCheck("AR5500")
+THEN
+	RESPONSE #100
+		SetGlobal("FWKelseySaraMoved","GLOBAL",1)
+		MoveGlobal("AR5500","J#Kelsey",[2744.1453])
+END
+
+

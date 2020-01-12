@@ -1,0 +1,11 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("J#Kelsey")
+		ForceSpell("FWBirinar",WIZARD_BURNING_HANDS)
+		SmallWait(1)
+		ActionOverride("FWBIRINAR",StartDialogueNoSet([ANYONE]))
+END
+
+

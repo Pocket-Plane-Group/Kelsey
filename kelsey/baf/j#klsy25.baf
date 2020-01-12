@@ -1,0 +1,567 @@
+IF
+	AreaCheck("AR6200")
+	InParty(Myself)
+	GGT("FWImoenRomanceActive",1)
+	!Dead("Imoen2")
+	OR(2)
+		G("ImoenEpilogueAnyway",0)
+		G("FWKelseyEpilogueAnyway",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ImoenEpilogueAnyway","GLOBAL",1)
+		SetGlobal("FWKelseyEpilogueAnyway","GLOBAL",1)
+END
+
+IF
+	Global("J#KelseySummoned","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+		Wait(1)
+END
+
+IF
+	InParty(Myself)
+	Global("FWDidKelseyMorningAfter","LOCALS",0)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	OR(2)
+		Global("FWAnomenTemptsPC","GLOBAL",5)
+		Global("FWAnomenTemptsPC","GLOBAL",6)
+	CombatCounter(0)
+	!See([ENEMY])
+	See(Player1)
+THEN
+	RESPONSE #100
+		SetGlobal("FWDidKelseyMorningAfter","LOCALS",1)
+		StartDialogueNoSet(Player1)
+		Wait(1)
+END
+
+IF
+  InParty(Myself)
+  GlobalGT("FWRLAASHTalk","GLOBAL",3)
+  Global("FWPostBirinar","LOCALS",0)
+THEN
+    RESPONSE #100
+             SetGlobal("FWPostBirinar","LOCALS",1)
+             RealSetGlobalTimer("FWBirinarTalk","LOCALS",450)
+END
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("FWBirinarTalk","LOCALS")
+  !ActuallyInCombat()
+  !AreaCheck("AR6200")
+  Global("FWPostBirinar","LOCALS",1)
+  See(Player1)
+THEN
+    RESPONSE #100
+             SetGlobal("FWPostBirinar","LOCALS",2)
+             Dialogue(Player1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("FWAnomenCheatTimer","GLOBAL")
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	Global("FWKelseyUltimatumOneShot","GLOBAL",0)
+	OR(2)
+		Global("FWAnomenTemptsPC","GLOBAL",8)
+		Global("FWAnomenTemptsPC","GLOBAL",7)
+	CombatCounter(0)
+	!See([ENEMY])
+	See(Player1)
+THEN
+	RESPONSE #100
+		SetGlobal("FWKelseyUltimatumOneShot","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+		Wait(1)
+END
+
+IF
+	Global("J#ToBSounds","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetPlayerSound(Myself,@2599,LEADER)
+		SetGlobal("J#ToBSounds","LOCALS",1)
+END
+
+IF
+	Global("FWMETKELVIM","GLOBAL",2)
+	!Exists("FWKelvim")
+	!Exists("FWMirena")
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+		Wait(1)
+END
+
+IF
+  G("FWGoodNightCernd",1)
+  PartyRested()
+  !ActuallyInCombat()
+  InParty(Myself)
+  InParty("Cernd")
+  !Dead("Cernd")
+THEN
+RESPONSE #100
+         Interact("Cernd")
+END
+
+IF
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	Global("FWExpLoveTalk","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("FWExpLoveTalk","LOCALS",1)
+		RealSetGlobalTimer("J#KelseyRomance","GLOBAL",2400)
+END
+
+IF
+	InParty(Myself)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	CombatCounter(0)
+        GlobalGT("TethyrBattleStart","GLOBAL",0)
+        Global("FWKelseyPostOasis","LOCALS",0)
+THEN
+    RESPONSE #100
+        RealSetGlobalTimer("FWKelseyOasisLT","LOCALS",500)
+        SetGlobal("FWKelseyPostOasis","LOCALS",1)
+END
+
+IF
+	InParty(Myself)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	CombatCounter(0)
+	RealGlobalTimerExpired("FWKelseyOasisLT","LOCALS")
+        !AreaCheck("AR6200")
+	Global("FWKelseyPostOasis","LOCALS",1)
+THEN
+    RESPONSE #100
+        SetGlobal("FWKelseyPostOasis","LOCALS",2)
+        PlaySong(123456)
+	MoveViewObject(Player1,INSTANT)
+	PlaySound("FWKSong")
+	Interact(Player1)
+	Wait(1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("J#KelseyRomance","GLOBAL")
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	PartyRested()
+	See(Player1)
+	CombatCounter(0)
+	OR(10)
+		Global("FWExpLoveTalk","LOCALS",1)
+		Global("FWExpLoveTalk","LOCALS",3)
+		Global("FWExpLoveTalk","LOCALS",7)
+		Global("FWExpLoveTalk","LOCALS",9)
+		Global("FWExpLoveTalk","LOCALS",11)
+		Global("FWExpLoveTalk","LOCALS",13)
+		Global("FWExpLoveTalk","LOCALS",15)
+		Global("FWExpLoveTalk","LOCALS",17)
+		Global("FWExpLoveTalk","LOCALS",19)
+		Global("FWExpLoveTalk","LOCALS",21)
+THEN
+	RESPONSE #100
+		RealSetGlobalTimer("J#KelseyRomance","GLOBAL",10)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("J#KelseyRomance","GLOBAL")
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	See(Player1)
+	!AmIInWatchersKeepPleaseIgnoreTheLackOfApostophe()
+	CombatCounter(0)
+	OR(8)
+		Global("FWExpLoveTalk","LOCALS",1)
+		Global("FWExpLoveTalk","LOCALS",3)
+		Global("FWExpLoveTalk","LOCALS",9)
+		Global("FWExpLoveTalk","LOCALS",13)
+		Global("FWExpLoveTalk","LOCALS",15)
+		Global("FWExpLoveTalk","LOCALS",17)
+		Global("FWExpLoveTalk","LOCALS",19)
+		Global("FWExpLoveTalk","LOCALS",21)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWExpLoveTalk","LOCALS",1)
+		PlaySong(123456)
+		MoveViewObject(Player1,INSTANT)
+		PlaySound("FWKSong")
+		Interact(Player1)
+		Wait(1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("J#KelseyRomance","GLOBAL")
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	Global("J#SaradushTimer","LOCALS",1)
+	Global("SaradushSacked","GLOBAL",1)
+	See(Player1)
+	!AreaCheck("AR4500")
+	!AmIInWatchersKeepPleaseIgnoreTheLackOfApostophe()
+	CombatCounter(0)
+	Global("FWExpLoveTalk","LOCALS",11)
+	!Range([NEUTRAL],10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWExpLoveTalk","LOCALS",1)
+		PlaySong(123456)
+		MoveViewObject(Player1,INSTANT)
+		PlaySound("FWKSong")
+		Interact(Player1)
+		Wait(1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("J#KelseyRomance","GLOBAL")
+	OR(11)
+		Global("FWExpLoveTalk","LOCALS",2)
+		Global("FWExpLoveTalk","LOCALS",4)
+		Global("FWExpLoveTalk","LOCALS",6)
+		Global("FWExpLoveTalk","LOCALS",8)
+		Global("FWExpLoveTalk","LOCALS",12)
+		Global("FWExpLoveTalk","LOCALS",14)
+		Global("FWExpLoveTalk","LOCALS",16)
+		Global("FWExpLoveTalk","LOCALS",18)
+		Global("FWExpLoveTalk","LOCALS",20)
+		Global("FWExpLoveTalk","LOCALS",22)
+		Global("FWExpLoveTalk","LOCALS",24)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWExpLoveTalk","LOCALS",1)
+		RealSetGlobalTimer("J#KelseyRomance","GLOBAL",2400)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("J#KelseyRomance","GLOBAL")
+	Global("FWExpLoveTalk","LOCALS",10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWExpLoveTalk","LOCALS",1)
+END
+
+IF
+	Global("J#SaradushTimer","LOCALS",0)
+	Global("SaradushSacked","GLOBAL",1)
+	Global("FWExpLoveTalk","LOCALS",11)
+	InParty(Myself)
+THEN
+	RESPONSE #100
+		SetGlobal("J#SaradushTimer","LOCALS",1)
+		RealSetGlobalTimer("J#KelseyRomance","GLOBAL",500)
+END
+
+IF
+	Global("FWLovedOne","GLOBAL",6)
+	GlobalGT("FWExpLoveTalk","LOCALS",0)
+	GlobalLT("FWExpLoveTalk","LOCALS",7)
+	InParty(Myself)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	See(Player1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("FWExpLoveTalk","LOCALS",8)
+		Interact(Player1)
+		Wait(1)
+END
+
+
+IF
+	Global("FWLovedOne","GLOBAL",6)
+	Global("FWExpLoveTalk","LOCALS",7)
+	InParty(Myself)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	See(Player1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWExpLoveTalk","LOCALS",1)
+		Interact(Player1)
+		Wait(1)
+END
+
+IF
+	GlobalGT("WraithPunish","GLOBAL",0)
+	!Global("FWLovedOne","GLOBAL",6)
+	InParty(Myself)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	GlobalGT("FWExpLoveTalk","LOCALS",0)
+	GlobalLT("FWExpLoveTalk","LOCALS",8)
+THEN
+	RESPONSE #100
+		SetGlobal("FWExpLoveTalk","LOCALS",8)
+END
+
+IF
+	Global("SaradushSacked","GLOBAL",1)
+	Global("FWExpLoveTalk","LOCALS",9)
+	InParty(Myself)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	See(Player1)
+	PartyRested()
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWExpLoveTalk","LOCALS",1)
+		PlaySong(123456)
+		MoveViewObject(Player1,INSTANT)
+		PlaySound("FWKSong")
+		Interact(Player1)
+		Wait(1)
+END
+
+IF
+  InParty(Myself)
+  Global("J#KelseyRomanceActive","GLOBAL",2)
+  Global("FWKelseyDidMW","LOCALS",1)
+  Global("FWExpLoveTalk","LOCALS",8)
+THEN
+    RESPONSE #100
+        IncrementGlobal("FWExpLoveTalk","LOCALS",1)
+        RealSetGlobalTimer("J#KelseyRomance","GLOBAL",2400)
+END
+
+
+IF
+	Global("ChallengesDone","GLOBAL",1)
+	Global("FWExpLoveTalk","LOCALS",23)
+	InParty(Myself)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	See(Player1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWExpLoveTalk","LOCALS",1)
+		PlaySong(123456)
+		MoveViewObject(Player1,INSTANT)
+		PlaySound("FWKSong")
+		Interact(Player1)
+		Wait(1)
+END
+
+IF
+  InParty(Myself)
+  GlobalGT("FWImoenLoveTalk","GLOBAL",22)
+  InParty("Imoen2")
+  Global("FWKelseyImoZap","GLOBAL",0)
+THEN
+    RESPONSE #100
+             SetGlobal("FWKelseyImoZap","GLOBAL",1)
+             RealSetGlobalTimer("FWImoZap","GLOBAL",450)
+END
+
+IF
+  InParty(Myself)
+  InParty("Imoen2")
+  Range("Imoen2",8)
+  !Dead("Imoen2")
+  !ActuallyInCombat()
+  Global("FWKelseyImoZap","GLOBAL",1)
+  RealGlobalTimerExpired("FWImoZap","GLOBAL")
+THEN
+    RESPONSE #100
+             SetGlobal("FWKelseyImoZap","GLOBAL",2)
+             StartDialog("J#KLSYNP","Imoen2")
+END
+
+IF
+	!Global("J#KelseyRomanceActive","GLOBAL",2)
+	InParty("Imoen2")
+	Global("FWImoenRomanceActive","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("FWImoenRomanceActive","GLOBAL",1)
+		RealSetGlobalTimer("FWImoenRomance","GLOBAL",600)
+		SetGlobal("FWImoenLoveTalk","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	InParty("Imoen2")
+	RealGlobalTimerExpired("FWImoenRomance","GLOBAL")
+	OR(8)
+		Global("FWImoenLoveTalk","GLOBAL",4)
+		Global("FWImoenLoveTalk","GLOBAL",6)
+		Global("FWImoenLoveTalk","GLOBAL",8)
+		Global("FWImoenLoveTalk","GLOBAL",12)
+		Global("FWImoenLoveTalk","GLOBAL",16)
+		Global("FWImoenLoveTalk","GLOBAL",24)
+		Global("FWImoenLoveTalk","GLOBAL",26)
+		Global("FWImoenLoveTalk","GLOBAL",28)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWImoenLoveTalk","GLOBAL",1)
+		RealSetGlobalTimer("FWImoenRomance","GLOBAL",2000)
+END
+
+IF
+	InParty(Myself)
+	InParty("Imoen2")
+	RealGlobalTimerExpired("FWImoenRomance","GLOBAL")
+	Global("FWImoenLoveTalk","GLOBAL",10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWImoenLoveTalk","GLOBAL",1)
+		RealSetGlobalTimer("FWImoenRomance","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	InParty("Imoen2")
+	RealGlobalTimerExpired("FWImoenRomance","GLOBAL")
+	OR(2)
+		Global("FWImoenRomanceActive","GLOBAL",1)
+		Global("FWImoenRomanceActive","GLOBAL",2)
+	PartyRested()
+	See("Imoen2")
+	CombatCounter(0)
+	OR(4)
+		Global("FWImoenLoveTalk","GLOBAL",3)
+		Global("FWImoenLoveTalk","GLOBAL",9)
+		Global("FWImoenLoveTalk","GLOBAL",15)
+		Global("FWImoenLoveTalk","GLOBAL",23)
+THEN
+	RESPONSE #100
+		RealSetGlobalTimer("FWImoenRomance","GLOBAL",10)
+END
+
+IF
+	InParty(Myself)
+	InParty("Imoen2")
+	RealGlobalTimerExpired("FWImoenRomance","GLOBAL")
+	OR(2)
+		Global("FWImoenRomanceActive","GLOBAL",1)
+		Global("FWImoenRomanceActive","GLOBAL",2)
+	See("Imoen2")
+	!AmIInWatchersKeepPleaseIgnoreTheLackOfApostophe()
+	CombatCounter(0)
+	OR(4)
+		Global("FWImoenLoveTalk","GLOBAL",3)
+		Global("FWImoenLoveTalk","GLOBAL",11)
+		Global("FWImoenLoveTalk","GLOBAL",15)
+		Global("FWImoenLoveTalk","GLOBAL",23)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWIMoenLoveTalk","GLOBAL",1)
+		Interact("Imoen2")
+		Wait(1)
+END
+
+IF
+	InParty(Myself)
+	InParty("Imoen2")
+	!Dead("Imoen2")
+	OR(2)
+		Global("FWImoenRomanceActive","GLOBAL",1)
+		Global("FWImoenRomanceActive","GLOBAL",2)
+	See("Imoen2")
+	!AmIInWatchersKeepPleaseIgnoreTheLackOfApostophe()
+	CombatCounter(0)
+	PartyRested()
+	Global("FWImoenLoveTalk","GLOBAL",25)
+	G("FWImoenNightmare",1)
+	!See([ENEMY])
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWImoenLoveTalk","GLOBAL",1)
+		Interact("Imoen2")
+		Wait(1)
+END
+
+IF
+	RealGlobalTimerExpired("J#KelseyFlirt","LOCALS")
+	ActuallyInCombat()
+THEN
+	RESPONSE #100
+		SetGlobal("FWKelseyStartFlirt","GLOBAL",0)
+		RealSetGlobalTimer("J#KelseyFlirt","LOCALS",100)
+END
+
+IF
+	RealGlobalTimerExpired("J#KelseyFlirt","LOCALS")
+	!G("FWWaitForAnomenToLeave",1)
+	Global("FWKelseyStartFlirt","GLOBAL",0)
+	G("FWDisableFlirts",0)
+	InParty(Myself)
+	!StateCheck(Player1,STATE_SLEEPING)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	See(Player1)
+	!AmIInWatchersKeepPleaseIgnoreTheLackOfApostophe()
+	CombatCounter(0)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	!AreaCheck("AR6200")
+THEN
+	RESPONSE #100
+		SetGlobal("FWKelseyStartFlirt","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+		Wait(1)
+END
+
+IF
+	RealGlobalTimerExpired("J#KelseyFlirt","LOCALS")
+	Global("FWKelseyStartFlirt","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("FWKelseyStartFlirt","GLOBAL",0)
+		RealSetGlobalTimer("J#KelseyFlirt","LOCALS",2000)
+END
+
+IF
+	Global("J#KelseyFlirtsStart","LOCALS",0)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("J#KelseyFlirtsStart","LOCALS",1)
+		RealSetGlobalTimer("J#KelseyFlirt","LOCALS",2000)
+END
+
+IF
+	HotKey(K)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		StartCutScene("kfix25")
+END
+
+IF
+	G("FWAnomenTemptsPC",7)
+	G("J#KelseyRomanceActive",2)
+	G("FWWaitForAnomenToLeave",0)
+	InParty("Anomen")
+THEN
+	RESPONSE #100
+		SetGlobal("FWWaitForAnomenToLeave","GLOBAL",1)
+END
+
+IF
+	G("FWWaitForAnomenToLeave",1)
+	!InParty("Anomen")
+THEN
+	RESPONSE #100
+		SetGlobal("FWWaitForAnomenToLeave","GLOBAL",0)
+END
+
+IF
+         Global("FWKelseyTOBMornAfter","LOCALS",2)
+THEN
+    RESPONSE #100
+         SetGlobal("FWKelseyTOBMornAfter","LOCALS",3)
+         StartDialogueNoSet(Player1)
+         Wait(1)
+END
+
+
+

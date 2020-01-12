@@ -1,0 +1,87 @@
+BEGIN_ACTION_DEFINITION
+  Name(AttackRanged)
+  TRIGGER
+  ACTION
+    RESPONSE #scsprob1
+      EquipRanged()
+      AttackOneRound(scstarget)
+END
+
+IF
+  StateCheck(Myself,STATE_PANIC)
+THEN
+  RESPONSE #100
+    RandomWalkContinuous()
+END
+
+BEGIN LOOP(enemyloop||Nearest;SecondNearest;ThirdNearest)
+IF
+  ActionListEmpty()
+  OR(2)
+    HasItemEquiped("fwkcloak",Myself)
+    HasItemEquiped("fwkcloa2",Myself)
+  !Global("fl#cloak","LOCALS",1)
+  See(enemyloopEnemyOf(Myself))
+  Range(LastSeenBy(Myself),10)
+  CheckStatGT(LastSeenBy(Myself),8,LEVEL)
+  !CheckStatGT(LastSeenBy(Myself),99,RESISTACID)
+THEN
+  RESPONSE #100
+    UseItemSlot(Myself,4)
+    SetGlobal("fl#cloak","LOCALS",1)
+END
+END LOOP
+
+IF TRIGGER
+  TargetBlock(EnemiesInOrder)
+  TriggerBlock(MissileResFull)
+  ActionListEmpty()
+  !Range(scstarget,7)
+  OR(21)
+  BEGIN LOOP(loopvar||01;02;03;04;05;06;07;08;09;10)
+    HasItemEquiped("slngloopvar",Myself)
+  END LOOP
+  HasItemEquiped("wasling",Myself)
+  BEGIN LOOP(loopvar||01;02;03;04;05;06;07;08)
+    HasItemEquiped("dartloopvar",Myself)
+  END LOOP
+  HasItemEquiped("melfmet",Myself)
+  HasItemEquiped("eneblade",Myself)
+THEN DO
+  Action(AttackRanged)
+END
+
+IF
+  ActionListEmpty()
+  See(NearestEnemyOf(Myself))
+  Range(LastSeenBy(Myself),7)
+  CheckStatGT(Myself,5,STONESKINS)
+  HPPercentGT(Myself,50)
+  !StateCheck(Myself,STATE_INVISIBLE)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackOneRound(LastSeenBy(Myself))
+END
+
+IF 
+  ActionListEmpty()
+  See(NearestEnemyOf(Myself))
+  Range(LastSeenBy(Myself),7)
+  !StateCheck(Myself,STATE_INVISIBLE)
+  OR(2)
+    !CheckStatGT(Myself,5,STONESKINS)
+    !HPPercentGT(Myself,50)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+  Global("fl#cloak","LOCALS",1)
+  PartyRested()
+THEN
+  RESPONSE #100
+    SetGlobal("fl#cloak","LOCALS",0)
+END

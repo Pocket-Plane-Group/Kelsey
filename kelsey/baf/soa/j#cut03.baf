@@ -1,0 +1,15 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("J#Kelsey")  //
+    Wait(1)
+    CreateCreatureObjectOffScreen("J#Mert15",Myself,0,0,0)  // ~Merritt~
+    CreateCreatureObject("J#Rumil","J#Merritt15",0,0,0)  // ~Rumil~
+    Wait(1)
+    ActionOverride("J#Rumil",MoveToObjectFollow("J#Merritt"))
+    ActionOverride("J#Merritt15",MoveToObject("J#Ceara"))
+    Wait(1)
+    ActionOverride("J#Merritt15",StartDialogNoSet(Player1))
+END
+

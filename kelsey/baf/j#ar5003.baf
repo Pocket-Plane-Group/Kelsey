@@ -1,0 +1,10 @@
+IF
+	InParty("J#Kelsey")
+	Global("FWMirenaExists","AR5003",0)
+THEN
+	RESPONSE #100
+		SetGlobal("FWMirenaExists","AR5003",1)
+		CreateCreature("FWMirena",[904.1030],12)
+END
+
+

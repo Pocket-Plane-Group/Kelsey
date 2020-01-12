@@ -1,0 +1,13 @@
+IF
+	Global("FWAnomenTemptsPC","GLOBAL",7)
+	RealGlobalTimerExpired("FWAnomenBreakupTimer","GLOBAL")
+	See(Player1)
+	InParty(Myself)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+

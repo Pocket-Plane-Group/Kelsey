@@ -1,0 +1,889 @@
+BACKUP ~kelsey\backup~
+AUTHOR ~jcompton@pocketplane.net~
+
+README ~kelsey/docs/readme.html~
+VERSION ~V5~
+ASK_EVERY_COMPONENT
+
+ALWAYS
+  ACTION_IF NOT VARIABLE_IS_SET bg2_chapter BEGIN
+    ACTION_IF GAME_IS ~eet~ BEGIN
+      OUTER_SET bg2_chapter = 12
+    END ELSE BEGIN
+      OUTER_SET bg2_chapter = 0
+    END
+    OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+      OUTER_SET bg2_chapter = bg2_chapter + 1
+      OUTER_SPRINT name_source ~bg2_chapter_%i%~
+      OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+    END
+  END
+
+  DEFINE_ACTION_FUNCTION install_portrait
+    STR_VAR
+      portrait = ""
+  BEGIN
+    ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+      COPY ~kelsey/portraits/ee/%portrait%~ override
+    END ELSE BEGIN
+      COPY ~kelsey/portraits/%portrait%~ override
+    END
+  END
+
+  ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+    OUTER_SPRINT tra_path ~%MOD_FOLDER%/tra/bgee~
+  END ELSE BEGIN
+    OUTER_SPRINT tra_path ~%MOD_FOLDER%/tra~
+  END
+
+  DEFINE_ACTION_MACRO bgee_language BEGIN
+    ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
+      LOAD_TRA ~%MOD_FOLDER%/tra/bgee/english/game.tra~
+      LOAD_TRA ~%MOD_FOLDER%/tra/bgee/%LANGUAGE%/game.tra~
+    END
+  END
+
+  LAM bgee_language
+END
+
+LANGUAGE ~English~
+         ~english~
+         ~kelsey/tra/english/setup.tra~
+         ~kelsey/tra/english/game.tra~
+LANGUAGE ~Espanol (Traducido por Clan DLAN)~
+         ~spanish~
+         ~kelsey/tra/english/setup.tra~
+         ~kelsey/tra/english/game.tra~
+         ~kelsey/tra/spanish/setup-%WEIDU_OS%.tra~
+         ~kelsey/tra/spanish/game.tra~
+LANGUAGE ~German (Translated by Beaz and Beyshaliban)~
+         ~german~
+         ~kelsey/tra/english/setup.tra~
+         ~kelsey/tra/english/game.tra~
+         ~kelsey/tra/german/setup-%WEIDU_OS%.tra~
+         ~kelsey/tra/german/game.tra~
+LANGUAGE ~Russian (Translated by Prowler)~
+         ~russian~
+         ~kelsey/tra/english/setup.tra~
+         ~kelsey/tra/english/game.tra~
+         ~kelsey/tra/russian/game.tra~
+
+
+BEGIN @1 DESIGNATED 0
+
+UNINSTALL kelseytob.tp2 5
+UNINSTALL kelseytob.tp2 4
+UNINSTALL kelseytob.tp2 3
+UNINSTALL kelseytob.tp2 2
+UNINSTALL kelseytob.tp2 1
+UNINSTALL kelseytob.tp2 0
+
+// Copying .CRE files (Klsy09, 11, 12, 13, and bad guys)
+
+COPY ~kelsey/cre/j#klsy09.cre~ ~override\J#Klsy09.cre~
+     ~kelsey/cre/j#klsy11.cre~ ~override\J#Klsy11.cre~
+     ~kelsey/cre/j#klsy12.cre~ ~override\J#Klsy12.cre~
+     ~kelsey/cre/j#klsy13.cre~ ~override\J#Klsy13.cre~
+  SAY NAME1 @2
+  SAY NAME2 @2
+  SAY INITIAL_MEETING @3
+  SAY MORALE @4
+  SAY HAPPY @5
+  SAY UNHAPPY_ANNOYED @6
+  SAY UNHAPPY_SERIOUS @7
+  SAY UNHAPPY_BREAKING @8
+  SAY LEADER @9
+  SAY TIRED @10
+  SAY BORED @11
+  SAY BATTLE_CRY1 @12
+  SAY BATTLE_CRY2 @13
+  SAY BATTLE_CRY3 @14
+  SAY BATTLE_CRY4 @15
+  SAY DAMAGE ~~ [FWKLSY18]
+  SAY DYING ~~ [FWKLSY19]
+  SAY HURT @19
+  SAY AREA_FOREST @20
+  SAY AREA_CITY @21
+  SAY AREA_DUNGEON @22
+  SAY AREA_DAY @23
+  SAY AREA_NIGHT @24
+  SAY SELECT_COMMON1 @25
+  SAY SELECT_COMMON2 @26
+  SAY SELECT_COMMON3 @27
+  SAY SELECT_COMMON4 @28
+  SAY SELECT_COMMON5 @29
+  SAY SELECT_COMMON6 @30
+  SAY SELECT_ACTION1 @31
+  SAY SELECT_ACTION2 @32
+  SAY SELECT_ACTION3 @33
+  SAY SELECT_ACTION4 @34
+  SAY SELECT_ACTION5 @35
+  SAY SELECT_ACTION6 @36
+  SAY SELECT_ACTION7 @37
+  SAY SELECT_RARE1 @38
+  SAY SELECT_RARE2 @39
+  SAY CRITICAL_HIT @40
+  SAY CRITICAL_MISS @41
+  SAY TARGET_IMMUNE @42
+  SAY INVENTORY_FULL @43
+  SAY PICKED_POCKET @44
+  SAY HIDDEN_IN_SHADOWS @45
+  SAY SPELL_DISRUPTED @46
+  SAY SET_A_TRAP @47
+  SAY BIO @48
+
+COPY ~kelsey/cre/j#lilla.cre~ ~override\j#lilla.cre~
+  SAY NAME1 @49
+  SAY NAME2 @49
+  SAY INITIAL_MEETING @50
+  WRITE_ASCII SCRIPT_GENERAL useitem #8
+
+COPY ~kelsey/cre/j#clinn.cre~ ~override\j#clinn.cre~
+  SAY NAME1 @51
+  SAY NAME2 @51
+  WRITE_ASCII SCRIPT_DEFAULT pries18a #8
+  REMOVE_MEMORIZED_SPELL sppr214 sppr211 sppr411 sppr412 sppr511 sppr604 sppr711 sppr718
+  ADD_MEMORIZED_SPELL sppr204 #1 priest (3)
+  ADD_MEMORIZED_SPELL sppr403 #3 priest (3)
+  ADD_MEMORIZED_SPELL sppr416 #3 priest (1)
+  ADD_MEMORIZED_SPELL sppr514 #4 priest (1)
+  ADD_MEMORIZED_SPELL sppr503 #4 priest (1)
+  ADD_MEMORIZED_SPELL spwi899 #6 wizard (1)
+
+COPY ~kelsey/cre/j#mert14.cre~ ~override\j#mert14.cre~
+  SAY NAME1 @52
+  SAY NAME2 @52
+  SAY INITIAL_MEETING @53
+  WRITE_ASCII SCRIPT_DEFAULT figmag16 #8
+  REMOVE_MEMORIZED_SPELL spwi407 spwi513 spwi503 spwi506 spwi615 spwi713
+  ADD_MEMORIZED_SPELL spwi408 #3 wizard (1)
+  ADD_MEMORIZED_SPELL spwi504 #4 wizard (3)
+  ADD_MEMORIZED_SPELL spwi613 #5 wizard (1)
+  ADD_MEMORIZED_SPELL spwi716 #6 wizard (1)
+
+COPY ~kelsey/cre/j#mert15.cre~ ~override\j#mert15.cre~
+  SAY NAME1 @52
+  SAY NAME2 @52
+  WRITE_ASCII SCRIPT_DEFAULT figmag16 #8
+  REMOVE_MEMORIZED_SPELL spwi407 spwi513 spwi503 spwi506 spwi615 spwi711 spwi816
+  ADD_MEMORIZED_SPELL spwi408 #3 wizard (1)
+  ADD_MEMORIZED_SPELL spwi504 #4 wizard (3)
+  ADD_MEMORIZED_SPELL spwi613 #5 wizard (1)
+  ADD_MEMORIZED_SPELL spwi716 #6 wizard (1)
+  ADD_MEMORIZED_SPELL spwi813 #7 wizard (1)
+
+COPY ~kelsey/cre/j#rumil.cre~ ~override\j#rumil.cre~
+  SAY NAME1 @54
+  SAY NAME2 @54
+  WRITE_ASCII SCRIPT_RACE "" #8 //j#kfight in both RACE and CLASS
+
+COPY ~kelsey/cre/j#ceara.cre~ ~override\j#ceara.cre~
+  SAY NAME1 @55
+  SAY NAME2 @55
+  SAY INITIAL_MEETING @56
+  WRITE_ASCII SCRIPT_GENERAL useitem #8
+  WRITE_ASCII SCRIPT_DEFAULT mage18a #8
+  REMOVE_MEMORIZED_SPELL spwi118 spwi217 spwi308 spwi312 spwi401 spwi407 spwi504 spwi513 spwi602 spwi608 spwi716
+  ADD_MEMORIZED_SPELL spwi112 #0 wizard (2)
+  ADD_MEMORIZED_SPELL spwi219 #1 wizard (1)
+  ADD_MEMORIZED_SPELL spwi303 #2 wizard (3)
+  ADD_MEMORIZED_SPELL spwi423 #3 wizard (3)
+  ADD_MEMORIZED_SPELL spwi508 #4 wizard (2)
+  ADD_MEMORIZED_SPELL spwi501 #4 wizard (2)
+  ADD_MEMORIZED_SPELL spwi604 #5 wizard (1)
+  ADD_MEMORIZED_SPELL spwi619 #5 wizard (1)
+  ADD_MEMORIZED_SPELL spwi713 #6 wizard (1)
+  ADD_MEMORIZED_SPELL spwi701 #6 wizard (1)
+  ADD_MEMORIZED_SPELL spwi898 #7 wizard (1)
+
+COPY ~kelsey/cre/j#morrid.cre~ ~override\j#morrid.cre~
+  SAY NAME1 @57
+  SAY NAME2 @57
+  WRITE_ASCII SCRIPT_GENERAL useitem #8
+
+COPY ~kelsey/cre/j#cossun.cre~ ~override\j#cossun.cre~
+  SAY NAME1 @58
+  SAY NAME2 @58
+  WRITE_ASCII SCRIPT_CLASS "j#cossun" #8
+  WRITE_ASCII SCRIPT_RACE "" #8 //j#cossun is too low in the order
+  WRITE_ASCII SCRIPT_DEFAULT pries18b #8
+  REMOVE_MEMORIZED_SPELL sppr214 sppr211 sppr315 sppr303 sppr401 sppr406 sppr411 sppr501 sppr502 sppr503 sppr601 sppr603 sppr604 sppr706 sppr718
+  ADD_MEMORIZED_SPELL sppr204 #1 priest (2)
+  ADD_MEMORIZED_SPELL sppr208 #1 priest (1)
+  ADD_MEMORIZED_SPELL sppr310 #2 priest (1)
+  ADD_MEMORIZED_SPELL sppr301 #2 priest (3)
+  ADD_MEMORIZED_SPELL sppr403 #3 priest (3)
+  ADD_MEMORIZED_SPELL sppr416 #3 priest (1)
+  ADD_MEMORIZED_SPELL sppr405 #3 priest (3)
+  ADD_MEMORIZED_SPELL sppr505 #4 priest (1)
+  ADD_MEMORIZED_SPELL sppr514 #4 priest (2)
+  ADD_MEMORIZED_SPELL sppr511 #4 priest (1)
+  ADD_MEMORIZED_SPELL sppr613 #5 priest (1)
+  ADD_MEMORIZED_SPELL sppr612 #5 priest (1)
+  ADD_MEMORIZED_SPELL sppr607 #5 priest (1)
+  ADD_MEMORIZED_SPELL spwi899 #6 wizard (2)
+
+COPY ~kelsey/cre/j#kasset.cre~ ~override\j#kasset.cre~
+  SAY NAME1 @59
+  SAY NAME2 @59
+  WRITE_ASCII SCRIPT_GENERAL useitem #8
+
+COPY ~kelsey/cre/j#piotr.cre~ ~override\j#piotr.cre~
+  SAY NAME1 @60
+  SAY NAME2 @60
+  WRITE_ASCII SCRIPT_GENERAL useitem #8
+
+COPY ~kelsey/cre/j#falpal.cre~ ~override\j#falpal.cre~
+
+COPY ~kelsey/cre/j#vmpkel.cre~ ~override\j#vmpkel.cre~
+  SAY NAME1 @2
+  SAY NAME2 @2
+
+COPY ~kelsey/cre/j#vlamin.cre~ ~override\j#vlamin.cre~
+  SAY NAME1 @61
+  SAY NAME2 @61
+  WRITE_ASCII SCRIPT_CLASS "j#vlamin" #8
+  WRITE_ASCII SCRIPT_GENERAL "" #8 //j#vlamin is too low in the order
+  WRITE_ASCII SCRIPT_DEFAULT mage14b #8
+  REMOVE_MEMORIZED_SPELL spwi106 spwi101 spwi116 spwi125 spwi205 spwi206 spwi326 spwi305 spwi306 spwi312 spwi418 spwi506 spwi601 spwi607
+  ADD_MEMORIZED_SPELL spwi112 #0 wizard (1)
+  ADD_MEMORIZED_SPELL spwi211 #1 wizard (1)
+  ADD_MEMORIZED_SPELL spwi302 #2 wizard (1)
+  ADD_MEMORIZED_SPELL spwi308 #2 wizard (4)
+  ADD_MEMORIZED_SPELL spwi512 #4 wizard (1)
+  ADD_MEMORIZED_SPELL spwi513 #4 wizard (1)
+  ADD_MEMORIZED_SPELL spwi605 #5 wizard (1)
+  ADD_MEMORIZED_SPELL spwi615 #5 wizard (1)
+
+COPY ~kelsey/cre/j#pura.cre~ ~override\j#pura.cre~
+  SAY NAME1 @62
+  SAY NAME2 @62
+  WRITE_ASCII SCRIPT_DEFAULT mage14c #8
+  REMOVE_MEMORIZED_SPELL spwi104 spwi118 spwi217 spwi201 spwi205 spwi221 spwi316 spwi326 spwi305 spwi312 spwi411 spwi407 spwi415 spwi513 spwi503 spwi523 spwi602 spwi616 spwi712
+  ADD_MEMORIZED_SPELL spwi112 #0 wizard (3)
+  ADD_MEMORIZED_SPELL spwi219 #1 wizard (1)
+  ADD_MEMORIZED_SPELL spwi211 #1 wizard (4)
+  ADD_MEMORIZED_SPELL spwi302 #2 wizard (1)
+  ADD_MEMORIZED_SPELL spwi306 #2 wizard (1)
+  ADD_MEMORIZED_SPELL spwi303 #2 wizard (2)
+  ADD_MEMORIZED_SPELL spwi423 #3 wizard (2)
+  ADD_MEMORIZED_SPELL spwi505 #4 wizard (2)
+  ADD_MEMORIZED_SPELL spwi506 #4 wizard (2)
+  ADD_MEMORIZED_SPELL spwi609 #5 wizard (1)
+  ADD_MEMORIZED_SPELL spwi616 #5 wizard (1)
+  ADD_MEMORIZED_SPELL spwi715 #5 wizard (1)
+
+COPY ~kelsey/cre/j#bharle.cre~ ~override\j#bharle.cre~
+  SAY NAME1 @63
+  SAY NAME2 @63
+  WRITE_ASCII SCRIPT_GENERAL useitem #8
+  WRITE_ASCII SCRIPT_DEFAULT wtarsgt #8
+
+// End of .CRE files
+
+
+// Beginning .d files
+
+COMPILE ~kelsey/d/j#klsyj.d~
+  USING ~%tra_path%\english\Kelsey.tra~
+        ~%tra_path%\%s\Kelsey.tra~
+
+COMPILE EVALUATE_BUFFER ~kelsey/d/bj#klsy.d~
+  USING ~%tra_path%\english\Kelsey.tra~
+        ~%tra_path%\%s\Kelsey.tra~
+
+COMPILE EVALUATE_BUFFER ~kelsey/d/FWKelseyInterject.d~
+  USING ~%tra_path%\english\Kelsey.tra~
+        ~%tra_path%\%s\Kelsey.tra~
+
+// End of .d files
+
+
+// Journals
+ADD_JOURNAL EXISTING TITLE (#74337) @1726 @1733 USING ~%tra_path%\english\Kelsey.tra~ ~%tra_path%\%s\Kelsey.tra~
+
+
+// Beginning of .2DA patching
+
+APPEND ~pdialog.2da~
+~J#Kelsey     J#KlsyP            J#KlsyJ           J#KlsyD~
+UNLESS ~J#Kelsey~
+UNLESS ~25POST~
+
+APPEND ~pdialog.2da~
+~J#Kelsey     J#KlsyP            J#KlsyJ           J#KlsyD        J#Kls25P           J#Kls25J              J#Kls25D              J#Klsy25~
+UNLESS ~J#Kelsey~
+IF     ~25POST~
+
+APPEND ~interdia.2da~
+~J#Kelsey    BJ#Klsy~
+UNLESS ~J#Kelsey~
+UNLESS ~25FILE~
+
+APPEND ~interdia.2da~
+~J#Kelsey    BJ#Klsy       BJ#Kls25~
+UNLESS ~J#Kelsey~
+IF     ~25FILE~
+
+APPEND ~interdia.2da~
+~IMOEN2     BIMOEN2       BIMOEN25~
+UNLESS ~Imoen2~
+IF ~25FILE~
+
+// End of .2DA patching
+
+
+// Beginning of Script EXTENDing
+
+EXTEND_BOTTOM ~Ar1000.bcs~ ~kelsey/baf/j#ar1000.baf~
+EXTEND_BOTTOM ~AR0809.bcs~ ~kelsey/baf/j#ar0809.baf~
+EXTEND_BOTTOM ~bodhiamb.bcs~ ~kelsey/baf/j#bodhiamb.baf~
+EXTEND_BOTTOM ~cleanse.bcs~ ~kelsey/baf/j#cleanse.baf~
+EXTEND_BOTTOM ~vampamb.bcs~ ~kelsey/baf/j#vampamb.baf~
+EXTEND_TOP ~anomen.bcs~ ~kelsey/baf/j#anomen.baf~
+
+// End of Script EXTENDing
+
+
+// These are the items
+
+COPY ~kelsey/itm/j#kelbdy.itm~ ~override\j#kelbdy.itm~
+  SAY NAME1 @64
+  SAY NAME2 @64
+  SAY UNIDENTIFIED_DESC @65
+  SAY DESC @66
+
+COPY ~kelsey/itm/j#helm01.itm~ ~override\j#helm01.itm~
+  SAY NAME2 @67
+  SAY DESC @68
+
+COPY ~kelsey/itm/j#amul01.itm~ ~override\j#amul01.itm~
+  SAY NAME1 @69
+  SAY NAME2 @70
+  SAY UNIDENTIFIED_DESC @71
+  SAY DESC @72
+
+COPY ~kelsey/itm/j#potn01.itm~ ~override\j#potn01.itm~
+  SAY NAME2 @73
+  SAY UNIDENTIFIED_DESC @74
+  SAY DESC @75
+
+COPY ~kelsey/itm/J#MinrSq.itm~ ~override/J#MinrSq.itm~
+  SAY NAME2 @76
+  SAY DESC @77
+
+COPY ~kelsey/itm/FWKCloak.itm~ ~override\FWKCloak.itm~
+  SAY NAME2 @78
+  SAY UNIDENTIFIED_DESC @79
+  SAY DESC @80
+
+COPY ~kelsey/itm/j#rod01.itm~ ~override\j#rod01.itm~
+  SAY NAME1 @81
+  SAY NAME2 @82
+  SAY UNIDENTIFIED_DESC @83
+  SAY DESC @84
+
+COPY ~kelsey/itm/j#note01.itm~ ~override\j#note01.itm~
+  SAY NAME2 @85
+  SAY DESC @86
+
+
+// These are the "Other Files" that we can copy across from the 0.6.5 IAP.
+
+// List of "Other Files" from 0.6.5 IAP are NOT represented in this COPY block:
+// AR0809.BCS, bodhiamb.bcs, cleanse.bcs, finbodh.bcs, vampamb.bcs
+// interdia.2da, anomen.bcs, songlist.2da, pdialog.2da, NPCLEVEL.2DA
+
+
+COMPILE EVALUATE_BUFFER ~kelsey/baf/soa~
+
+COPY ~kelsey/bam/FWKCloak.bam~ ~override/FWKCloak.bam~
+     ~kelsey/bam/J#IScl04.bam~ ~override/J#IScl04.bam~
+     ~kelsey/bam/J#Klsy01.BAM~ ~override/J#Klsy01.BAM~
+     ~kelsey/bam/J#WI400A.BAM~ ~override/J#WI400A.BAM~
+     ~kelsey/bam/J#WI400B.BAM~ ~override/J#WI400B.BAM~
+     ~kelsey/bam/J#WI400C.BAM~ ~override/J#WI400C.BAM~
+     ~kelsey/bam/J#Helm01.bam~ ~override/J#Helm01.bam~
+     ~kelsey/bam/J#Amul01.bam~ ~override/J#Amul01.bam~
+     ~kelsey/bam/J#rod01.bam~  ~override/J#rod01.bam~
+
+COPY ~kelsey/spl/J#PR951E.SPL~ ~override/J#PR951E.SPL~
+  SAY 8 @87
+  SAY 12 @87
+  SAY 80 @87
+
+LAF install_portrait STR_VAR portrait = ~default~ END
+
+COPY "kelsey/audio/j#blank.mus" music
+COPY_EXISTING songlist.2da override
+  SET_2DA_ENTRY 0 2 3 j#blank.mus
+  MYMUSIC = 0
+
+COPY_EXISTING ~J#Klsy.bcs~ ~override/J#Klsy.bcs~
+              ~J#KlsyD.bcs~ ~override/J#KlsyD.bcs~
+  REPLACE_TEXTUALLY 123456 ~%MYMUSIC%~
+
+COMPILE ~kelsey/baf/kelseyai.baf~
+COPY_EXISTING kelseyai.bcs ~scripts/KelseyAI.bs~
+
+APPEND scrpdesc.2da ~KelseyAI KelseyAI01 KelseyAI02~
+COPY_EXISTING scrpdesc.2da override
+  REPLACE KelseyAI01 @101
+  REPLACE KelseyAI02 @102
+  PRETTY_PRINT_2DA
+BUT_ONLY
+
+
+COPY ~kelsey/spl/j#helm01.spl~ ~override/j#helm01.spl~
+COPY ~kelsey/spl/j#wi400.spl~ ~override/j#wi400.spl~
+  SAY 8 @87
+  SAY 12 @87
+  SAY 80 @87
+COPY ~kelsey/spl/j#klsy01.vvc~ ~override/j#klsy01.vvc~
+COPY ~kelsey/spl/j#klsy02.vvc~ ~override/j#klsy02.vvc~
+
+
+
+// Beginning Kelsey Flirt Pack .d file
+COMPILE EVALUATE_BUFFER ~kelsey/d/kelseyflirtmodule.d~
+  USING ~%tra_path%\english\Kelsey.tra~
+        ~%tra_path%\%s\Kelsey.tra~
+
+
+
+COMPILE ~Kelsey/baf/kfix.baf~
+  REPLACE ~70100~ @2
+  REPLACE ~70101~ @3
+  REPLACE ~70102~ @4
+  REPLACE ~70103~ @5
+  REPLACE ~70104~ @6
+  REPLACE ~70105~ @7
+  REPLACE ~70106~ @8
+  REPLACE ~70107~ @9
+  REPLACE ~70108~ @10
+  REPLACE ~70109~ @11
+  REPLACE ~70110~ @12
+  REPLACE ~70111~ @13
+  REPLACE ~70112~ @14
+  REPLACE ~70113~ @15
+//  REPLACE ~70114~ @14 No more of this...
+  REPLACE ~70115~ ~~ [FWKLSY18]
+  REPLACE ~70116~ ~~ [FWKLSY19]
+  REPLACE ~70117~ @19
+  REPLACE ~70118~ @20
+  REPLACE ~70119~ @21
+  REPLACE ~70120~ @22
+  REPLACE ~70121~ @23
+  REPLACE ~70122~ @24
+  REPLACE ~70123~ @25
+  REPLACE ~70124~ @26
+  REPLACE ~70125~ @27
+  REPLACE ~70126~ @28
+  REPLACE ~70127~ @29
+  REPLACE ~70128~ @30
+  REPLACE ~70129~ @31
+  REPLACE ~70130~ @32
+  REPLACE ~70131~ @33
+  REPLACE ~70132~ @34
+  REPLACE ~70133~ @35
+  REPLACE ~70134~ @36
+  REPLACE ~70135~ @37
+  REPLACE ~70136~ @38
+  REPLACE ~70137~ @39
+  REPLACE ~70138~ @40
+  REPLACE ~70139~ @41
+  REPLACE ~70140~ @42
+  REPLACE ~70141~ @43
+  REPLACE ~70142~ @44
+  REPLACE ~70143~ @45
+  REPLACE ~70144~ @46
+  REPLACE ~70145~ @47
+  REPLACE ~70146~ @48
+
+
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~kelsey/audio/soa~
+    oggdec_path = ~kelsey/audio~
+    sox_path = ~kelsey/audio~
+END
+
+ACTION_IF GAME_IS ~tob bgt bg2ee eet~ BEGIN
+
+  ///////////////////////////////////
+  //                               //
+  // Creature files for Kelsey:ToB //
+  //                               //
+  ///////////////////////////////////
+
+  COPY ~kelsey/cre/FWLOVE6.cre~ ~override\FWLOVE6.cre~
+    SAY NAME1 @2558
+    SAY NAME2 @2558
+
+  COPY ~kelsey/cre/FWMirena.cre~ ~override\FWMirena.cre~
+    SAY NAME1 @2564
+    SAY NAME2 @2564
+    SAY SELECT_COMMON1 #61993
+    SAY DAMAGE #61997
+    SAY DYING #61998
+
+  COPY ~kelsey/cre/FWKelvim.cre~ ~override\FWKelvim.cre~
+    SAY NAME1 @2563
+    SAY NAME2 @2563
+    SAY SELECT_COMMON1 #11084
+    SAY DAMAGE #12596
+    SAY DYING #12597
+
+  COPY ~kelsey/cre/FWRlaash.cre~ ~override\FWRlaash.cre~
+    SAY NAME1 @2559
+    SAY NAME2 @2559
+
+  COPY ~kelsey/cre/FWBirina.cre~ ~override\FWBirina.cre~
+    SAY NAME1 @2560
+    SAY NAME2 @2560
+
+  COPY ~kelsey/cre/j#klsy25.cre~ ~override\J#Klsy25.cre~
+    SAY NAME1 @256 // ~Kelsey~
+    SAY NAME2 @256 // ~Kelsey~
+    SAY MORALE @258 //  ~Sorry, this is out of my league!~ [FWKLSY01]
+    SAY HAPPY @259 //  ~We should really be proud of what we're doing.~ [FWKLSY02]
+    SAY UNHAPPY_ANNOYED @2510 //  ~Miscreants are a dime a dozen. I thought we would set our standards a little higher.~ [FWKLSY03]
+    SAY UNHAPPY_SERIOUS @2511 //  ~You really seem to have a cruel streak in you.~ [FWKLSY04]
+    SAY UNHAPPY_BREAKING @2512 //  ~This is just too much...I can't be associated with you any longer.~ [FWKLSY05]
+    SAY LEADER @2599 //  ~You're the boss. So if you want me to be the boss... then I'm the boss.~ [FWKL25D1]
+    SAY TIRED @2514 //  ~I have just about had it. Let's put up our feet and rest a while.~ [FWKLSY07]
+    SAY BORED @2515 //  ~I could find us more action at a swap meet. Let's get moving!~ [FWKLSY08]
+    SAY BATTLE_CRY1 @2516 //  ~Say good night!~ [FWKLSY09]
+    SAY BATTLE_CRY2 @2517 //  ~Watch out, my magic is stronger than you think!~ [FWKLSY10]
+    SAY BATTLE_CRY3 @2518 //  ~You'll never see it coming!~ [FWKLSY11]
+    SAY BATTLE_CRY4 @2519 //  ~You have miscalculated!~ [FWKLSY12]
+  /*  SAY BATTLE_CRY5 @2520  Ugh, no thanks. */
+    SAY DAMAGE @2521 //  ~~ [FWKLSY18]
+    SAY DYING @2522 //  ~~ [FWKLSY19]
+    SAY HURT @2523 //  ~I hope I've got a healing potion somewhere...help...~ [FWKLSY20]
+    SAY AREA_FOREST @2524 //  ~If the forest could talk...I wonder if it would complain about the bugs?~ [FWKLSY21]
+    SAY AREA_CITY @2525 //  ~Love them or hate them, cities are good for business.~ [FWKLSY22]
+    SAY AREA_DUNGEON @2526 //  ~It's at times like this I wish I knew how to cast Infravision.~ [FWKLSY23]
+    SAY AREA_DAY @2527 //  ~Nice day, isn't it?~ [FWKLSY24]
+    SAY AREA_NIGHT @2528 //  ~Anybody know any good ghost stories? Keep them to yourself!~ [FWKLSY25]
+    SAY SELECT_COMMON1 @2529 //  ~Ready, boss.~ [FWKLSY26]
+    SAY SELECT_COMMON2 @2530 //  ~What do you need?~ [FWKLSY27]
+    SAY SELECT_COMMON3 @2531 //  ~Yeah?~ [FWKLSY28]
+    SAY SELECT_COMMON4 @2532 //  ~Just tell me once.~ [FWKLSY29]
+    SAY SELECT_COMMON5 @2533 //  ~Give the word.~ [FWKLSY30]
+    SAY SELECT_COMMON6 @2534 //  ~Point the way.~ [FWKLSY31]
+    SAY SELECT_ACTION1 @2535 //  ~I'm on the job.~ [FWKLSY32]
+    SAY SELECT_ACTION2 @2536 //  ~Got it, boss.~ [FWKLSY33]
+    SAY SELECT_ACTION3 @2537 //  ~You won't need to double-check my work.~ [FWKLSY34]
+    SAY SELECT_ACTION4 @2538 //  ~It's done.~ [FWKLSY35]
+    SAY SELECT_ACTION5 @2539 //  ~On your orders.~ [FWKLSY36]
+    SAY SELECT_ACTION6 @2540 //  ~Watch me work.~ [FWKLSY37]
+    SAY SELECT_ACTION7 @2541 //  ~I heard you the first time.~ [FWKLSY38]
+    SAY SELECT_RARE1 @2542 //  ~Kelsey's your man.~ [FWKLSY39]
+    SAY SELECT_RARE2 @2543 //  ~Ready for action.~ [FWKLSY40]
+    SAY CRITICAL_HIT @2544 //  ~That'll teach you!~ [FWKLSY41]
+    SAY CRITICAL_MISS @2545 //  ~Whoops!~ [FWKLSY42]
+    SAY TARGET_IMMUNE @2546 //  ~I'm not getting through!~ [FWKLSY43]
+    SAY INVENTORY_FULL @2547 //  ~I'm a sorcerer, not a walking Bag of Holding. I had to drop that.~ [FWKLSY44]
+
+    SAY PICKED_POCKET @2548 //  ~I can't believe I'm stealing from others, but I did it.~ [FWKLSY45]
+    SAY HIDDEN_IN_SHADOWS @2549 //  ~Sneaky Kelsey's out of sight.~ [FWKLSY46]
+    SAY SPELL_DISRUPTED @2550 //  ~Damn! That's a wasted spell!~ [FWKLSY47]
+    SAY SET_A_TRAP @2551 //  ~Don't step anywhere near there.~ [FWKLSY48]
+    SAY BIO @2552 //  ~KELSEY sounds for all the world like a young man who wants something he will never truly be able to have: a normal life. Born into a well-to-do trading company that does healthy business throughout most of the civilized Realms, Kelsey thought his life would take a relatively easy path, until he discovered in his mid-teens that he had innate magical powers. From what you can make out, relations with his family have become somewhat strained, but the remote business expeditions they sent him on as a result allowed him the opportunity to meet a few other sorcerers like himself as well as spend short periods of time in minor adventuring companies, and he learned to shape and develop his talents. Still, Kelsey is quite clearly troubled at being a mage by birth in a land where magic is greatly frowned upon, and at the same time he seems to feel unworthy of his obvious gifts.~
+
+
+  //////////////////////////////
+  //                          //
+  // Dialogues for Kelsey:ToB //
+  //                          //
+  //////////////////////////////
+
+  COMPILE ~kelsey/d/kelseyg.d~
+    USING ~%tra_path%\english\kelseyg.tra~
+          ~%tra_path%\%s\Kelseyg.tra~
+
+  COMPILE ~kelsey/d/bj#kls25.d~
+    USING ~%tra_path%\english\bj#kls25.tra~
+          ~%tra_path%\%s\bj#kls25.tra~
+
+  COMPILE EVALUATE_BUFFER ~kelsey/d/25FWKI.d~
+    USING ~%tra_path%\english\25FWKI.tra~
+          ~%tra_path%\%s\25FWKI.tra~
+
+  COMPILE ~kelsey/d/25anomenkelsey.d~
+    USING ~%tra_path%\english\25anomenkelsey.tra~
+          ~%tra_path%\%s\25anomenkelsey.tra~
+
+  COMPILE ~kelsey/d/kelseytobflirt.d~
+    USING ~%tra_path%\english\kelseytobflirt.tra~
+          ~%tra_path%\%s\kelseytobflirt.tra~
+
+
+  ///////////////////////////
+  //                       //
+  // Spells for Kelsey:ToB //
+  //                       //
+  ///////////////////////////
+
+  COPY ~Kelsey/spl/J#ImoZap.spl~ ~override\J#ImoZap.spl~
+  SAY NAME1 @2588
+  SAY NAME2 @2588
+  COPY ~Kelsey/spl/J#ImoZap.vvc~ ~override\J#ImoZap.vvc~
+
+  COPY ~Kelsey/spl/J#LoSpel.spl~ ~override\J#LoSpel.spl~
+  COPY ~Kelsey/spl/FWNoFear.spl~ ~override\FWNoFear.spl~
+  COPY ~Kelsey/spl/FWOats01.spl~ ~override\FWOats01.spl~
+  COPY ~Kelsey/spl/FWOats02.spl~ ~override\FWOats02.spl~
+    SAY NAME1 @2579
+    SAY UNIDENTIFIED_DESC @2580
+
+
+  //////////////////////////
+  //                      //
+  // Items for Kelsey:ToB //
+  //                      //
+  //////////////////////////
+
+  COPY ~Kelsey/itm/FWKCloa2.itm~ ~override\FWKCloa2.itm~
+    SAY NAME2 @2554
+    SAY UNIDENTIFIED_DESC @254
+    SAY DESC @2553
+
+
+  COPY ~Kelsey/itm/FWRing01.itm~ ~override\FWRing01.itm~
+    SAY NAME2 @2555
+    SAY DESC @2556
+
+
+  COPY ~Kelsey/itm/FWOATS01.itm~ ~override\FWOATS01.itm~
+    SAY NAME2 @2581
+    SAY NAME1 @2581
+    SAY DESC @2582
+
+
+  ///////////////
+  //           //
+  // Epilogues //
+  //           //
+  ///////////////
+
+  COPY ~Kelsey/Epilogues\FWKelsZZ.2da~ ~override\FWKels01.2da~
+    REPLACE ~99999~ @2565
+
+  COPY ~Kelsey/Epilogues\FWKelsZZ.2da~ ~override\FWKels02.2da~
+    REPLACE ~99999~ @2566
+
+  COPY ~Kelsey/Epilogues\FWImoen2.2da~ ~override\FWImoen2.2da~
+    REPLACE ~99999~ @2567
+
+  COPY ~Kelsey/Epilogues\FWKelsZZ.2da~ ~override\FWKels03.2da~
+    REPLACE ~99999~ @2568
+
+  COPY ~Kelsey/Epilogues\FWKelsZZ.2da~ ~override\FWKels04.2da~
+    REPLACE ~99999~ @2569
+
+  COPY ~Kelsey/Epilogues\FWKelsZZ.2da~ ~override\FWKels05.2da~
+    REPLACE ~99999~ @2570
+
+  COPY ~Kelsey/Epilogues\FWKelsZZ.2da~ ~override\FWKels06.2da~
+    REPLACE ~99999~ @2571
+
+  COPY ~Kelsey/Epilogues\FWKelsZZ.2da~ ~override\FWKels07.2da~
+    REPLACE ~99999~ @2572
+
+  COPY ~Kelsey/Epilogues\FWKelsZZ.2da~ ~override\FWKels08.2da~
+    REPLACE ~99999~ @2573
+
+  COPY ~Kelsey/Epilogues\FWKelsZZ.2da~ ~override\FWKels09.2da~
+    REPLACE ~99999~ @2586
+
+  COPY ~Kelsey/Epilogues\FWKelsZZ.2da~ ~override\FWKels10.2da~
+    REPLACE ~99999~ @2587
+
+
+  //////////////
+  //          //
+  // Graphics //
+  //          //
+  //////////////
+
+  COPY ~Kelsey/bam/fwwi601a.bam~ ~override~
+       ~Kelsey/bam/fwwi601b.bam~ ~override~
+       ~Kelsey/bam/fwwi601c.bam~ ~override~
+       ~Kelsey/bam/ifwoat01.bam~ ~override~
+       ~Kelsey/bam/fwoat02b.bam~ ~override~
+       ~Kelsey/bam/fwoat02c.bam~ ~override~
+
+
+  ////////////////////////////
+  //                        //
+  // Scripts for Kelsey:ToB //
+  //                        //
+  ////////////////////////////
+
+  EXTEND_BOTTOM ~VICO25.bcs~ ~Kelsey/baf/J#Vic1.baf~
+  EXTEND_BOTTOM ~Cut218G.bcs~ ~Kelsey/baf/Add218G.baf~
+  EXTEND_BOTTOM ~ar5003.bcs~ ~Kelsey/baf/J#ar5003.baf~
+  EXTEND_BOTTOM ~anome25d.bcs~ ~kelsey/baf/anome25d.baf~
+  EXTEND_BOTTOM ~AR5500.bcs~ ~Kelsey/baf/J#AR5500.baf~
+  EXTEND_BOTTOM ~Anom25.bcs~ ~Kelsey/baf/J#Anom25.baf~
+  EXTEND_BOTTOM ~imoe25.bcs~ ~Kelsey/baf/FWImmy25.baf~
+
+  COMPILE ~Kelsey/baf/J#Klsy25.baf~
+          ~Kelsey/baf/J#Kls25D.baf~
+    REPLACE_TEXTUALLY 123456 ~%MYMUSIC%~
+
+  COMPILE ~Kelsey/baf/tob~
+
+  EXTEND_TOP ~AR6200.bcs~ ~Kelsey/baf/J#AR620a.baf~
+
+  // String-fixer
+
+  COMPILE ~Kelsey/baf/kfix25.baf~
+    REPLACE ~70100~ @256 // ~Kelsey~
+    REPLACE ~70101~ @256 // ~Hello! My name is Kelsey. I've been hoping we would meet before long. I thought I saw you in the middle of that firestorm in the Promenade...anyone who can walk away from a pack of Shadow Thieves and Cowled Wizards must be worth knowing, I figure.~ [FWKLSY00]
+    REPLACE ~70102~ @258 // ~Sorry, this is out of my league!~ [FWKLSY01]
+    REPLACE ~70103~ @259 // ~We should really be proud of what we're doing.~ [FWKLSY02]
+    REPLACE ~70104~ @2510 // ~Miscreants are a dime a dozen. I thought we would set our standards a little higher.~ [FWKLSY03]
+    REPLACE ~70105~ @2511 // ~You really seem to have a cruel streak in you.~ [FWKLSY04]
+    REPLACE ~70106~ @2512 // ~This is just too much...I can't be associated with you any longer.~ [FWKLSY05]
+    REPLACE ~70107~ @2599 // ~If only the family could see me now...~ [FWKLSY06]
+    REPLACE ~70108~ @2514 // ~I have just about had it. Let's put up our feet and rest a while.~ [FWKLSY07]
+    REPLACE ~70109~ @2515 // ~I could find us more action at a swap meet. Let's get moving!~ [FWKLSY08]
+    REPLACE ~70110~ @2516 //  ~Say good night!~ [FWKLSY09]
+    REPLACE ~70111~ @2517 // ~Watch out, my magic is stronger than you think!~ [FWKLSY10]
+    REPLACE ~70112~ @2518 // ~You'll never see it coming!~ [FWKLSY11]
+    REPLACE ~70113~ @2519 // ~You have miscalculated!~ [FWKLSY12]
+  /*  REPLACE ~70114~ ~No more! No more!~ [FWKLSY13] You go away too. */
+    REPLACE ~70115~ @2521 // ~~ [FWKLSY18]
+    REPLACE ~70116~ @2522 // ~~ [FWKLSY19]
+    REPLACE ~70117~ @2523 // ~I hope I've got a healing potion somewhere...help...~ [FWKLSY20]
+    REPLACE ~70118~ @2524 // ~If the forest could talk...I wonder if it would complain about the bugs?~ [FWKLSY21]
+    REPLACE ~70119~ @2525 // ~Love them or hate them, cities are good for business.~ [FWKLSY22]
+    REPLACE ~70120~ @2526 // ~It's at times like this I wish I knew how to cast Infravision.~ [FWKLSY23]
+    REPLACE ~70121~ @2527 // ~Nice day, isn't it?~ [FWKLSY24]
+    REPLACE ~70122~ @2528 // ~Anybody know any good ghost stories? Keep them to yourself!~ [FWKLSY25]
+    REPLACE ~70123~ @2529 // ~Ready, boss.~ [FWKLSY26]
+    REPLACE ~70124~ @2530 // ~What do you need?~ [FWKLSY27]
+    REPLACE ~70125~ @2531 // ~Yeah?~ [FWKLSY28]
+    REPLACE ~70126~ @2532 // ~Just tell me once.~ [FWKLSY29]
+    REPLACE ~70127~ @2533 // ~Give the word.~ [FWKLSY30]
+    REPLACE ~70128~ @2534 // ~Point the way.~ [FWKLSY31]
+    REPLACE ~70129~ @2535 // ~I'm on the job.~ [FWKLSY32]
+    REPLACE ~70130~ @2536 // ~Got it, boss.~ [FWKLSY33]
+    REPLACE ~70131~ @2537 // ~You won't need to double-check my work.~ [FWKLSY34]
+    REPLACE ~70132~ @2538 // ~It's done.~ [FWKLSY35]
+    REPLACE ~70133~ @2539 // ~On your orders.~ [FWKLSY36]
+    REPLACE ~70134~ @2540 // ~Watch me work.~ [FWKLSY37]
+    REPLACE ~70135~ @2541 // ~I heard you the first time.~ [FWKLSY38]
+    REPLACE ~70136~ @2542 // ~Kelsey's your man.~ [FWKLSY39]
+    REPLACE ~70137~ @2543 // ~Ready for action.~ [FWKLSY40]
+    REPLACE ~70138~ @2544 // ~That'll teach you!~ [FWKLSY41]
+    REPLACE ~70139~ @2545 // ~Whoops!~ [FWKLSY42]
+    REPLACE ~70140~ @2546 // ~I'm not getting through!~ [FWKLSY43]
+    REPLACE ~70141~ @2547 // ~I'm a sorcerer, not a walking Bag of Holding. I had to drop that.~ [FWKLSY44]
+    REPLACE ~70142~ @2548 // ~I can't believe I'm stealing from others, but I did it.~ [FWKLSY45]
+    REPLACE ~70143~ @2549 // ~Sneaky Kelsey's out of sight.~ [FWKLSY46]
+    REPLACE ~70144~ @2550 // ~Damn! That's a wasted spell!~ [FWKLSY47]
+    REPLACE ~70145~ @2551 // ~Don't step anywhere near there.~ [FWKLSY48]
+    REPLACE ~70146~ @2552 // ~KELSEY sounds for all the world like a young man who wants something he will never truly be able to have: a normal life. Born into a well-to-do trading company that does healthy business throughout most of the civilized Realms, Kelsey thought his life would take a relatively easy path, until he discovered in his mid-teens that he had innate magical powers. From what you can make out, relations with his family have become somewhat strained, but the remote business expeditions they sent him on as a result allowed him the opportunity to meet a few other sorcerers like himself as well as spend short periods of time in minor adventuring companies, and he learned to shape and develop his talents. Still, Kelsey is quite clearly troubled at being a mage by birth in a land where magic is greatly frowned upon, and at the same time he seems to feel unworthy of his obvious gifts.~
+
+
+  ////////////
+  //        //
+  // Sounds //
+  //        //
+  ////////////
+
+  LAF HANDLE_AUDIO
+    STR_VAR
+      audio_path = ~kelsey/audio/tob~
+      oggdec_path = ~kelsey/audio~
+      sox_path = ~kelsey/audio~
+  END
+
+  ACTION_IF GAME_IS ~eet~ BEGIN
+    INCLUDE ~EET/other/EET_functions.tph~
+    LAF ~EET_NPC_TRANSITION~
+      INT_VAR
+        type = 2
+      STR_VAR
+        dv = "J#Kelsey"
+        override_SoA = "J#KLSY"
+        override_ToB = "J#KLSY25"
+        dialog_ToB = "J#KLSY25"
+        traFile = EVAL "kelsey/tra/%LANGUAGE%/kelseyg.tra"
+        string = "@6001" //Bring me Kelsey, the human sorceror.
+        stringPosDV = "Khalid"
+    END
+  END ELSE BEGIN
+    COMPILE ~kelsey/d/FATESP.d~ USING ~kelsey/tra/%LANGUAGE%/kelseyg.tra~
+  END
+
+END
+
+
+
+BEGIN @88 DESIGNATED 1
+REQUIRE_PREDICATE FILE_EXISTS_IN_GAME sola.dlg @89
+
+  COMPILE ~kelsey/d/fwkelseysolav2.d~
+    USING ~%tra_path%\english\fwkelseysola.tra~
+          ~%tra_path%\%s\fwkelseysola.tra~
+
+  COMPILE ~kelsey/d/kelseysolaconflict.d~
+    USING ~%tra_path%\english\fwkelseysola.tra~
+          ~%tra_path\%s\fwkelseysola.tra~
+
+  EXTEND_TOP ~j#klsy.bcs~ ~kelsey/baf/kelseysolaconflict.baf~
+
+  ACTION_IF GAME_IS ~tob bgt bg2ee eet~ BEGIN
+    COMPILE ~kelsey/d/25kelseysolaconflict.D~
+      USING ~%tra_path%/english\25kelseysolaconflict.TRA~
+            ~%tra_path%\%s\25kelseysolaconflict.TRA~
+
+    EXTEND_TOP ~J#Klsy25.bcs~ ~Kelsey\baf\25kelseysolaconflict.baf~
+  END
+
+
+BEGIN @91 DESIGNATED 2 // Install Alternate Kelsey portrait set #1, by Karse Soze (hooded Kelsey)?
+SUBCOMPONENT @96
+
+LAF install_portrait STR_VAR portrait = ~soze_cloak~ END
+
+BEGIN @97 DESIGNATED 20
+SUBCOMPONENT @96
+
+LAF install_portrait STR_VAR portrait = ~frida~ END
+
+BEGIN @98 DESIGNATED 21
+SUBCOMPONENT @96
+
+LAF install_portrait STR_VAR portrait = ~indi~ END
+
+BEGIN @99 DESIGNATED 22
+SUBCOMPONENT @96
+
+LAF install_portrait STR_VAR portrait = ~wynne~ END
+
+BEGIN @100 DESIGNATED 23
+SUBCOMPONENT @96
+
+LAF install_portrait STR_VAR portrait = ~yung~ END
+
+
+
+BEGIN @93 DESIGNATED 3 DEPRECATED @95
+REQUIRE_PREDICATE !FILE_EXISTS_IN_GAME ~bantergoose.xxx~ @94
+
+  COPY ~kelsey\bantergoose\bantergoose.xxx~ ~override\bantergoose.xxx~
+  EXTEND_TOP ~baldur.bcs~ ~kelsey\bantergoose\bantergoose.baf~ EVALUATE_BUFFER
+
+
+BEGIN @2557 DESIGNATED 4 // Ascension-specific Dialogue
+REQUIRE_PREDICATE FILE_EXISTS_IN_GAME finbodhi.bcs @2574
+
+  COMPILE ~kelsey/d/kelsey-asc.d~
+    USING ~%tra_path%\english\kelsey-asc.tra~
+          ~%tra_path%\%s\kelsey-asc.tra~

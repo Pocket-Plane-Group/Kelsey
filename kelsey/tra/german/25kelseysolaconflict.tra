@@ -1,0 +1,15 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~<CHARNAME>... was spielt sich zwischen dir und Solaufein ab? Ich habe den Eindruck er denkt eure Beziehung ist mehr, als nur kameradschaftlich. Ist sie das?~ [FWKLSYm0]
+@1    = ~Ja, Ich habe bemerkt, dass er versucht sich anzukuscheln. Ich werde ihm sagen, dass er aufhören muss.~
+@2    = ~Wirklich? Ich glaube, dass bildest du dir nur ein, Kelsey. Ich bin sicherlich nicht an ihm interessiert.~
+@3    = ~Was geht es dich an?~
+@4    = ~Das ist sie. Ich mag es. Er ist drinnen, du bist raus, Hexenmeister.~
+@5    = ~Er... Er hält deine Hand und liest dir ein paar Gedichte vor und plötzlich, bedeute ich dir nichts mehr.~
+@6    = ~Ich... nach alledem, was wir zusammen erlebt und geteilt haben, ich kann mich nicht so ausnutzen lassen. Ich kann es nicht.~
+@7    = ~Ich bitte um Entschuldigung, wenn Eifersucht mir nicht steht, aber... ich danke dir , <CHARNAME>. Ich möchte kein Missbehagen schaffen, darum würde ich sehr dankbar sein, wenn du ihm sagst, wie die Dinge liegen.~
+@8    = ~Ich glaube nicht, dass ich mir etwas vormache, <CHARNAME>. Wenn ich ihn sehe, wie er dich anschaut... Lass mich nur sagen, dass ich erkenne, wie ich aussehen muss, wenn ich dich anschaue.~
+@9    = ~Du bist wirklich etwas besonderes für mich und es gibt mir ein unbehagliches Gefühl, zu sehen, dass etwas zwischen uns kommen könnte. Ich glaube deinen Worten, aber ich bitte dich... erkläre es ihm.~
+@10   = ~Was habe ich...? <CHARNAME>, nach allem was wir gemeinsam ertragen haben, wie konntest du daran zweifeln, dass ich dich liebe oder eifersüchtig werde, wenn ein anderer Mann versucht dich zu berühren?~
+@11   = ~Ich kann deine Liebe nicht teilen, nicht mit einem anderen Mann, nicht in der Art die er, wie ich glaube, erwartet.~
+@12   = ~Ich verstehe nicht, dachtest du ich würde deine Beziehung mit Solaufein ignorieren oder das ich es nicht merken würde, wie du immer noch mit ihm flirtest, oder was. Ich SAGTE, dass es mich stört.~ [FWKLSYm1]

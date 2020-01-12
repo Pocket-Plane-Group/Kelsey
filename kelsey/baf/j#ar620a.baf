@@ -1,0 +1,164 @@
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("J#Kelsey")
+	Global("J#KelseyBio","GLOBAL",0)
+	!Global("FWImoenRomanceActive","GLOBAL",2)
+	!Global("FWImoenRomanceActive","GLOBAL",3)
+	!Global("J#KelseyRomanceActive","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("J#KelseyBio","GLOBAL",1)
+		TextScreen("FWKels01")
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	OR(2)
+		InParty("J#Kelsey")
+		G("FWKelseyEpilogueAnyway",1)
+	OR(2)
+		InParty("Imoen2")
+		Global("ImoenEpilogueAnyway","GLOBAL",1)
+	Global("J#KelseyBio","GLOBAL",0)
+	OR(2)
+		Global("FWImoenRomanceActive","GLOBAL",2)
+		Global("FWImoenRomanceActive","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("J#KelseyBio","GLOBAL",1)
+		TextScreen("FWKels02")
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	OR(2)
+		InParty("J#Kelsey")
+		G("FWKelseyEpilogueAnyway",1)
+	OR(2)
+		InParty("Imoen2")
+		Global("ImoenEpilogueAnyway","GLOBAL",1)
+	Global("ImoenBio","GLOBAL",0)
+	OR(2)
+		Global("FWImoenRomanceActive","GLOBAL",2)
+		Global("FWImoenRomanceActive","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("ImoenBio","GLOBAL",1)
+		TextScreen("FWIMOEN2")
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("J#Kelsey")
+	Global("J#KelseyBio","GLOBAL",0)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	Global("PlayerChoseEssence","GLOBAL",1)
+	Global("FWKelseyBaby","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("J#KelseyBio","GLOBAL",1)
+		TextScreen("FWKels03")
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("J#Kelsey")
+	Global("J#KelseyBio","GLOBAL",0)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	Global("PlayerChoseEssence","GLOBAL",1)
+	Global("FWGiveBaby","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("J#KelseyBio","GLOBAL",1)
+		TextScreen("FWKels04")
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("J#Kelsey")
+	Global("J#KelseyBio","GLOBAL",0)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	Global("PlayerChoseEssence","GLOBAL",1)
+	Global("FWKelseyBaby","GLOBAL",1)
+	Global("FWGiveBaby","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("J#KelseyBio","GLOBAL",1)
+		TextScreen("FWKels05")
+END
+
+// new two
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("J#Kelsey")
+	Global("J#KelseyBio","GLOBAL",0)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	Global("PlayerChoseEssence","GLOBAL",0)
+	Global("FWKelseyBaby","GLOBAL",1)
+	Global("FWRemindedKelseyTower","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("J#KelseyBio","GLOBAL",1)
+		TextScreen("FWKels09")
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("J#Kelsey")
+	Global("J#KelseyBio","GLOBAL",0)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	Global("PlayerChoseEssence","GLOBAL",0)
+	Global("FWKelseyBaby","GLOBAL",0)
+	Global("FWRemindedKelseyTower","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("J#KelseyBio","GLOBAL",1)
+		TextScreen("FWKels10")
+END
+
+
+
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("J#Kelsey")
+	Global("J#KelseyBio","GLOBAL",0)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	Global("PlayerChoseEssence","GLOBAL",0)
+	Global("FWKelseyBaby","GLOBAL",1)
+	Global("FWWillMarryKelsey","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("J#KelseyBio","GLOBAL",1)
+		TextScreen("FWKels06")
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("J#Kelsey")
+	Global("J#KelseyBio","GLOBAL",0)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	Global("PlayerChoseEssence","GLOBAL",0)
+	Global("FWKelseyBaby","GLOBAL",1)
+	Global("FWWillMarryKelsey","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("J#KelseyBio","GLOBAL",1)
+		TextScreen("FWKels07")
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("J#Kelsey")
+	Global("J#KelseyBio","GLOBAL",0)
+	Global("J#KelseyRomanceActive","GLOBAL",2)
+	Global("PlayerChoseEssence","GLOBAL",0)
+	Global("FWKelseyBaby","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("J#KelseyBio","GLOBAL",1)
+		TextScreen("FWKels08")
+END
+
+

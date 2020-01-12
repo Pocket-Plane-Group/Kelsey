@@ -1,0 +1,8 @@
+IF
+  Global("J#KelseyVampire","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("J#KelseyVampire","GLOBAL",2)
+    CreateCreature("J#VmpKel",[1473.332],2)  // ~Kelsey~
+END
+

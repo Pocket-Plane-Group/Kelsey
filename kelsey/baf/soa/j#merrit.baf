@@ -1,0 +1,35 @@
+IF
+  See([PC])
+  Global("J#CearaFight","GLOBAL",2)
+  See("J#Lilla")  // ~Lilla~
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Nearest([PC]))
+END
+
+IF
+  Global("J#CearaFight","GLOBAL",2)
+  !See("J#Lilla")  // ~Lilla~
+THEN
+  RESPONSE #100
+    ActionOverride("J#Lilla",MoveToObject("J#Merritt14"))
+END
+
+IF
+  !See([PC])
+  Global("J#CearaFight","GLOBAL",2)
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+END
+
+IF
+  Global("J#CearaFight","GLOBAL",4)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+    EquipRanged()
+    AttackOneRound("J#Kelsey")
+END
+

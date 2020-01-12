@@ -1,0 +1,86 @@
+IF
+	AreaCheck("AR6200")
+	InParty(Myself)
+	GGT("FWImoenRomanceActive",1)
+	!Dead("J#Kelsey")
+	OR(2)
+		G("ImoenEpilogueAnyway",0)
+		G("FWKelseyEpilogueAnyway",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ImoenEpilogueAnyway","GLOBAL",1)
+		SetGlobal("FWKelseyEpilogueAnyway","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	InParty("J#Kelsey")
+	RealGlobalTimerExpired("FWImoenRomance","GLOBAL")
+	OR(2)
+		Global("FWImoenRomanceActive","GLOBAL",1)
+		Global("FWImoenRomanceActive","GLOBAL",2)
+	See("J#Kelsey")
+	!AmIInWatchersKeepPleaseIgnoreTheLackOfApostophe()
+	CombatCounter(0)
+	OR(8)
+		Global("FWImoenLoveTalk","GLOBAL",1)
+		Global("FWImoenLoveTalk","GLOBAL",5)
+		Global("FWImoenLoveTalk","GLOBAL",7)
+		Global("FWImoenLoveTalk","GLOBAL",13)
+		Global("FWImoenLoveTalk","GLOBAL",17)
+		Global("FWImoenLoveTalk","GLOBAL",19)
+		Global("FWImoenLoveTalk","GLOBAL",21)
+		Global("FWImoenLoveTalk","GLOBAL",27)
+
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWImoenLoveTalk","GLOBAL",1)
+		StartDialogueNoSet("J#Kelsey")
+END
+
+IF
+	InParty(Myself)
+	InParty("J#Kelsey")
+	RealGlobalTimerExpired("FWImoenRomance","GLOBAL")
+	OR(7)
+		Global("FWImoenLoveTalk","GLOBAL",2)
+		Global("FWImoenLoveTalk","GLOBAL",6)
+		Global("FWImoenLoveTalk","GLOBAL",8)
+		Global("FWImoenLoveTalk","GLOBAL",14)
+		Global("FWImoenLoveTalk","GLOBAL",18)
+		Global("FWImoenLoveTalk","GLOBAL",20)
+		Global("FWImoenLoveTalk","GLOBAL",22)
+THEN
+	RESPONSE #100
+		IncrementGlobal("FWImoenLoveTalk","GLOBAL",1)
+		RealSetGlobalTimer("FWImoenRomance","GLOBAL",2000)
+END
+
+IF
+	InParty(Myself)
+	InParty("Imoen2")
+	RealGlobalTimerExpired("FWImoenRomance","GLOBAL")
+	OR(2)
+		Global("FWImoenRomanceActive","GLOBAL",1)
+		Global("FWImoenRomanceActive","GLOBAL",2)
+	PartyRested()
+	See("J#Kelsey")
+	CombatCounter(0)
+	OR(8)
+		Global("FWImoenLoveTalk","GLOBAL",1)
+		Global("FWImoenLoveTalk","GLOBAL",5)
+		Global("FWImoenLoveTalk","GLOBAL",7)
+		Global("FWImoenLoveTalk","GLOBAL",13)
+		Global("FWImoenLoveTalk","GLOBAL",17)
+		Global("FWImoenLoveTalk","GLOBAL",19)
+		Global("FWImoenLoveTalk","GLOBAL",21)
+        	Global("FWImoenLoveTalk","GLOBAL",27)
+
+THEN
+	RESPONSE #100
+		RealSetGlobalTimer("FWImoenRomance","GLOBAL",10)
+END
+
+

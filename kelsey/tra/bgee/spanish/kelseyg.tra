@@ -1,0 +1,292 @@
+// -*- coding: utf-8 -*-
+
+// Dialogue for Kelsey/Birinar
+
+@800=~El jefe no hace negocios con los de tu calaña. Circula o haré que circules.~ [FWRLAA00]
+@801=~¿Tienes negocios con el Jefe Coltrane? No tienes un carro lleno ni tienes un carro vacío, por eso Rlaash cree que no. Así que piérdete.~ [FWRLAA01]
+@802=~¿El Jefe Coltrane?~ [FWKLRL00]
+@803=~(susurros) Ése es mi tío Birinar. ¡Tiene que ser él!~ [FWKLRL01]
+@804=~Sí. Es muy importante que lo veamos.~ [FWKLRL02]
+@805=~¿Oh? ¿Qué querría el Jefe de ti?~ [FWRLAA02]
+@806=~Sus proveedores nos pidieron que le diéramos un mensaje. Sobre... la necesidad de agilizar los pedidos.~ [FWKLRL03]
+@807=~Al Jefe no le gustan los problemas, así que a mí tampoco me gustan sus problemas. Será mejor que me digas ahora, hombrecito, cuáles son los problemas.~ [FWRLAA03]
+@808=~El Jefe Coltrane tiene que oírlos de mi propia persona. Ése es el trato.~ [FWKLRL04]
+@809=~El Jefe Coltrane no confía en ti. Ya sé que no confía en ti. Por tanto, no tengo ninguna razón para confiar en ti.~ [FWRLAA04]
+@810=~¿Puedes correr ese riesgo? Recuerdas lo que sucedió la última vez, ¿verdad?~
+@811=~Seguro que confías en nosotros. No te preocupes, haces un buen trabajo. No olvidaremos mencionárselo a tu jefe.~
+@812=~ Vas a llamar al jefe, o comienzo a partir cráneos? ~
+@813=~Uh, sería mejor que pensaras en otra cosa, Kelsey.~
+@814=~Mmmrrrr. La última vez alguien fue obligado a marcharse por error,... sí. Al Jefe no le gusta perder citas... ¡o comidas! ¡Jiaaar jiar!~ [FWRLAA05]
+@815=~Ahhhh, deberíais haberlo dicho antes. Sí. El día de pago es pronto, buenas son unas cuantas palabras a tu favor. ¡Jiaaaaar jiar!~ [FWRLAA06]
+
+
+@816=~¡Me GUSTAS, mujer! ¡Tú me plantarías cara! ¡Te rompería el brazo por el Jefe, pero me GUSTARÍA que lo intentaras!~ [FWRLAA07]
+@817=~¡Hombre grande y fuerte! ¿Piensas que me impresionas tensando tus músculos? ¡Mmmmmrrr... fue un pensamiento bastante bueno!~ [FWRLAA08]
+@818=~Tengo información sobre tu jefe. Y su familia, haciendo planes contra él.~ [FWKLRL05]
+@819=~¡No!~ [FWRLAA10]
+@820=~Sí. Sería muy, muy lamentable que la desaprovechara. Y ELLOS darían el primer golpe.~ [FWKLRL06]
+@821=~No os mováis. Rlaash os enviará al Jefe.~ [FWRLAA09]
+@822=~¡Sobrino! Me sorprende verte... Rlaash me dijo que eran negocios, no dijo... oh, bien, me alegro de verte. Pensaba que te estabas encargando de nuestros asuntos en Amn~ [FWBIRI00]
+@823=~Estaba. Los negocios me han llevado a otro sitio, ya sabes cómo va esto. ¿Qué está pasando aquí? Amkethran no parece estar ahora mismo cargada de oportunidades.~ [FWKLBI00]
+@824=~Nada que te resulte de interés, Kelsey, las cosas van sobre ruedas. Estamos abasteciendo a los mercenarios con todo lo que necesitan, y los monjes les pagan bastante bien lo cual es provechoso para nosotros.~ [FWBIRI01]
+@825=~¿Todo lo que necesitan? ¿Armas, provisiones, ese tipo de cosas?~ [FWKLBI01]
+@826=~Efectivamente, eso es lo que los soldados necesitan.~ [FWBIRI02]
+@827=~¿Diversión?~ [FWKLBI02]
+@828=~Los soldados también necesitan divertirse, como supongo que sabes por tus viajes... Kelsey, pareces inquieto por algo. Quizás la tensión del camino está haciendo mella en ti... tu madre y yo hemos estado preocupados por eso de un tiempo a esta parte.~ [FWBIRI03]
+@829=~...sabes, Birinar, podría ser fantástico quedarme aquí y discutir todo el día contigo, pero <CHARNAME> y yo no tenemos tiempo. Ésa es la cuestión.~
+@830=~Tú... yo... estás fuera. Estás fuera de los negocios. Estás fuera de mi vida, te has apartado tanto, tanto del lado de mi madre. Vas a deshacer todo el mal que le has hecho al legado de mi padre... no, no importa. Simplemente te vas a marchar, y te mantendrás alejado.~
+@831=~Me encontré con Kelvim. Tenía mucho que explicar sobre lo que habías estado haciendo en nombre de mi padre, pero realmente no importa. Mi decisión ya está tomada.~
+@832=~No esperarás en serio que te tome en serio, ¿verdad? Porque, prácticamente os he criado a los dos, ¡aunque obviamente me equivoqué en algo! ¿Se supone que tengo que escuchar a un mocoso que se ha vuelto loco con el calor de Tethyr?~
+@833=~Kelvim también creía que tú eras un hechicero. Yo... apuesto que sabías eso desde hace tiempo, ¿verdad? Pero tu especialidad es engañar a la gente, para que así no saliera a relucir tu secreto, aun SABIENDO lo que me habría ayudado saber eso, para entender lo que me estaba pasando.~
+@834=~Kelsey... obviamente estás confundido.~
+@835=~Olvídalo. El hecho es que, <CHARNAME> y yo somos demasiado poderosos como para caer en tus artes mágicas ahora. Pero que tú cayeras tan bajo... no, que hayas estado cayendo tan bajo todos estos años... eso fue lo que colmó el vaso.~
+@836=~Y por eso, por las drogas, por lo que les has hecho a mi hermano y mi madre y al nombre de mi familia... estás muerto. No hables en representación de nuestro apellido nunca más. Dame ese anillo con el sello. Ahora.~
+@837=~Vete al infierno.~
+@838=~Dame tu mano, Birinar. Yo... mira, estoy muy enfadado, por muchas cosas. No quiero herirte.~
+@839=~¡No!~
+@840=~¡Aiiiiiieeeee! ¡Has fundido mi mano completamente, piojoso hijo de puta!~ [FWBIRI04]
+@841=~Fue un simple hechizo, Birinar. Tengo más... y creo que he esperado demasiado para sacarte de nuestras vidas.~ [FWKLBI03]
+@842=~¡No lo entiendes... así son los negocios! ¡Tengo inversiones, tengo facturas que pagar... no puedes esperar que simplemente te lo dé todo porque tú me lo pidas!~ [FWBIRI05]
+@843=~Deberías haber pensado en las consecuencias hace diez años. Supongo que tenemos que seguir. <CHARNAME>, ¿cuál es tu siguiente hechizo favorito?~ [FWKLBI04]
+@844=~Ouuuugh... aaaagh... iré... iré a casa y... sacaré mis cosas de allí. No lanzarás ahora un misil mágico contra la espalda de tu viejo tío, ¿verdad?~
+@845=~Pues ve, y hazlo. Te estaré vigilando, muy de cerca, para asegurarme que has hecho lo que tienes que hacer.~
+@846=~Lo... lamento si me he pasado un poco. Pensé durante mucho tiempo qué decirle pero cuando llegó la hora... difícilmente me daba cuenta de lo que hacía. Espero que funcione.~ [FWKLBI03]
+@847=~Lo dudo. Le has dejado ir, va a volver a emplear sus viejos trucos.~
+@848=~Estoy gratamente sorprendida. Has actuado de manera audaz, no con tu habitual actitud complaciente.~
+@849=~Creo que entendió el mensaje.~
+@850=~Me podría importar menos.~
+@851=~Quizás. Pero iba en serio, iré por él, y un pequeño ejército no va a detenerme esta vez.~
+@852=~Bien, horas críticas y todo eso. Terminemos lo que hemos venido a hacer a esta ciudad, <CHARNAME>.~
+@853=~Así pienso yo también. Espero que su mano no quede mutilada permanentemente... al menos, en su mayor parte.~
+@854=~Bien. Lamento aburrirte.~
+
+
+
+// Dialogue for Kelsey/Mirena/Kelvim encounter in AR5003
+
+@5000=~¿Señor Coltrane? Discúlpeme, señor, es usted Kelsey Coltrane, no es cierto?~ [FWMIRE00]
+@5001=~Sí, lo soy. ¿Quién... te conozco?~ [FWKLMI00]
+@5002=~No, no, señor, no lo creo. Mi nombre es Mirena... dudo que me recuerde, no era más que una niña la última vez que lo vi, pero usted se parece mucho a su hermano... pensé que debía ser usted.~ [FWMIRE01]
+@5003=~¿Conoces a Kel--mi hermano?~ [FWKLMI01]
+@5004=~Hum, sí, señor, conozco a Kelvim muy bien... no se encuentra bien, y espero que pueda ayudarle... ayudarnos...~ [FWMIRE02]
+@5005=~¿Dónde está exactamente Kelvim?~ [FWKLMI02]
+@5006=~Está en cama, durmiendo, espero... está bastante enfermo, señor, las condiciones aquí, en Saradush no son buenas, como seguro que usted--~ [FWMIRE03]
+@5007=~Hola, Kelsey.~ [FWKLVM00]
+@5008=~¡Kelvim, no deberías estar levantado!~ [FWMIRE04]
+@5009=~Estoy bastante bien como para ver a mi hermano, Mirena.~ [FWKLVM01]
+@5010=~Así... (toses) hermano, ¿qué podía traerte por aquí? Estoy sorprendido de que no se hayan cruzado antes nuestros caminos. Saradush no es tan grande cuando está bajo asedio...~ [FWKLVM02]
+@5011=~Oh, Kelvim... estoy aquí con, y por causa de <CHARNAME>, y ésta es una historia muy larga, pero ¿cómo acabaste TÚ aquí? De todos los lugares malditos, encontrarte aquí...~
+@5012=~No necesitas (toses) recordarme, Kelsey. Mirena y yo partimos de Deepwash hace varios meses, para viajar juntos. Fuimos hacia el sur, porque (toses) parecía el mejor lugar para empezar.~
+@5013=~¿Empezar? No comprendo...~
+@5014=~Kelsey... Kelvim y yo, bien... nos fugamos, supongo que se podría decir. Tu tío... tu tío no me veía con buenos ojos...~ [FWMIRE05]
+@5015=~¿A quién le importa? Yo no lo veo con buenos ojos a él. Tuvimos que fugarnos. A (toses)... a ti te funcionó.~ [FWKLVM04]
+@5016=~Eso no es... no importa, Kelvim, estás herido. ¿Qué pasó?~ [FWKLMI05]
+@5017=~Vinimos al sur, para que encontrarte no fuera en vano, y la estela de Birinar (toses) parecía llevar hasta aquí... (toses)~ [FWKLVM05]
+@5018=~¿Su estela...?~ [FWKLMI06]
+@5019=~Kelvim, por favor, intenta no hablar demasiado... Kelsey, tu hermano fue seriamente herido durante un ataque hace dos días. ¡Por favor, ayúdanos a SALIR de aquí!~ [FWMIRE06]
+@5020=~¡Deberíamos poder ayudaros, pero además quiero saber qué está pasando!~
+@5021=~Yo... (toses) ... nosotros... (toses)...~
+@5022=~Despacio, hermano...despacio...~
+@5023=~Kelsey, de verdad debería volver a la cama.~
+@5024=~¡Entonces hazme un resumen, maldita sea! ¿Qué hacen unos muchachos en Saradush y en qué está metido Birinar?~
+@5025=~...lo siento, Mirena, pero ha pasado bastante tiempo desde que vi a Kelvim, ¡y necesito saber qué está sucediendo!~
+@5026=~Kelsey, tu tío es... un hombre más bien malo. Kelvim me dijo que ya lo sabes, pero las cosas han ido... a peor, desde que te fuiste de casa.~
+@5027=~Han pasado dos Festivales de Invierno desde que tú te fuiste. Lo sé, porque ahí fue cuando Kelvim y yo... intimamos. Desde entonces, han estado pasando cosas extrañas.~
+@5028=~No hemos visto mucho a tu madre... Kelvim me dijo que Birinar no deja que muchos la vean, y los llama a todos "pretendientes codiciosos."~
+@5029=~Kelvim sospecha que está traficando con drogas, esclavos, y quizás "cosas peores"... las que sean. ~
+@5030=~Queríamos encontrarte, pero no podíamos, así que vinimos aquí, donde Kelvim sabía que tenía conexiones, pero nos vimos atrapados en la ciudad al poco tiempo.~
+@5031=~¡No lo entiendo! ¿Cómo podría salirse con la suya? Sé que Birinar maneja las cosas deficientemente, ¿pero esclavos y drogas?~
+@5032=~Sé lo que (toses) he visto, Kelsey. Quizás ha (toses) sido capaz de engañarte, también... (toses)~
+@5033=~¿Qué?~
+@5034=~Kelsey, creemos que tu tío puede ser... como tú. Pero un hombre tan malo,  que hace que la gente haga lo que dice.~
+@5035=~...¿la hechicería me viene dada por parte de la familia de mi madre? Supongo que es posible...~
+@5036=~¡EJEM! ¿Hay algo claro en todo esto? ¿Podemos por favor volver a MI vida aquí?~
+@5037=~Kelsey, ¿hay algo que podamos hacer por ellos?~
+@5038=~¿Os gustaría a los dos tener una mesa de conferencias o algo así?~
+@5039=~Por favor, <CHARNAME>, esto es importante. No tardaré mucho.~
+@5040=~Eso espero. Estoy en ello, intentando hacerme la idea de qué demonios está pasando en mi familia...~
+@5041=~Percibo algo en él, cuando me mira... no sabría decir si es hechicería o qué pero es algo antinatural. Cómo no lo notaste...~
+@5042=~...quizás estaba demasiado encerrado en mí mismo como para prestarle atención. (suspiro)~
+@5043=~En cualquier caso. Vayamos por partes. ¡Tenemos que sacaros de aquí a los dos!~
+@5044=~Es fácil (toses)... fácil decirlo.~
+
+@5055=~<CHARNAME>... ¿qué hay de la bolsa planar? Si pudieras meterlos ahí... es un lugar extraño, pero parece seguro, y prácticamente en cualquier lugar estarían más seguros que aquí.~
+@5056=~Lo siento, no siento por ellos la misma empatía que siento por mis otros compañeros. No puedo extender mi poder hasta ellos.~
+@5057=~Déjame intentar... no, nada, no funciona.~
+@5058=~Olvídalo. Este lugar está estrictamente prohibido, sin excepciones.~
+@5059=~Eso parece. Si fuera tan fácil, ya habríamos abandonado la ciudad de esa manera...~
+@5060=~Estoy decepcionado, <CHARNAME>. Pero sé que tarde o temprano, ayudaremos a estas gentes.~
+@5061=~En cualquier caso... Kelvim, Mirena, lo lamento, pero parece que esto no será tan fácil como esperaba.~
+@5062=~Es demasiado... Mirena, ¿hay algo que necesites para Kelvim?~
+@5063=~Ya está recobrando las fuerzas. Me sorprendió verlo fuera de la cama, así que creo que pronto estará bien.~
+@5064=~Muy bien. Siento que debería quedarme, pero sé que no puedo ayudar a acabar con el asedio desde aquí. Toma esto... he estado ahorrando algún dinero por mi cuenta... y compra cualquier cosa que pueda, aunque sea remotamente, ayudar a Kelvim. Ambos tendréis que ser fuertes.~
+@5065=~Pronto--y te lo puedes creer--pronto acabaremos con el asedio.~
+@5066=~Superándote un poquito más ¿eh, hechicero?~
+@5067=~Vinimos aquí para hacer un trabajo, y no era ayudar al debilucho de tu hermano y a su zorrita.~
+@5068=~Kelsey tiene razón, Mirena. Sé fuerte, ten fe, y mantente alejada de los problemas hasta entonces.~
+@5069=~Lo intentaremos... pero no podemos asegurar cuándo o cómo.~
+@5070=~No, en realidad no. Vinimos aquí por tus asuntos, lo sé. Pero resolviendo esto... ¡bueno, la ciudad tendrá que ser liberada, francamente no veo qué otro desenlace podías esperar!~
+@5071=~Oh, me haces gracia. Puedes pensar que tienes la agenda apretada, pero no veo cómo piensas cumplir esa agenda sin poner fin al asedio.~
+@5072=~Muy bien... ¿pero qué deberíamos HACER?~
+@5073=~Simplemente... esperar la oportunidad, y estar preparados. Lo más importante es que tengas presente que todo saldrá bien.~
+@5074=~Y cuida bien de mi hermano cuando lo hagas. Él y yo... tenemos mucho que contarnos.~
+@5075=~Lo haremos, Kelsey. ¿Y qué hay de ti? ¿Vas a buscar a Birinar, o intentarás llegar hasta tu madre?~
+@5076=~Mirena... lo deseo, con todas mis fuerzas, pero si Kelvim está tan a salvo como sea posible... <CHARNAME> tiene unos asuntos importantes que atender, y sus necesidades ahora son muy importantes para mí, y serán de ayuda para vosotros dos. Por eso es ahí donde hago más falta.~
+@5077=~Me encantaría, pero parece que mi destino está ligado fuertemente al de <CHARNAME>... y además, aprovecharemos mejor el tiempo intentando liberaros a los dos. Birinar... y Madre... pueden esperar un poco más.~
+@5078=~Ese Birinar es tan rufián que... me está volviendo loco, MUY loco, y responderá ante mí por todo esto.~
+@5079=~Ojalá comprendiera todo lo que está pasando... pero lo que decidas hacer, por favor, hazlo pronto.~
+@5080=~Bien. Han sido... pésimas noticias.~
+@5081=~¿No te lo dije? La familia es una putada.~
+@5082=~¿Y así qué vas a hacer al respecto?~
+@5083=~No como ésta. Solo pensar qué le está haciendo a la gente, usando el nombre de mi padre y su reputación... está fuera de toda lógica.~
+@5084=~Me quedaré contigo, de momento, porque lo que estamos haciendo es importante. Pero también voy a tener los ojos abiertos con respecto a Birinar, y agradecería tu ayuda. Si Kelvim supiera que anda cerca...~
+
+// Fate Spirit stuff
+
+@6000=~Tráeme a mi amado, Kelsey.~
+@6001=~Tráeme a Kelsey, el hechicero humano.~
+@6002=~Yo, ah, supongo que hay una explicación razonable para todo esto. No es que me disguste volver a verte, pero... prefiero seguir mi camino. Cuando vi esos resplandores tenues, sentí que seguro que era una especie de trampa de los Magos Encapuchados.~ [FWKL2585]
+@6003=~Sí. Mis pruebas no han terminado, y necesito tu ayuda.~
+@6004=~Larga historia. Sin tiempo para contarla. Necesito ayuda. Siempre tuya. ¿Disponible?~
+@6005=~Podría ser, pero no tengo tiempo para dar explicaciones a hechiceros listillos.~
+@6006=~¿Entonces cuál fue la razón para hacerme venir? ¿Es simplemente que necesitas un nuevo juguete o qué?~
+@6007=~Mira, necesito tu ayuda. Por favor, únete a mí.~
+@6008=~Sí, supongo que era eso. ¿Por qué no te pones cómodo?~
+@6009=~Sí, te daré mi apoyo. Ojalá podamos hacer algún bien en medio de todas estas... purificaciones de las que he oído hablar.~
+@6010=~Excelente. Únete a mí.~
+@6011=~Vale. Antes, sin embargo, ¿por qué no te quedas en ese lugar hasta que te necesite de veras?~
+@6012=~Sin embargo, la decoración será más agradable que la de este lugar, ¿verdad?~
+@6013=~Si insistes. Aunque este lugar donde operas no es exactamente un cómodo salón.~
+@6014=~Esto tiene poco que ofrecerme, <CHARNAME>. ¿Seguro que no necesitas que vaya contigo ahora?~
+@6015=~Seguro, permítenos marchar.~
+@6016=~Sí, tengo claro que no necesito que vengas conmigo ahora.~
+@6017=~¿Has encontrado una vez más un lugar para mí? Sabes que mis habilidades están a tu disposición.~ [FWKL2595]
+@6018=~Sí, es hora de partir.~
+@6019=~No, todavía no he cambiado de opinión.~
+@6020=~Bueno. No tengo claro por qué sigo consintiendo que me conduzcas al peligro... pero hagámoslo.~
+@6021=~Muy bien. Pero me gustaría que volvieras pronto a tu trabajo, de una forma u otra.~
+@6022=~Espero que sea la ocasión para estar juntos otra vez... como debería ser.~ [FWKL2592]
+@6023=~Sí. Siento haber tenido que marcharme.~
+@6024=~Todavía no, tengo miedo.~
+@6025=~Como tú digas. Por favor, no estés fuera mucho rato.~
+@6026=~Como viene, se va, ¿eh? ¿Estoy siendo sustituido por un nuevo modelo?~ [FWKL2593]
+@6027=~No, no importa, vuelve a tu formación.~
+@6028=~Solo quédate aquí hasta que te llame de nuevo.~
+@6029=~Te estoy devolviendo al bolsa planar. Nos veremos allí más tarde.~
+@6030=~Muy bien. No tardes... ésta no es la forma más productiva que conozco para pasar el rato.~
+@6031=~Querido... por favor recapacita. Las cosas están sucediendo tan rápido... no quiero estar separada de ti, ¡ahora no!~ [FWKL2594]
+@6032=~Probablemente tengas razón. Olvida lo que dije.~
+@6033=~De momento, estarás más seguro en el bolsa planar.~
+@6034=~No te preocupes. Quieto aquí, regresaré por ti.~
+@6035=~Sí, ¿pero quién cuidará de ti mientras tanto? Ahhh, olvídalo, seguro que estarás bien. Hasta luego.~
+
+@6036=~Solo pensando en aquel tiempo en que estabas a gusto conmigo, Imoen, me da alas...~
+@6037=~Esto no está tan mal. Puedo buscar tranquilamente a alguien más mientras estás fuera.~
+@6038=~¡Hey!~
+@6039=~¡Era broma!~
+@6040=~Grrr.~
+@6041=~Hey, Kelsey de mi vida, no vayas a olvidarte de mí, ahora.~
+@6042=~No lo haré. Seguro que te veré pronto.~
+@6043=~Huy. Y le pediré a <CHARNAME> un informe completo...~
+
+@6044=~¡Me alegro de volver a verte! Era casi seguro que pasarías por aquí en poco tiempo.~ [FWKL25d0]
+@6045=~No... los encontramos, por entre las ruinas. Pero considero que es una buena señal, entonces. Creo que pudieron escaparse a tiempo... y solo pido que lo hicieran hacia un lugar seguro.~
+@6046=~Pero mi lugar está junto a ti. Te echaba de menos, incluso más de lo que creí que pudiera llegar a hacerlo. En medio de tanta muerte y destrucción... me gustaría volver a tu lado. Cuanto antes, mejor.~
+@6047=~Entonces déjanos ir, por lo que más quieras, mi amor.~
+@6048=~En lugar de eso, quédate aquí un momento.~
+@6049=~Excelente. Es verdaderamente genial estar a tu lado otra vez, amor mío.~
+@6050=~¿Q...qué? No lo entiendo... debería estar a tu lado, echándote una mano...~
+@6051=~Tan solo... no estés fuera mucho rato, ¿vale?~
+
+@6060=~¡Hola otra vez, mi amor! Pensaba que éste iba a ser un paseo corto. Estaba empezando a preocuparme de verdad.~ [FWKL25z0]
+@6061=~Le pregunté a Ellesime que dónde te había mandado, pero no pude hallar ni rastro de ti en la espesura.~ [FWKL25z1]
+@6062=~Me alegro de que estés bien, pero... ¿dónde estamos? ¿Algo marcha mal?~ [FWKL25z2]
+@6063=~En mi pequeño plano de existencia privado, y sí, para no variar. Ven, Kelsey, tenemos mucho que hacer tú y yo juntos.~
+@6064=~Fui perseguida por una de mis "hermanas" homicidas, y parece que he heredado de ella este sitio, pero encontraremos muchos más, juntos.~
+@6065=~Es demasiado largo como para explicarlo ahora mismo. Me atacaron, pero volví aquí rápidamente, quería que supieras que estoy bien, pero por favor espera aquí durante un tiempo.~
+@6066=~Adoro cuando eres concisa, <CHARNAME>. Y me alegro de que estés bien.~
+@6067=~¡Deberías haber permitido que fuera contigo! Podía haberte ayudado... aunque me alegro de que fueras capaz de arreglártelas.~
+@6068=~Qué alegría me da verte de nuevo.~
+@6069=~<CHARNAME>, francamente debería estar a tu lado si los riesgos son tan altos. Sin embargo, me alegra saber que estás bien, pero hablando sin remilgos... no quiero perderte de vista ni un instante. Te amo.~
+@6070=~Muy bien, Kelsey. Yo también te amo, así que en marcha.~
+@6071=~Yo también te amo, pero necesito ir por mi cuenta durante un tiempo, estaré bien. Por favor, ten paciencia.~
+@6072=~Lo intentaré. Pero por favor, cuídate mucho, y llévame contigo pronto.~
+
+
+
+
+
+//K-TOB 2 content
+
+
+
+@6100=~Espero haber hecho lo correcto, enviar lejos a Brinair asi. No se si debería haberle hecho daño. No quiero que lastime a mi madre!~ [FWKL25E5]
+@6101=~Kelsey, creo que esta es la primera vez que te escucho preocupándote por tu madre. Porque ahora?~
+@6102=~Creo que le has hecho entender que tiene mucho que temer si te hace enfadar otra vez. No te preocupes, hiciste lo correcto.~
+@6103=~Creo que la violencia fué horrorosa. Espero que no vaya a molestar a alguien mas débil.~
+@6104=~Es muy tarde, ahora ya se ha escapado. Espera lo mejor, estate preparado para lo peor.~
+@6105=~Una muestrita de un debilucho.~
+@6106=~Realmente puedes ser muy malo cuando lo intentas, <CHARNAME>.~ ~Realmente puedes ser muy mala cuando lo intentas, <CHARNAME>.~
+@6107=~Obviamente debo guardarme los problemas.~
+@6108=~Creo que tienes razón. Y no sabe que lo encontramos de casualidad... pero incluso aunque diga que guardará su palabra puede haber represalias.~
+@6109=~Entonces le ayudamos con el uso de la otra mano.~
+@6110=~En serio crees que podría lastimar a su propia hermana?~
+@6111=~La intimidación es un juego muy peligroso, Kelsey, pero creo que lo has jugado bien.~
+@6112=~Esta es una posibilidad distinta. Se que la consideraría si estuviera entre la espada y la pared.~
+@6113=~Tal vez no fué mi momento mas fino, y la persona que confrontó a Brinair no es la persona que quiero ser el resto de mi vida, pero tenía que hacer algo.~
+@6114=~No estoy feliz de haberlo lastimado, pero estoy feliz de haberle confrontado.~
+@6115=~No te preocupes. Creo que he estado haciendo esto toda mi vida. Y aunque no estoy feliz de haberle lastimado, estoy orgulloso de haberme defendido. Creo que cuando te preparas para lo peor terminas siendo pasivo. No quiero ser mas asi.~
+@6116=~Espero que no llegue a tanto. Creo que no conozco a nadie de mi familia como debería.~
+@6117=~En serio amo cuando eres fuerte por mi, <CHARNAME>. Pero me hubiera gustado no haber llegado a esto.~
+@6118=~Je! Aprecio los ánimos, <CHARNAME>. Pero me hubiera gustado no haber llegado a esto.~
+@6119=~Ojalá pudiera decirte que ha cambiado. Tal vez el ver a mi hermano otra vez.~
+@6120=~He estado pensando en lo que me han dicho Kelvim y Mirena, y que Brinair hubiera usado magia como la mia para manipularla. Y si ella no hubiera dejado pasar esto... bueno, cambiaría mucho.~
+@6121=~Dejé que pasaran las cosas porque era mas facil concentrarse en el trabajo en lugar de encontrar que era el problema real. Y si Kelvim y Mirena tienen razon, si Brinair usó magia contra mi madre, eso quiere decir que ella no pudo hacer nada. Tal vez nunca tuvo una opción.~
+@6122=~Creo que llegué al punto de tener miedo de confrontarla, temiendo que alguno dijera algo malo. No siempre fué asi. Nunca nos vimos mucho porque siempre estuve con mi padre, pero nunca nos peleamos cuando mi padre estaba vivo.~
+@6123=~Ella estaba ahí con mi padre cuando murió. Y luego, lloramos y hablamos durante largo tiempo. Pero una mañana se despertó y deseó que las cosas fueran diferentes, que siguieramos nuestro camino.~
+@6124=~Se que ese día tenía que llegar, pero... no puedo explicarlo, <CHARNAME>. ESE no era el día para mi. Y nunca la perdoné por haber elegido ese día.~
+@6125=~Pensar en los dos me hace ver lo diferentes que podrían ser. Mi padre quería que encontrara respuestas, incluso con mi hechicería. Me llevaría a un colegio de magos la siguiente temporada. Me había olvidado hasta ahora... pero se enfermó y murió dias después... asique eso nunca llegó a pasar.~
+@6126=~Continúa. Esperaba que me comentaras mas de tu familia.~
+@6127=~Kelsey, necesitamos seguir moviéndonos. Espero que todo salga bien. Vamos.~
+@6128=~Vale. Gracias por escucharme.~
+@6129=~Mi madre era muy diferente con todo esto. Fué la primera persona que me vió lanzando un hechizo... ya sabes lo que dicen, las madres se enteran de todo antes o temprano. Bueno, me dijo lo que había visto y to le dije todo, toda la verdad, creo que hasta de mas, y grité y lloré y dije un montón de cosas que seguramente no entendió ni ella, ni yo, ni nadie.~
+@6130=~Mientras hablaba no se movió. Solo me seguía con la mirada mientras me movía. Y cuando terminé de temblar y de llorar se levantó y me dió un beso, y dijo, "Kelsey, siempre serás mi hijo." Y eso fué todo.~
+@6131=~También me habí olvidado de esto hasta ahora. Ahora recuerdo que estaba tan enfadado porque fué lo único que dijo, porque no tuviera respuestas como mi padre.~
+@6132=~Pero en realidad... debería haber estado feliz con eso, no? Ojalá nunca lo hubiera olvidado.~
+@6133=~No todo está perdido, Kelsey. Al mentos TUVISTE una madre real.~
+@6134=~Parece que tu madre es muy especial, Kelsey. Espero que esté bien, y que os reunais algún día.~
+@6135=~Deberías estar avergonzado de haberla tratado asi. Con tu padre muerto era tu responsabilidad el cuidarla de gente como Birinar.~
+@6136=~Seguro que sin Birinar será la mujer que recuerdas, y espero conocerla pronto, Kelsey. Espero que me apruebe, y a nosotros.~
+@6137=~Creo que vosotros perdedores os mereceis uno al otro.~
+@6138=~Oh, <CHARNAME>, lo siento. Es muy brusco de mi seguir. No pensé en tu--bueno, en como viniste al mundo. Gracias por escucharme.~
+@6139=~Ella--ella es..tienes razón. Creo que nos reuniremos, con tiempo, y espero que al final estemos bien.~
+@6140=~Pero... pero era solo un niño! E intenté! No ves que intenté, cuando ví lo que Brinair me hacía, y hacía a la reputación de mi padre?~
+@6141=~(suspiro) Este no es tu problema, <CHARNAME>, siento haberme puesto mal cuando tu solo eras honesto. Pero duele saber que estaba equivocado.. duele...~ ~(suspiro) Este no es tu problema, <CHARNAME>, siento haberme puesto mal cuando tu solo eras honesta. Pero duele saber que estaba equivocado.. duele...~
+@6142=~Ayer, no creo que pudiera responder a eso. O al menos no debería importarme.~
+@6143=~Pero la Kendra Coltrane que recuerdo ahora... si. Creo que le caerás bien, <CHARNAME>. Me estaría mintiendo a mi mismo si dijera que no me importa.~
+@6144=~Pero no importa que pase, ni quien lastime a quien en mi familia, siempre te amaré. Gracias por ayudarme en todo esto.~
+
+@6145=~Y vivimos durante la noche! Espero que hayas dormido bien, y que el tiempo que pasamos juntos te haya dado esta confianza en mi.~ [FWKL25J5]
+@6146=~Lo siento si fuí muy... intenso, <CHARNAME>. He estado pensando en esto durante tanto tiempo que creo que me dejé llevar demasiado.~ [FWKL25J6]
+@6147=~Eres todo lo que espero, Kelsey. Tómalo como quieras.~
+@6148=~Si, esperaba que mi--er, que nuestra primera vez juntos fuera mas romántica.~
+@6149=~Si, pero me encanta como lo hiciste, Kelsey. Fué maravilloso.~
+@6150=~Shhhh, no hables. Atesoraré nuestra primer noche juntos para siempre.~
+@6151=~Claro. Una vez que me entere de que me quisiste decir.~
+@6152=~Dejaré que mi impaciencia saque lo mejor de mi. Lo siento.~
+@6153=~Gracias, <CHARNAME>. Fué especial para mi también.~
+@6154=~Me alegra que fuera como quisiste.~
+@6155=~Te amo, <CHARNAME>. Aprendí a amar tu mente y ahora amo también tu cuerpo. Y tendré que dejarlo por un momento, porque tenemos trabajo que hacer. Creo que tu camisa anda por ahí tirada...~
+@6156=~(suspiro) Dámelo, pero esta noche lánzalo mas lejos, así mañana será mas difícil dejar la cama.~
+@6157=~No tan rápido. Así que fuí tan buena como tus otros amantes?~
+@6158=~No tan rápido. Lo intentaremos otra vez, pero ahora seré *yo* quien imponga la marcha.~
+@6159=~Incluso ahora, eres el modelo de eficiencia, Kelsey.~
+@6160=~Vale, Kelsey. Después de todo hay un lugar y un tiempo para las cosas. Y cuando tengamos tiempo ya te volveré a enseñar el lugar.~
+@6161=~Considéralo hecho, preciosa <CHARNAME>.~
+@6162=~<CHARNAME>, claro pero... quiero decir, es tan diferente con todas...~
+@6163=~...déjame intentar otra vez. Eres la persona mas importante en mi vida, y no te miento cuando te digo que no me ha gustado ninguna otra, así como me gustas tu.~
+@6164=~No hay comparación porque eres la que yo quiero. Y siempre lo serás.~
+@6165=~Yo... ah. Je. Haré lo que quieras! (Kelsey sonríe ampliamente mientras desciendes sobre él...)~
+@6166=~No es que quiera olvidarme de anoche! Solo que no quiero que te olvides de que tienes cosas que hacer en vez de estar aqui acostada conmigo.~
+@6167=~Además siempre pense en que era de mis mejores cualidades. Encontraré la forma de hacerla útil algún día...~
+@6168=~(Kelsey glances over your peacefully nude body and sits slack-jawed in response to your promise.) I promise that I will be there, lovely <CHARNAME>.~

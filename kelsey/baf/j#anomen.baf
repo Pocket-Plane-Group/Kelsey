@@ -1,0 +1,83 @@
+IF
+  InParty(Myself)
+  Global("AnomenRomanceActive","GLOBAL",2)
+  GlobalGT("LoveTalk","LOCALS",30)
+  OR(2)
+    Global("J#KelseyRomanceActive","GLOBAL",1)
+    Global("J#KelseyRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("J#KelseyRomanceActive","GLOBAL",3)
+END
+
+IF
+  InParty("J#Kelsey")  // J#Kelsey
+  See("J#Kelsey")
+  !StateCheck("J#Kelsey",STATE_SLEEPING)  // J#Kelsey
+  GlobalGT("Lovetalk","LOCALS",6)
+  G("J#KelseyRomanceActive",1)
+  OR(2)
+    G("AnomenRomanceActive",1)
+    G("AnomenRomanceActive",2)
+  AreaType(OUTDOOR)
+  CombatCounter(0)
+  OR(3)
+    RealGlobalTimerExpired("J#AnomenChallengesKelsey","GLOBAL")
+    Global("AnomenIsNotKnight","GLOBAL",1)
+    Global("AnomenIsKnight","GLOBAL",1)
+  Global("J#AnomenKelseyFight","GLOBAL",0)
+  Global("J#AnomenStartedFight","LOCALS",0)
+THEN
+  RESPONSE #100
+    SmallWait(1)
+    SetGlobal("J#AnomenStartedFight","LOCALS",1)
+    SmallWait(1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  GlobalTimerNotExpired("J#AnomenKelseyFightTimer","GLOBAL")
+  OR(2)
+    Global("J#AnomenKelseyFight","GLOBAL",1)
+    Global("J#AnomenKelseyFight","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("J#AnomenKelseyFight","GLOBAL",2)
+    EquipMostDamagingMelee()
+    MakeUnselectable(18)
+    Attack("J#Kelsey")
+END
+
+IF
+  GlobalTimerExpired("J#AnomenKelseyFightTimer","GLOBAL")
+  Global("J#AnomenKelseyFight","GLOBAL",2)
+  Global("J#AnomenStartedFight","LOCALS",1)
+  Dead("J#Kelsey")  // J#Kelsey
+THEN
+  RESPONSE #100
+    SetGlobal("J#AnomenKelseyFight","GLOBAL",3)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  GlobalTimerExpired("J#AnomenKelseyFightTimer","GLOBAL")
+  Global("J#AnomenKelseyFight","GLOBAL",2)
+  Alignment("Anomen",CHAOTIC_NEUTRAL)  // Anomen
+  !Dead("J#Kelsey")  // J#Kelsey
+THEN
+  RESPONSE #100
+    MakeUnselectable(18)
+    EquipMostDamagingMelee()
+    Attack("J#Kelsey")
+END
+
+IF
+  Global("J#AnomenKelseyFight","GLOBAL",2)
+  GlobalTimerNotExpired("J#AnomenKelseyFightTimer","GLOBAL")
+THEN
+  RESPONSE #100
+    MakeUnselectable(18)
+    EquipMostDamagingMelee()
+    Attack("J#Kelsey")
+END
+

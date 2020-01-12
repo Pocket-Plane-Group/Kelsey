@@ -1,0 +1,38 @@
+IF
+	Global("J#BribedMerritt","GLOBAL",2)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+IF
+	Global("J#CearaFight","GLOBAL",3)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Wait(1)
+		StartDialogueNoSet([ANYONE])
+END
+
+IF
+	Global("J#CearaFight","GLOBAL",2)
+	!See("J#Merritt14")
+THEN
+	RESPONSE #100
+		MoveToObject("J#Merritt14")
+END
+
+IF
+	Global("J#CearaFight","GLOBAL",4)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	GlobalLT("J#CearaFight","GLOBAL",4)
+THEN
+	RESPONSE #100
+		NoAction()
+END

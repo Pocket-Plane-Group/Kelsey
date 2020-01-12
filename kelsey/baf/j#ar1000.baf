@@ -1,0 +1,38 @@
+IF
+  Global("J#KelseyExists","AR1000",0)
+  XPLT(Player1,400001)
+THEN
+  RESPONSE #100
+    SetGlobal("J#KelseyExists","AR1000",1)
+    CreateCreature("J#Klsy09",[1982.1982],7)  // ~Kelsey~
+END
+
+IF
+  Global("J#KelseyExists","AR1000",0)
+  XPGT(Player1,400000)
+  XPLT(Player1,800001)
+THEN
+  RESPONSE #100
+    SetGlobal("J#KelseyExists","AR1000",1)
+    CreateCreature("J#Klsy11",[1982.1982],7)  // ~Kelsey~
+END
+
+IF
+  Global("J#KelseyExists","AR1000",0)
+  XPGT(Player1,800000)
+  XPLT(Player1,1200001)
+THEN
+  RESPONSE #100
+    SetGlobal("J#KelseyExists","AR1000",1)
+    CreateCreature("J#Klsy12",[1982.1982],7)  // ~Kelsey~
+END
+
+IF
+  Global("J#KelseyExists","AR1000",0)
+  XPGT(Player1,1200000)
+THEN
+  RESPONSE #100
+    SetGlobal("J#KelseyExists","AR1000",1)
+    CreateCreature("J#Klsy13",[1982.1982],7)  // ~Kelsey~
+END
+

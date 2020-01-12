@@ -1,0 +1,56 @@
+// All of the lines listed here are wrong, don't worry about it.
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("J#Kelsey")  //
+    SetName(70100)  // ~But it's true, Viconia.  I do love you.~
+    SetPlayerSound(Myself,70101,INITIAL_MEETING)  // ~Damnable spirit!  How dare it utter the virtuous name of my sister!  How dare it accuse me of such... such... DAMN THAT GHOST!~ [ANOM2504]
+    SetPlayerSound(Myself,70102,MORALE)  // ~Well... I wouldn't go that far.~
+    SetPlayerSound(Myself,70103,HAPPY)  // ~Sarcasm will get you nowhere.~
+    SetPlayerSound(Myself,70104,UNHAPPY_ANNOYED)  // ~But it will get *you* straight into bed, will it not?  Come, my lover... let me please you, at least for now, in the way I know best.~
+    SetPlayerSound(Myself,70105,UNHAPPY_SERIOUS)  // ~Anomen, settle down.  The thing is gone now, as are its accusations.~
+    SetPlayerSound(Myself,70106,UNHAPPY_BREAKING_POINT)  // ~Ah.  I do not know your 'love'.  I have pondered it, as of late.  I wonder if there has been anyone whose life I have prized over my own.~
+    SetPlayerSound(Myself,70107,LEADER)  // ~My love, that creature was a being of pure evil!  Everything it said was a lie!~
+    SetPlayerSound(Myself,70108,TIRED)  // ~This is a stupid conversation.~
+    SetPlayerSound(Myself,70109,BORED)  // ~It will take more then comforting words to dispel these demons from my past, <CHARNAME>!    ~
+    SetPlayerSound(Myself,70110,BATTLE_CRY1)  // ~It is pointless for me to fawn over such a subject, I suppose.  I am tired.  Let us go to our bed, then, <CHARNAME>.  I will please you as I know best, at least while we can, yes?~
+    SetPlayerSound(Myself,70111,BATTLE_CRY2)  // ~Moira is dead, and her death was never properly avenged.  In that, at least, the spirit spoke the truth.  I failed my sister!  I should have tried harder to take her with me when I left our father's house!~
+    SetPlayerSound(Myself,70112,BATTLE_CRY3)  // ~Viconia... you're crying...~
+    SetPlayerSound(Myself,70113,BATTLE_CRY4)  // ~I don't know.  Perhaps.~
+    SetPlayerSound(Myself,70115,DAMAGE)  // ~We draw close.  To the end.  Don't we?  Very soon, now, your final destiny will be in your hands.~ [VICO2509]
+    SetPlayerSound(Myself,70116,DYING)  // ~Skeleton Mage~
+    SetPlayerSound(Myself,70117,HURT)  // ~Skeleton Mage~
+    SetPlayerSound(Myself,70118,AREA_FOREST)  // ~Avenging her death will not help your sister, Anomen.  It only fools you into believing you have some control over this situation.~
+    SetPlayerSound(Myself,70119,AREA_CITY)  // ~Skeleton Cleric~
+    SetPlayerSound(Myself,70120,AREA_DUNGEON)  // ~You cannot change the past, Anomen.  You cannot bring Moira back.~
+    SetPlayerSound(Myself,70121,AREA_DAY)  // ~Skeleton Cleric~
+    SetPlayerSound(Myself,70122,AREA_NIGHT)  // ~She made her own decision, Anomen.  You could not make it for her.  You can only live your own life.~
+    SetPlayerSound(Myself,70123,SELECT_COMMON1)  // ~I... I know Moira is gone.  I know there is nothing I can do about it.  But it eats at my soul and it tears at my heart.  I failed her, <CHARNAME>!  What if I fail you?~
+    SetPlayerSound(Myself,70124,SELECT_COMMON2)  // ~You won't fail me, Anomen.  You have proved yourself time and time again.~
+    SetPlayerSound(Myself,70125,SELECT_COMMON3)  // ~Snap out of this, Anomen. Remember what you told me - regret is a luxury of the weak.  ~
+    SetPlayerSound(Myself,70126,SELECT_COMMON4)  // ~I... I suppose you are right, my love.  Once again, I must beg your forgiveness.  I guess... I guess I am not yet at peace with Moira's fate.  I will always honor my sister's memory, but I must learn to look to the future.  My future.~
+    SetPlayerSound(Myself,70127,SELECT_COMMON5)  // ~Yes, my love.  The past cannot be changed.  And your future is with me.~
+    SetPlayerSound(Myself,70128,SELECT_COMMON6)  // ~Perhaps you should go, Anomen.  You're of no use to me in this condition.~
+    SetPlayerSound(Myself,70129,SELECT_ACTION1)  // ~Yes, very close now.~
+    SetPlayerSound(Myself,70130,SELECT_ACTION2)  // ~Karthis al-Hezzar~
+    SetPlayerSound(Myself,70131,SELECT_ACTION3)  // ~~
+    SetPlayerSound(Myself,70132,SELECT_ACTION4)  // ~Karthis al-Hezzar~
+    SetPlayerSound(Myself,70133,SELECT_ACTION5)  // ~Good.  Then I have only one thing I wish to say to you, my m'rann dssinss.~
+    SetPlayerSound(Myself,70134,SELECT_ACTION6)  // ~Thank you, my lady.  Once again you have shown me the wisest path.   I shall not let my past destroy what we have built together.  I... I shall be alright.  Let us continue with the task at hand.~
+    SetPlayerSound(Myself,70135,SELECT_ACTION7)  // ~I want you to be strong.  I want you to be merciless.  Be the <PRO_LADYLORD> of murder, if you must... but bring terror into Melissan's heart.  Send her screaming to her death.~
+    SetPlayerSound(Myself,70136,SELECT_RARE1)  // ~You deserve nothing less and I expect nothing less from you.  Whatever comes of me matters not... we shall decide our fate afterwards, if it comes to that.~
+    SetPlayerSound(Myself,70137,SELECT_RARE2)  // ~You... you are right, <CHARNAME>.  I cannot let go of my past.  I love you, my lady... but until I can resolve these issues I am more of a hinder than a help.  I cannot allow my personal demons to endanger you any longer.  Farewell, my love... perhaps we will meet again someday.~
+    SetPlayerSound(Myself,70138,CRITICAL_HIT)  // ~But... in case something unforseen does occur... let me hold you for one moment, <CHARNAME>.  Let us kiss as if for the last time, so that I may remember this even if nothing else...~
+    SetPlayerSound(Myself,70139,CRITICAL_MISS)  // ~My lady, I ask a request of you.  Though my lips desire to steal a kiss from your cheek, may I instead whisper a matter of grave concern in your ear?~ [ANOM2505]
+    SetPlayerSound(Myself,70140,TARGET_IMMUNE)  // ~Yes, my smooth tongued knight?  What is it?~
+    SetPlayerSound(Myself,70141,INVENTORY_FULL)  // ~I don't really have time for this now, Anomen.~
+    SetPlayerSound(Myself,70142,PICKED_POCKET)  // ~I know there is much that is uncertain in your destiny - even the Gods cannot say what lies ahead for you.  For us.  Have you given much thought to... our future?~
+    SetPlayerSound(Myself,70143,HIDDEN_IN_SHADOWS)  // ~I have, my love.  I hope we can stay together forever.  Why do you ask?~
+    SetPlayerSound(Myself,70144,SPELL_DISRUPTED)  // ~I haven't given it much thought, my knight.  I just take things as they come.  Why do you ask?~
+    SetPlayerSound(Myself,70145,SET_A_TRAP)  // ~I'm not sure I see what you're getting at, Anomen.~
+    SetPlayerSound(Myself,70146,EXISTANCE5)  // ~I do not presume to know what lies ahead, <CHARNAME>.  And if it is within my power, I will ever remain by your side.  But such choices may not be ours to make, my lady.  We are among the most powerful beings to currently walk the Realms. ~
+    EndCutSceneMode()
+END
+

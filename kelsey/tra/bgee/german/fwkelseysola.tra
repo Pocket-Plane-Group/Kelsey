@@ -1,0 +1,47 @@
+// -*- coding: utf-8 -*-
+
+// FWKELSEYSOLA.TRA
+
+@1 = ~Ich werde nicht schlau aus Euch, Solaufein.~ [FWKLSYG2]
+@2 = ~Oh? Was genau beunruhigt Euch?~
+@3 = ~Es ist... nun, es ist nichts, dass sich nicht klären wird, wenn ich Euch besser kennen lerne, nehme ich an. Aber Ihr wart bisher so voller Überraschungen.~
+@4 = ~Als wir Euch begegneten hielt ich Euch für einen Drowsoldaten wie jeden anderen auch - was ich als "gefährlich", "nicht vertrauenswürdig", und "um jeden Preis zu vermeiden" zusammenfassen könnte.~
+@5 = ~Dann entpupptet Ihr Euch als zumindest ungewöhnlicher Drowsoldat. Dann auch als Magier? Und interessiert an, was ich als Recht und Ordnung betrachten würde? Und ein Gelehrter von Lyrik der Oberwelt und Philosophie seid Ihr auch?~
+@50 = ~Jedes mal, wenn ich mich umdrehe, scheint Ihr eine andere Person zu sein. Und wie immer Ihr es auch nennen mögt, es ist nicht gerade beruhigend.~
+@6 = ~Ich sehe langsam, was Euch nicht behagt. Ich muss wie ein lebendig gewordener Traum scheinen - die Kühnheit der Drow, aber mit genug "menschlichen" Qualitäten um als Verbündeter beinahe zu wertvoll zu sein. Bin ich nahe daran?~
+@7 = ~... sehr.~
+@8 = ~Darf in Eure Sorgen mit den Worten meiner Wahl ansprechen?~
+@9 = ~Ihr müsst mir überhaupt nicht antworten, Solaufein. Ich hätte wahrscheinlich gar nichts sagen sollen.~
+@10 = ~Seine Fragen und Sorgen für sich zu behalten kann schwerer sein, als den Atem anzuhalten. Denkt Euch nichts dabei.~
+@11 = ~Was meine Beherrschung der Künste, militärischer und arkaner, betrifft, ist Euch sicherlich bewusst, dass Elfen aller Arten ein langes Leben zur Verfügung haben, und so viele Disziplinen erlernen können.~
+@12 = ~Es ist wohl wahr, dass nicht allen Männern der Drowgesellschaft jener Spielraum gewährt wird, auf beiden Seiten des Grades, der Kämpfergemeinschaft und Turm begrenzt, zu wandern, wie ich es tat. Nur wenige Grundsätze sind meinem Volk wichtiger als "das, was du nicht weißt, wird dich in den Händen eines anderen töten."~
+@13 = ~Auch sollte Euch gewahr sein, dass Elfen nicht ein Drittel ihres Lebens an den Schlaf verlieren - Drow am wenigsten von allen, da Schlaf ein ziemlich... ungeschützter Zustand des Seins ist.~
+@14 = ~Daher war die Gelegenheit, und der Ansporn, mich in jeder Weise zu verbessern wohl immer sehr ausgeprägt.~
+@15 = ~ Ich nehme an, dasselbe gilt dann auch für all die Oberweltliteratur?~
+@16 = ~Nicht ganz so, da die Schriften eurer großen Denker nicht gerade eine sehr weise Waffe sind, um in "Unterhaltungen" mit den Mütter Oberinnen geschwungen zu werden.~
+@17 = ~Soviel ich gehört habe, und nachdem was ich gerade von Eurem Zuhause gesehen habe, denke ich, es würde Euch sehr rasch töten.~
+@18 = ~Sehr langsam, eigentlich.~
+@19 = ~Aber ich hielt durch. Die Geschichte, wie ich die Schriften der Oberwelt erst entdeckte und später lieben lernte ist, so fürchte ich, eine lange.~
+@20 = ~Wichtig ist, dass mir zu Bewusstsein kam, dass ich Gefühle und Regungen in mir verspürte, die ich nicht mit den Philosophien meines Volkes erkunden konnte.~
+@21 = ~Zu lernen wie andere denken und fühlen erweitert wie wir selbst denken und fühlen können, und hilft uns es besser zu artikulieren.~
+@22 = ~Denn was sind wir, wahrhaftig, außer was wir anderen gegenüber ausdrücken können?~
+@23 = ~Sehr tiefsinnig, Solaufein.~
+@24 = ~Ich wünsche mir trotzdem, dass Ihr still stehen würdet, bildlich gesprochen, so dass ich herausfinden kann, ob Ihr mich wirklich beunruhigt, oder ob ich nur denke, Ihr beunruhigt mich.~
+@25 = ~Einer der schrofferen Schriften in meinem abgenutzten Band sagt, was man mit einer Hand tun kann, während man in die andere wünscht, aber ich werde diesen Gedanken unausgesprochen lassen.~
+
+@100  = ~<CHARNAME>, was geht zwischen dir und Solaufein vor? Ich habe den Eindruck, er denkt eure Beziehung wäre mehr als nur beruflich. Ist sie das?~ [FWKLSYm0]
+@101  = ~Ja, es ist mir aufgefallen, dass er sich anscheinend ankuscheln möchte. Ich werde ihm sagen, er soll damit aufhören.~
+@102  = ~Wirklich? Ich finde, du siehst Gespenster, Kelsey. Ich bin sicher nicht an ihm interessiert.~
+@103  = ~Was kümmert es dich?~
+@104  = ~So ist es. Ich mag es. Er ist drin, du bist draußen, Hexenmeister.~
+@105  = ~Er... er hält deine Hand und liest ein paar Gedichte und plötzlich bedeute ich gar nichts?~
+@106  = ~Ich... nach allem was wir gemeinsam durchgemacht und geteilt haben, ich kann mich nicht so von dir benutzen lassen. Ich kann es nicht.~
+@107  = ~Es tut mir leid, wenn Eifersucht nicht schicklich ist, aber ich danke dir <CHARNAME>. Ich möchte keine unangenehme Situation verursachen, daher würde ich es wirklich begrüßen, wenn du ihn wissen lässt wie die Dinge stehen.~
+@108  = ~Ich finde nicht, dass ich Gespenster sehe, <CHARNAME>. Wenn ich sehe, wie er dich anschaut... sehe ich einfach, wie ich aussehen muss, wenn ich dich anschaue.~
+@109  = ~Du bist etwas besonderes für mich, und ich fühle mich sehr unbehaglich, weil jemand zwischen uns tritt. Ich glaube, was du sagst, aber bitte, erkläre es ihm einfach.~
+@110  = ~Es kümmert mich, weil ich dich mag, <CHARNAME>, und ich... ich dachte wir würden mehr werden, als nur Weggefährten. Wenn du dich wirklich für Solaufein interessierst... nun, ich denke, dann sollten wir beide davon erfahren.~
+@111  = ~Wenn nicht, dann sollte er es erfahren, bevor er mitgerissen wird.~
+@112  = ~Was es mich -? <CHARNAME>, nach allem was wir gemeinsam durchgemacht haben, wie kannst du daran zweifeln, dass ich mich um dich sorge, oder dass ich eifersüchtig werde, wenn ein anderer Mann dich berührt?~
+@113  = ~Ich kann deine Liebe nicht teilen, nicht mit einem anderen Mann, nicht in der Art, die er, wie ich glaube, im Sinn hat.~
+@114  = ~Ich verstehe nicht. Ich verstehe nicht wie du denken konntest, ich würde dich und Solaufein ignorieren, oder dass ich es nicht bemerken würde, wie du ständig mit ihm flirtest, oder was. Ich SAGTE dir, dass es mich quält.~ [FWKLSYm1]
+@115  = ~Auf jeden Fall... wenn es das ist, was du willst, bitte sehr, Gebieterin. Ich nehme an, du und dein neuer Freund werdet mich wissen lassen, wenn ihr etwas zu verhandeln oder in die Luft zu sprengen habt.~

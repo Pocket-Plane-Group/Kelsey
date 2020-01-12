@@ -1,0 +1,47 @@
+// -*- coding: utf-8 -*-
+
+// FWKELSEYSOLA.TRA
+
+@1 = ~I cannot make sense of you, Solaufein.~ [FWKLSYG2]
+@2 = ~Oh? What is it that troubles you, exactly?~
+@3 = ~It's...well, it's nothing that can't be explained by simply getting to know you better, I suppose. But you have been full of surprises.~
+@4 = ~When we first met you, I thought you a Drow soldier like any other--which I could sum up as "dangerous", "not to be trusted", and "to be avoided at all costs."~
+@5 = ~Then, you showed yourself at least to be an uncommon Drow soldier. Then a mage as well? And interested in what I would consider justice and right? And a scholar of surface poetry and philosophy?~
+@50 = ~You appear to be a different person every time I turn around. And whatever you want to call that, it's not a reassuring thing.~
+@6 = ~I begin to see what makes you uneasy. I must seem to be a dream given form--the prowess of the drow, but with enough "human" qualities to make me almost too valuable an ally. Am I close?~
+@7 = ~...very.~
+@8 = ~Can I address your concerns in the order of my own choosing?~
+@9 = ~You don't have to answer to me at all, Solaufein. I probably should not have said anything.~
+@10 = ~Holding one's questions and concerns within can be more difficult than holding one's breath. Think nothing of it.~
+@11 = ~As for my command of the arts martial and arcane, surely you realize that elves of all kinds have a long life with which to learn many disciplines.~
+@12 = ~While it is true that not all males in Drow society are afforded the latitude to straddle the line between the Fighter's Society and the Tower as I did, there are few tenets more important to my people than "that which you do not know, can kill you in the hands of another."~
+@13 = ~As you should also realize, elves do not lose one-third of their lives to slumber--Drow elves least of all, as sleep is a rather... unguarded state of being.~
+@14 = ~So, the opportunity, and the motivation, to better myself in any way possible has always been quite strong.~
+@15 = ~I presume the same goes for all the surface reading, then?~
+@16 = ~Not quite as such, as the writings of your great thinkers are not exactly a wise weapon to wield in "discourse" with the Matron Mothers.~
+@17 = ~From what I've heard, and what I just saw of your home, I would think that would get you killed very quickly.~
+@18 = ~Very slowly, actually.~
+@19 = ~But, I persevered. The story of how I first discovered, and later came to love the writings of the surface is, I fear, a long one.~
+@20 = ~What is important is that I came to understand that I had feelings and emotions inside me that I could not explore with the philosophies of my own people.~
+@21 = ~Learning how others think and feel expands how we, ourselves, can think and feel, and help us better articulate it.~
+@22 = ~For what are we, truly, except what we can express to another?~
+@23 = ~Very deep, Solaufein.~
+@24 = ~I still wish you'd stand still, metaphorically speaking, so I can figure out if you really worry me, or if I just think you worry me.~
+@25 = ~One of the rougher surface writings in my battered tome tells what one can do with one hand while wishing in the other, but I shall leave that thought un-uttered.~
+
+@100  = ~<CHARNAME>, what is going on between you and Solaufein? I get the impression he thinks your relationship is more than professional. Is it?~ [FWKLSYm0]
+@101  = ~Yes, I did notice that he seems to be trying to snuggle up. I will tell him to lay off.~
+@102  = ~Really? I think you are imagining things, Kelsey. I am certainly not interested in him.~
+@103  = ~What do you care?~
+@104  = ~It is. I like it. He's in, you're out, sorcerer.~
+@105  = ~He... he holds your hand and reads you a little poetry and suddenly, I mean nothing.~
+@106  = ~I... after everything we went through together and shared, I can't let you use me like that. I can't.~
+@107  = ~I am sorry if jealousy is not becoming, but, thank you, <CHARNAME>. I don't want to create an uncomfortable situation, so I would really appreciate your letting him know where things stand.~
+@108  = ~I don't think I am imagining things, <CHARNAME>. When I see him looking at you... let's just say that I see what I must look like, when I look at you.~
+@109  = ~You really are special to me, and it makes me very uncomfortable to see someone coming between us. I believe what you say, but please, just explain it to him.~
+@110  = ~I care because I like you, <CHARNAME>, and I... I thought we were becoming more than just companions. If you truly care for Solaufein... well, I think we both should know about it.~
+@111  = ~If not, I think he should know before he gets carried away.~
+@112  = ~What do I--? <CHARNAME>, after everything we've been through together, how could you doubt that I would care for you, or that I would be jealous of another man putting his hands on you?~
+@113  = ~I can't share your love, not with another man, not in the way I think he has in mind.~
+@114  = ~I don't understand. I don't understand if you thought I would ignore you and Solaufein, or that I wouldn't notice you continuing to flirt with him, or what. I TOLD you that it bothered me.~ [FWKLSYm1]
+@115  = ~But in any event... if that is what you want, you are welcome to it, boss. I suppose you and the new boyfriend will let me know if you need something bargained with or blown up.~
