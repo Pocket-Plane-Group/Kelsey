@@ -1,8 +1,9 @@
 BACKUP ~kelsey\backup~
-AUTHOR ~jcompton@pocketplane.net~
+//AUTHOR ~jcompton@pocketplane.net~
+SUPPORT ~http://forums.pocketplane.net/index.php/board,4.0.html~
 
 README ~kelsey/docs/readme.html~
-VERSION ~V5~
+VERSION ~V6~
 ASK_EVERY_COMPONENT
 
 ALWAYS
@@ -849,26 +850,31 @@ REQUIRE_PREDICATE FILE_EXISTS_IN_GAME sola.dlg @89
 
 BEGIN @91 DESIGNATED 2 // Install Alternate Kelsey portrait set #1, by Karse Soze (hooded Kelsey)?
 SUBCOMPONENT @96
+REQUIRE_COMPONENT ~kelsey.tp2~ ~0~ ~Kelsey main component needs to be installed.~
 
 LAF install_portrait STR_VAR portrait = ~soze_cloak~ END
 
 BEGIN @97 DESIGNATED 20
 SUBCOMPONENT @96
+REQUIRE_COMPONENT ~kelsey.tp2~ ~0~ ~Kelsey main component needs to be installed.~
 
 LAF install_portrait STR_VAR portrait = ~frida~ END
 
 BEGIN @98 DESIGNATED 21
 SUBCOMPONENT @96
+REQUIRE_COMPONENT ~kelsey.tp2~ ~0~ ~Kelsey main component needs to be installed.~
 
 LAF install_portrait STR_VAR portrait = ~indi~ END
 
 BEGIN @99 DESIGNATED 22
 SUBCOMPONENT @96
+REQUIRE_COMPONENT ~kelsey.tp2~ ~0~ ~Kelsey main component needs to be installed.~
 
 LAF install_portrait STR_VAR portrait = ~wynne~ END
 
 BEGIN @100 DESIGNATED 23
 SUBCOMPONENT @96
+REQUIRE_COMPONENT ~kelsey.tp2~ ~0~ ~Kelsey main component needs to be installed.~
 
 LAF install_portrait STR_VAR portrait = ~yung~ END
 
