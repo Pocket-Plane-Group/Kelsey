@@ -1,0 +1,47 @@
+// -*- coding: utf-8 -*-
+
+// FWKELSEYSOLA.TRA
+
+@1 = ~Je n'arrive pas à te cerner, Solaufein.~ [FWKLSYG2]
+@2 = ~Vraiment ? Qu'est-ce qui te trouble exactement ?~
+@3 = ~C'est... enfin, ce n'est sans doute rien qu'on ne puisse éclaircir en apprenant simplement à mieux te connaître. Mais tu n'as cessé de me surprendre.~
+@4 = ~Quand nous t'avons rencontré, je t'ai pris pour un soldat drow comme les autres... ce que j'aurais résumé par « dangereux », « indigne de confiance » et « à éviter à tout prix ».~
+@5 = ~Puis tu t'es révélé être, au minimum, un soldat drow hors du commun. Et ensuite, un mage par-dessus le marché ? Intéressé par ce que j'appellerais la justice et le bien ? Et connaisseur de la poésie et de la philosophie de la surface ?~
+@50 = ~J'ai l'impression que tu es une personne différente chaque fois que je me retourne. Quel que soit le nom que tu donnes à ça, ce n'est pas très rassurant.~
+@6 = ~Je commence à comprendre ce qui te met mal à l'aise. Je dois te sembler être un rêve devenu réalité : toute la puissance des drows, mais avec suffisamment de qualités « humaines » pour faire de moi un allié presque trop précieux. Je suis loin du compte ?~
+@7 = ~... pas vraiment.~
+@8 = ~Puis-je répondre à tes inquiétudes dans l'ordre qui me convient ?~
+@9 = ~Tu n'as aucun compte à me rendre, Solaufein. Je n'aurais probablement rien dû dire.~
+@10 = ~Garder ses questions et ses inquiétudes en soi peut être plus difficile que de retenir son souffle. N'y pense plus.~
+@11 = ~Quant à ma maîtrise des arts martiaux et des arcanes, tu n'ignores certainement pas que les elfes, quels qu'ils soient, disposent d'une longue vie pour apprendre de nombreuses disciplines.~
+@12 = ~Il est vrai que tous les mâles de la société drow ne disposent pas de la liberté nécessaire pour se partager, comme je l'ai fait, entre la Société des Guerriers et la Tour. Mais peu de préceptes sont plus importants pour mon peuple que celui-ci : « Ce que tu ignores peut te tuer entre les mains d'un autre. »~
+@13 = ~Tu dois également savoir que les elfes ne perdent pas un tiers de leur existence à dormir... et les drows moins que tous les autres, car le sommeil est un état plutôt... vulnérable.~
+@14 = ~J'ai donc toujours eu à la fois l'occasion et de solides raisons de chercher à me perfectionner de toutes les manières possibles.~
+@15 = ~J'imagine que c'est pareil pour toutes tes lectures de la surface, alors ?~
+@16 = ~Pas tout à fait. Les écrits de vos grands penseurs ne constituent pas exactement une arme qu'il soit prudent de brandir dans une « discussion » avec les Matrones.~
+@17 = ~D'après ce que j'ai entendu, et ce que je viens de voir de chez toi, j'aurais pensé que ça te ferait tuer très vite.~
+@18 = ~Très lentement, en réalité.~
+@19 = ~Mais j'ai persévéré. L'histoire de ma découverte des écrits de la surface, puis de l'amour que j'ai appris à leur porter, est malheureusement assez longue.~
+@20 = ~L'important est que j'ai fini par comprendre que je portais en moi des sentiments et des émotions que les philosophies de mon propre peuple ne me permettaient pas d'explorer.~
+@21 = ~Apprendre comment les autres pensent et ressentent élargit notre propre manière de penser et de ressentir, et nous aide à mieux l'exprimer.~
+@22 = ~Car que sommes-nous réellement, sinon ce que nous sommes capables d'exprimer à autrui ?~
+@23 = ~Très profond, Solaufein.~
+@24 = ~J'aimerais quand même que tu cesses de changer de visage, métaphoriquement parlant, le temps que je puisse décider si tu m'inquiètes vraiment ou si je m'imagine simplement que tu m'inquiètes.~
+@25 = ~Un des textes les plus crus de mon vieux recueil explique ce que l'on peut mettre dans une main pendant qu'on fait un vœu dans l'autre... mais je vais garder la suite pour moi.~
+
+@100  = ~<CHARNAME>, qu'est-ce qui se passe entre Solaufein et toi ? J'ai l'impression qu'il pense que votre relation dépasse le cadre... professionnel. C'est le cas ?~ [FWKLSYm0]
+@101  = ~Oui, j'ai remarqué qu'il cherchait à se rapprocher. Je vais lui dire de se calmer.~
+@102  = ~Vraiment ? Je crois que tu te fais des idées, Kelsey. Il ne m'intéresse absolument pas.~
+@103  = ~Qu'est-ce que ça peut te faire ?~
+@104  = ~Oui. Et ça me plaît. Lui reste, toi tu dégages, sorcier.~
+@105  = ~Il... il te prend la main, te récite quelques vers et, tout à coup... je ne compte plus pour rien.~
+@106  = ~Je... après tout ce qu'on a vécu et partagé, je ne peux pas te laisser te servir de moi comme ça. Je ne peux pas.~
+@107  = ~Désolé si la jalousie ne me va pas très bien, mais... merci, <CHARNAME>. Je ne veux pas créer une situation gênante, alors j'aimerais vraiment que tu lui expliques clairement où en sont les choses.~
+@108  = ~Je ne crois pas me faire des idées, <CHARNAME>. Quand je le vois te regarder... disons simplement que je vois à quoi je dois ressembler quand, moi, je te regarde.~
+@109  = ~Tu comptes vraiment beaucoup pour moi, et voir quelqu'un s'immiscer entre nous me met très mal à l'aise. Je te crois, mais s'il te plaît... explique-lui simplement les choses.~
+@110  = ~Ça m'importe parce que tu me plais, <CHARNAME>, et que je... je pensais que nous étions en train de devenir plus que de simples compagnons. Si tu tiens vraiment à Solaufein... eh bien, je crois que nous devrions tous les deux le savoir.~
+@111  = ~Sinon, je pense qu'il devrait être fixé avant de s'emballer.~
+@112  = ~Ce que ça peut me...? <CHARNAME>, après tout ce qu'on a traversé ensemble, comment peux-tu douter que je t'aime, ou que je puisse être jaloux de voir un autre homme poser les mains sur toi ?~
+@113  = ~Je ne peux pas partager ton amour. Pas avec un autre homme, pas de la façon dont je pense qu'il l'entend.~
+@114  = ~Je ne comprends pas. Je ne sais pas si tu pensais que je fermerais les yeux sur Solaufein et toi, ou que je ne remarquerais pas que tu continuais à flirter avec lui, ou quoi que ce soit d'autre. Je T'AI DIT que ça me dérangeait.~ [FWKLSYm1]
+@115  = ~Mais quoi qu'il en soit... si c'est ce que tu veux, grand chef, libre à toi. J'imagine que ton nouveau petit ami et toi me ferez signe si vous avez besoin de négocier quelque chose ou de le faire sauter.~

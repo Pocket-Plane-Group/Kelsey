@@ -1,0 +1,15 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~<CHARNAME>... qu'est-ce qui se passe entre Solaufein et toi ? J'ai l'impression qu'il pense que votre relation dépasse le cadre... professionnel. C'est le cas ?~ [FWKLSYm0]
+@1    = ~Oui, j'ai remarqué qu'il cherchait à se rapprocher. Je vais lui dire de se calmer.~
+@2    = ~Vraiment ? Je crois que tu te fais des idées, Kelsey. Il ne m'intéresse absolument pas.~
+@3    = ~Qu'est-ce que ça peut te faire ?~
+@4    = ~Oui. Et ça me plaît. Lui reste, toi tu dégages, sorcier.~
+@5    = ~Il... il te prend la main, te récite quelques vers et, tout à coup... je ne compte plus pour rien.~
+@6    = ~Je... après tout ce qu'on a vécu et partagé, je ne peux pas te laisser te servir de moi comme ça. Je ne peux pas.~
+@7    = ~Désolé si la jalousie ne me va pas très bien, mais... merci, <CHARNAME>. Je ne veux pas créer une situation gênante, alors j'aimerais vraiment que tu lui expliques clairement où en sont les choses.~
+@8    = ~Je ne crois pas me faire des idées, <CHARNAME>. Quand je le vois te regarder... disons simplement que je vois à quoi je dois ressembler quand, moi, je te regarde.~
+@9    = ~Tu comptes vraiment beaucoup pour moi, et voir quelqu'un s'immiscer entre nous me met très mal à l'aise. Je te crois, mais s'il te plaît... explique-lui simplement les choses.~
+@10   = ~Ce que ça peut me...? <CHARNAME>, après tout ce qu'on a traversé ensemble, comment peux-tu douter que je t'aime, ou que je puisse être jaloux de voir un autre homme poser les mains sur toi ?~
+@11   = ~Je ne peux pas partager ton amour. Pas avec un autre homme, pas de la façon dont je pense qu'il l'entend.~
+@12   = ~Je ne comprends pas. Je ne sais pas si tu pensais que je fermerais les yeux sur Solaufein et toi, ou que je ne remarquerais pas que tu continuais à flirter avec lui, ou quoi que ce soit d'autre. Je T'AI DIT que ça me dérangeait.~ [FWKLSYm1]

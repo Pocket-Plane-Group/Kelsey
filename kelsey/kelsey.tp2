@@ -68,6 +68,11 @@ LANGUAGE ~Russian (Translated by Prowler)~
          ~kelsey/tra/english/setup.tra~
          ~kelsey/tra/english/game.tra~
          ~kelsey/tra/russian/game.tra~
+LANGUAGE ~French (Translated by Deratiseur)~
+         ~french~
+         ~kelsey/tra/french/setup.tra~
+         ~kelsey/tra/french/game.tra~
+         ~kelsey/tra/french/game.tra~
 
 
 BEGIN @1 DESIGNATED 0
