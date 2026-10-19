@@ -24,7 +24,7 @@
 @16  = ~Vraiment ? J'envierais presque une enfance aussi recluse. J'ai passé la moitié de la mienne à voyager avec mon père et, ces derniers temps, je ne fais guère que passer d'une étape à l'autre.~
 @17  = ~Désolé de t'avoir dérangée, alors.~
 @18  = ~Je sais que ton arrivée à Athkatla a été pénible et bouleversante, mais j'avoue que je suis heureux qu'elle m'ait donné l'occasion de rencontrer une nouvelle amie.~ [FWKLSY53]
-@19  = ~Depuis le début de cette folie, deux de mes compagnons ont perdu la vie et une troisième est retenue par un psychopathe. J'appellerais cela plus qu'un « contretemps », Kelsey.~
+@19  = ~Depuis le début de cette folie, deux de mes compagnons ont perdu la vie et une troisième est retenue par un psychopathe. J'appellerais cela plus qu'un " contretemps ", Kelsey.~
 @20  = ~Ce n'est pas aussi simple que tu le présentes, Kelsey.~
 @21  = ~Oui, enfin, ce voyage n'a pas été sans récompenses jusqu'ici.~
 @22  = ~J'ai beaucoup trop de choses en tête pour te parler maintenant.~
@@ -244,7 +244,7 @@
 @240 = ~Non, et j'aurais certainement préféré qu'on me laisse le choix.~
 @242 = ~Non, et j'aurais certainement préféré qu'on me laisse le choix.~
 @243 = ~Avec la vie dangereuse et nomade que tu as menée ces derniers temps, as-tu vraiment eu le temps de te faire des amis et de les garder ?~ [FWKLSY62]
-@244 = ~Surtout parmi ceux qui voyagent avec moi, mais oui, il y en a certains que j'appelle « amis ».~
+@244 = ~Surtout parmi ceux qui voyagent avec moi, mais oui, il y en a certains que j'appelle " amis ".~
 @245 = ~La vie est trop instable pour compter longtemps sur qui que ce soit.~
 @246 = ~Eh bien oui, malgré tout le sang et toutes les intrigues qui m'entourent, je crois être plutôt sociable.~
 @247 = ~Je n'ai pas le temps de discuter de ma vie privée.~
@@ -388,7 +388,7 @@
 @385 = ~Être... ce que je suis n'est pas facile pour moi. La magie est quelque chose d'étrange, mais la plupart des mages savent parfaitement comment elle fonctionne puisqu'ils étudient sans cesse pour le comprendre. Pour moi, c'est presque trop facile.~
 @386 = ~Pense à n'importe quel puissant magicien des Royaumes. Il peut avoir assez de pouvoir pour anéantir une armée entière, mais il doit soigneusement se préparer. S'il veut désintégrer quelqu'un aujourd'hui, il fallait qu'il le prévoie hier soir. Même chose pour lancer une boule de feu ou projeter une boule de colle. Eux doivent tout planifier.~
 @387 = ~Mais moi ? Je me réveille chaque matin et parfois j'ai l'impression de SENTIR cette surcharge d'énergie magique qui imprègne mon corps, et je peux en faire presque tout ce que je veux. Aucune préparation, rien.~
-@388 = ~Et de temps en temps, je vais dormir, je me réveille, et je sais façonner cette énergie d'une nouvelle manière. On m'a dit que c'était un peu différent pour chaque sorcier, mais que nous façonnions consciemment et inconsciemment les nouveaux sorts que nous « apprenons » en fonction de ce que nous savons et de ce que nous voulons dans la vie.~
+@388 = ~Et de temps en temps, je vais dormir, je me réveille, et je sais façonner cette énergie d'une nouvelle manière. On m'a dit que c'était un peu différent pour chaque sorcier, mais que nous façonnions consciemment et inconsciemment les nouveaux sorts que nous " apprenons " en fonction de ce que nous savons et de ce que nous voulons dans la vie.~
 @389 = ~Tu veux en venir quelque part ?~
 @390 = ~Kelsey, mon chou, tu t'emballes... qu'est-ce que tu essaies de dire ?~
 @391 = ~C'est bien ce que j'essaie de dire : toi aussi, tu sais ce que ça fait, pas vrai ? Le pouvoir t'est tombé dessus d'un coup, par surprise, n'est-ce pas ? Tu as dû apprendre à vivre avec ça, exactement comme moi !~
@@ -434,7 +434,7 @@
 @431 = ~Beurk, Kelsey, arrête. C'est trop.~
 @432 = ~Continue, je t'écoute encore si cela t'aide d'en parler.~
 @433 = ~(frissonne) Tu as raison, je ne devrais pas t'obliger à penser à des choses pareilles. Désolé, j'essaierai de ne pas être aussi morbide.~
-@434 = ~Les bruits qu'il faisait... je ne peux même pas les décrire. Enfin, son « ami » a cessé de gifler une femme dans la boutique pour voir ce qui s'était passé.~
+@434 = ~Les bruits qu'il faisait... je ne peux même pas les décrire. Enfin, son " ami " a cessé de gifler une femme dans la boutique pour voir ce qui s'était passé.~
 @435 = ~Je crois qu'il s'attendait à me voir recevoir ce que je méritais. Lorsqu'il a vu la tête de son ami... se désagréger, il est devenu blanc presque instantanément et s'est évanoui.~
 @436 = ~Les clients de la boutique n'étaient pas précisément enchantés par le spectacle non plus. Il a fallu un bon moment aux gardes pour ranimer l'autre bandit et la femme qu'il avait prise pour victime.~
 @437 = ~Oh, Kelsey, c'est vraiment horrible. Je suis désolée de ne pas pouvoir t'aider à effacer ce souvenir douloureux.~
@@ -659,11 +659,11 @@
 @656 = ~Oh, bien sûr. Je voulais justement t'en parler, j'ai simplement été distrait en te regardant.~
 @657 = ~Hum hum.~
 @658 = ~Je le jure !~
-@659 = ~Quoi qu'il en soit, non, je ne suis pas « novice » avec les femmes.~
+@659 = ~Quoi qu'il en soit, non, je ne suis pas " novice " avec les femmes.~
 @660 = ~Je ne suis pas exactement fier de tout. Quand j'étais plus jeune, peu après avoir été envoyé sur les routes, j'ai laissé une acheteuse utiliser le sexe comme une arme, comme moyen de négociation, et j'ai cédé. Puis j'ai recommencé, à peine deux semaines plus tard.~
 @661 = ~Cela a abîmé ma vision des choses pendant quelque temps, je l'avoue. Ça n'avait rien de particulièrement juste ou spécial, ni même de très intelligent, alors j'ai appris à éviter ce genre de situation et à dire aux gens quand je voyais clair dans leur jeu.~
 @662 = ~Grandir m'a aussi aidé, de façon générale. Depuis, eh bien, je n'ai pas très bien suivi le conseil de mon père lorsqu'il me disait qu'un homme ne devait jamais être trop occupé pour tomber amoureux ou le rester.~
-@663 = ~Je ne supporte pas l'idée de « la fille dans chaque port », alors je ne fais pas ça. Mais j'ai tellement voyagé et avec tant de gens différents qu'il reste peu d'alternatives.~
+@663 = ~Je ne supporte pas l'idée de " la fille dans chaque port ", alors je ne fais pas ça. Mais j'ai tellement voyagé et avec tant de gens différents qu'il reste peu d'alternatives.~
 @664 = ~J'ai essayé d'éviter les liaisons de convenance à court terme, mais j'avoue avoir partagé quelques nuits froides, des couvertures et un peu d'affection avec une femme qui pensait comme moi pendant un trajet en caravane.~
 @665 = ~Cela dit, je cherchais quelqu'un de spécial, et cette fois je l'ai vraiment trouvée. Toi.~
 @666 = ~J'espère que tu n'es pas trop déçue par moi, <CHARNAME>.~
@@ -829,7 +829,7 @@
 @826 = ~Tu es en train de me demander en mariage ?~
 @827 = ~Eh bien, reste aussi longtemps que tu le souhaites, mais je ne contrôle pas l'avenir.~
 @828 = ~Je ne crois pas que ce serait juste envers toi pour le moment, <CHARNAME>...~
-@829 = ~Il reste encore tellement de choses à régler, et je mentirais si je disais que mes propres problèmes ne me rendent pas un peu méfiant à l'idée du mariage. « Famille » n'est plus un mot très agréable dans mon vocabulaire depuis longtemps.~
+@829 = ~Il reste encore tellement de choses à régler, et je mentirais si je disais que mes propres problèmes ne me rendent pas un peu méfiant à l'idée du mariage. " Famille " n'est plus un mot très agréable dans mon vocabulaire depuis longtemps.~
 @830 = ~Pour l'instant, je pense que notre relation, entre égaux, est ce qu'il y a de mieux. Peut-être pourrons-nous reparler de cette idée lorsque les choses se seront un peu calmées...~
 @831 = ~Je resterai. J'espère qu'avec le temps tu finiras par chérir cette idée autant que moi.~
 @832 = ~Je le sais ! Je compte même dessus.~
@@ -840,7 +840,7 @@
 @837 = ~Je le sais ! Je compte même dessus.~
 @838 = ~Korgan ! Ralentis, quelque chose vient de tomber de ton sac !~ [FWKLSYA2]
 @839 = ~C'est... un livre ?~
-@840 = ~Je lis un peu le nain... « Chants recueillis de Mère Montagne » ? Ma famille fait un peu de commerce de livres... un recueil de poésie naine à succès, et il est dans TON sac ?~
+@840 = ~Je lis un peu le nain... " Chants recueillis de Mère Montagne " ? Ma famille fait un peu de commerce de livres... un recueil de poésie naine à succès, et il est dans TON sac ?~
 @841 = ~Allons, du calme. Je suis sûr que personne n'a besoin de le savoir si tu baisses la voix, et si tu m'éventres maintenant je ferai beaucoup de bruit, ce qui risque de les conduire au livre lorsqu'ils l'arracheront à mes restes ensanglantés. Et puis, même si on me posait la question, je dirais sûrement que tu ne le gardes que pour sa... valeur sentimentale.~
 @842 = ~Je n'ai même pas de sœur. Mais tiens, reprends-le.~
 @843 = ~Quand est-ce que tu t'es habituée à tuer ou être tuée ?~ [FWKLSYA9]
@@ -868,7 +868,7 @@
 @865 = ~Quoi ? Et moi qui croyais avoir une ascendance douteuse. Euh, désolé, sans vouloir t'offenser, ce n'est pas ce que je voulais dire !~
 @866 = ~C'est seulement que... j'aurais imaginé que la vie serait très difficile pour quelqu'un dans cette situation. Mais enfin, la vie A ÉTÉ difficile, n'est-ce pas ?~
 @867 = ~Tu es vraiment le maître des évidences, Kelsey.~
-@868 = ~On peut dire ça. Mais je t'assure que je suis une personne assez normale malgré mon « ascendance douteuse ».~
+@868 = ~On peut dire ça. Mais je t'assure que je suis une personne assez normale malgré mon " ascendance douteuse ".~
 @869 = ~Cela devient de plus en plus éprouvant.~
 @870 = ~J'essaierai de moins me plaindre à l'avenir de ne pas comprendre mon propre héritage. Et si un jour tu veux en parler, dis-le-moi simplement.~
 @871 = ~Je voulais simplement te remercier de m'avoir intégré au groupe. Nous faisons le genre de choses auxquelles je crois, et tu es une bien meilleure personne que les aventuriers et capitaines mercenaires avec lesquels je finis d'habitude.~ [FWKLSYB0]
@@ -959,7 +959,7 @@
 @956 = ~Votre attention, tout le monde ! Je propose qu'à partir de ce jour, tout jeune homme ou toute jeune femme atteignant l'âge adulte dans un environnement déroutant et hostile reçoive officiellement une prêtresse-guerrière elfe, chargée d'être général de campagne, guide dans la nature et conseillère qui dit toujours ce qu'elle pense.~
 @957 = ~Bravo !~
 @958 = ~J'aurais certainement pu faire bien pire que de rester auprès de Jaheira, et je te conseille d'en faire autant.~
-@959 = ~Tu as oublié « fouineuse » et « grincheuse attitrée ». Celle-ci est à toi si tu la veux.~
+@959 = ~Tu as oublié " fouineuse " et " grincheuse attitrée ". Celle-ci est à toi si tu la veux.~
 @960 = ~Fais attention à ce que tu souhaites, Kelsey. Il est diablement difficile de se faire rembourser une fois qu'elles ne servent plus à rien.~
 @961 = ~Oui, maîtresse.~
 @962 = ~As-tu déjà envisagé d'avoir un enfant, Jaheira ?~ [FWKLSYA5]
@@ -976,7 +976,7 @@
 @973 = ~Dans mes moments les plus sombres, j'avoue y avoir pensé.~
 @974 = ~Cependant, maintenant que l'idée m'est présentée comme un conseil par une sadique, je suis fermement convaincu que ce serait la mauvaise chose à faire.~
 @975 = ~L'ennui de quoi ?~ [FWKLSY95]
-@976 = ~Pardon, vous avez bien dit « compter toute cette avoine » ?~
+@976 = ~Pardon, vous avez bien dit " compter toute cette avoine " ?~
 @977 = ~Je ne crois pas une seconde à cette histoire, comprenez-le bien, mais dites-m'en davantage sur ce comptage d'avoine que je suis censé faire. Il ne serait pas plus logique de peser l'avoine plutôt que de compter les grains ?~
 @978 = ~D'accord. Donc je suis censé me livrer à une autorité supérieure, recevoir une formation au comptage de l'avoine et passer quatre ans à compter de minuscules flocons ?~
 @979 = ~Et si on faisait comme ça, Jan ? Quand les Exécuteurs du Grain viendront me chercher, vous leur direz simplement que j'ai accompli mon service réglementaire de comptage de l'avoine sous votre tutelle. Quelqu'un qui connaît, euh, Plumpleuff depuis si longtemps doit bien avoir de l'influence, non ?~
@@ -985,9 +985,9 @@
 @982 = ~Je ne te suis pas.~
 @983 = ~Et toi, si, c'est ça ?~
 @984 = ~Eh bien, puisque nous sommes des âmes sœurs, tu ne trouves pas que ce serait agréable d'être normal, juste une fois ?~
-@985 = ~Dois-je comprendre que tu as revu ton opinion sur moi en tant que... qu'est-ce que tu marmonnais hier déjà, un « faible sans talent » ? Je suis content de voir que je monte dans le monde, au moins.~ [FWKLSYA1]
+@985 = ~Dois-je comprendre que tu as revu ton opinion sur moi en tant que... qu'est-ce que tu marmonnais hier déjà, un " faible sans talent " ? Je suis content de voir que je monte dans le monde, au moins.~ [FWKLSYA1]
 @986 = ~Tu préférerais que je te ressemble davantage ? Que je poignarde dans le dos et rampe dans les rangs de n'importe quelle guilde de voleurs ou usurier qui aurait besoin d'un projectile magique cette semaine ?~
-@987 = ~Peu importe. Je ne crois tout simplement pas être taillé dans le même tissu de « maniaque homicide » que toi. Désolé si cela signifie que nous ne pouvons pas être amis.~
+@987 = ~Peu importe. Je ne crois tout simplement pas être taillé dans le même tissu de " maniaque homicide " que toi. Désolé si cela signifie que nous ne pouvons pas être amis.~
 @988 = ~Mais de quoi est-ce que tu parles, par les enfers, Korgan ?~ [FWKLSYA3]
 @989 = ~Mon père était un homme bon et honnête, mais à part ça je t'assure qu'il n'avait rien d'aussi extraordinaire que tu le suggères. Aucun serviteur infernal n'était présent lors de ma conception.~
 @990 = ~Je n'ai pas à écouter ça, et je ne le ferai plus très longtemps.~
@@ -1013,8 +1013,8 @@
 @1010 = ~Mon père était un homme bon et honnête, mais à part ça je t'assure qu'il n'avait rien d'aussi extraordinaire que tu le suggères. Aucun serviteur infernal n'était présent lors de ma conception.~
 @1011 = ~Je n'ai pas à écouter ça, et je ne le ferai plus très longtemps.~
 @1012 = ~Comme tu voudras.~
-@1013 = ~C'est « Kelsey », Jan. Mais oui, allez-y.~ [FWKLSYF4]
-@1014 = ~« Kels »... laissez tomber. Quel est le problème, Jan ? Je n'ai pas entendu beaucoup de plaintes de la part de <CHARNAME>. Vous savez quelque chose que j'ignore ?~
+@1013 = ~C'est " Kelsey ", Jan. Mais oui, allez-y.~ [FWKLSYF4]
+@1014 = ~" Kels "... laissez tomber. Quel est le problème, Jan ? Je n'ai pas entendu beaucoup de plaintes de la part de <CHARNAME>. Vous savez quelque chose que j'ignore ?~
 @1015 = ~Jan, ça suffit ! Qu'est-ce que vous voulez que je fasse ? Que j'agite les mains, danse et chante ? Ce serait un énorme gaspillage d'énergie, et je n'ai pas exactement envie de faire de moi une cible ; je me fais déjà assez tabasser comme ça !~
 @1016 = ~Je ne sais pas quoi dire, sinon que recevoir un cadeau de votre part est à la fois flatteur et terrifiant.~
 @1017 = ~Je voulais simplement te dire que je suis impressionné de voir jusqu'où tu es prête à te détourner de ta route pour aider les gens.~ [FWKLSYB2]
@@ -1089,7 +1089,7 @@
 
 @1200 = ~Quoi ? De quoi parlez-vous, jeune homme ?~
 @1201 = ~Par Torm, c'est donc ce que tu penses ? Si je ne voyais pas à ton regard que tu es sérieux, je t'accuserais de calomnie malveillante.~
-@1202 = ~Kelsey, crois-moi lorsque je te dis que j'ai appelé nombre de mages « amis » par le passé, et que je suis tout à fait disposé à en dire autant de toi.~
+@1202 = ~Kelsey, crois-moi lorsque je te dis que j'ai appelé nombre de mages " amis " par le passé, et que je suis tout à fait disposé à en dire autant de toi.~
 @1203 = ~Tant que tu restes en compagnie de <CHARNAME> et que <PRO_HESHE> suit la voie du bien, je ne songerai jamais à te considérer autrement que comme un compagnon digne de confiance.~
 @1204 = ~Si seulement j'avais pu. Non, il est vrai que j'ai livré de nombreux combats contre des ennemis aussi bien ordinaires qu'arcaniques. Et il est vrai qu'au-delà de mon dévouement à la justice et au droit, j'ai affûté mes talents et invoqué Torm pour qu'il m'aide à neutraliser les pouvoirs des magiciens.~
 @1205 = ~Kelsey, je vois que tu es quelqu'un de bien, mais tu n'es pas non plus un innocent. Tu devrais comprendre, peut-être même mieux que moi, qu'un mage invisible peut provoquer davantage de chaos et de destruction qu'une compagnie d'orques ou de géants.~
@@ -1112,7 +1112,7 @@
 @1222 = ~Ha ! C'est vrai. D'accord, Kelsey, tiens.~
 @1223 = ~Qu'est-ce qui n'a pas de sens ?~
 @1224 = ~Pourquoi est-ce que ça te dérange ? Kelsey, je crois que tu te plains trop. Personnellement, j'aimerais que la magie me vienne aussi facilement qu'à toi. Je ne veux même pas penser au nombre d'heures que j'ai passées à étudier des sorts.~
-@1225 = ~Faire de bonnes actions et accomplir quelque chose de sa vie n'est pas facile — crois-moi, je le sais, j'ai dû lutter contre ma famille et mes « pairs » à chaque étape. Nous devons tous travailler pour ça. Je doute que cette partie-là vienne plus facilement aux « vrais » mages auxquels tu ne cesses de te comparer.~
+@1225 = ~Faire de bonnes actions et accomplir quelque chose de sa vie n'est pas facile — crois-moi, je le sais, j'ai dû lutter contre ma famille et mes " pairs " à chaque étape. Nous devons tous travailler pour ça. Je doute que cette partie-là vienne plus facilement aux " vrais " mages auxquels tu ne cesses de te comparer.~
 @1226 = ~Euh, je vais y réfléchir. Ne pousse pas ta chance, sorcier.~
 @1227 = ~D'accord. Merci, j'imagine.~ [FWNALI02]
 @1228 = ~Eh bien, même si je trouvais que c'était un terrible gaspillage de l'argent durement gagné par les métayers, ma tante essayait toujours de s'assurer que j'avais avec moi la dernière crème ou lotion qu'elle venait de faire importer du Calimshan avant mes excursions, mais j'ai épuisé tout ça depuis longtemps.~
@@ -1127,10 +1127,10 @@
 @1237 = ~Bien sûr, ça peut être épuisant, mais depuis que Quayle m'a libérée et m'a tant appris, je veux aider les gens, pas rester assise à ne rien faire. Ce n'est vraiment pas aussi difficile que tu le prétends.~
 @1238 = ~Oh. B-bien, merci, Kelsey.~
 @1239 = ~Eh bien, je suis ravie que vous ayez décidé de dépasser les calomnies et de vous adresser directement à la source ! Les gens peuvent être si cruels avec leurs paroles. Sans parler de leurs compositions florales. Durant les tragiques Campagnes botaniques de l'an 32, tante Clématite et ses Troupes de choc aux Roses grimpantes ont semé une telle destruction qu'elles ont laissé derrière elles des bâtiments en flammes, des enfants pleurant leur mère et plusieurs généraux de légion sans emploi et complètement abasourdis, avant qu'on ne parvienne à les arrêter... grâce au gel, voyez-vous. Il n'a pas tué ces plantes assoiffées de sang, mais avec des stalactites au bout du nez, elles refusaient de la prendre au sérieux, alors tout le plan s'est plus ou moins effondré.~
-@1240 = ~Ah oui. Eh bien, il y avait le cousin Baryum, mais ce n'est guère plus qu'une note de bas de page. Il prétendait être spécialiste des sorts à « effet de zone », comme Nuage puant, Nuage mortel et Brouillard mortel, mais des recherches récentes ont révélé que ses pouvoirs magiques apparemment sans limites étaient peut-être entièrement dus à des navets mal cuits et à un excès d'acidité gastrique.~
+@1240 = ~Ah oui. Eh bien, il y avait le cousin Baryum, mais ce n'est guère plus qu'une note de bas de page. Il prétendait être spécialiste des sorts à " effet de zone ", comme Nuage puant, Nuage mortel et Brouillard mortel, mais des recherches récentes ont révélé que ses pouvoirs magiques apparemment sans limites étaient peut-être entièrement dus à des navets mal cuits et à un excès d'acidité gastrique.~
 @1241 = ~Et puis il y a Froggo, qui fut jadis le pupille de Golodon le Démasculé. Hélas, je suppose que Froggo ne compte pas non plus, car lorsqu'il découvrit qu'il était incapable de retenir les plus simples tours de magie pour récolter les navets, il déclara soudain qu'il serait désormais sorcier et tisserait la magie à partir de rien, sans rien mémoriser. Évidemment, Froggo n'avait ni la mémoire nécessaire pour devenir mage, ni le talent inné pour devenir sorcier. Aussi, par un étrange concours de circonstances impliquant une boule de cristal fêlée et une poignée de savon fondu, Froggo finit par mettre ses talents à leur meilleur usage possible : il est aujourd'hui le principal comique d'improvisation d'un petit village du monde de Faucongris.~
 @1242 = ~Ce n'est pas grave. J'ai juré de ne plus jamais aider de sorcier après avoir subi le dernier Nuage mortel de Baryum.~
-@1243 = ~Quand j'ai...? Pourquoi tout le monde s'obstine-t-il à me traiter comme une enfant ? Je n'ai peut-être plus mes ailes, mais je suis bien plus âgée que toi et je suis aussi « adulte » que je le serai jamais !~
+@1243 = ~Quand j'ai...? Pourquoi tout le monde s'obstine-t-il à me traiter comme une enfant ? Je n'ai peut-être plus mes ailes, mais je suis bien plus âgée que toi et je suis aussi " adulte " que je le serai jamais !~
 @1244 = ~Oh, Kelsey, tu ne comprends pas ! Personne ne comprend ! Le vaste monde ne m'est pas nouveau : je l'avais, et maintenant il n'est plus à moi ! On me l'a pris, pour toujours ! *renifle*~
 @1245 = ~Qu'est-ce donc ? Qui apporte désespoir et chagrin à notre sorcière ? Bouh dit qu'il arrachera les yeux des vilains garçons qui font pleurer les petites filles ! Bouh est très sensible à ces choses-là. Il dit qu'il est empathique, même si je crois qu'il est simplement gentil.~
 @1246 = ~Je... je sais que tu ne voulais pas me faire de mal, Kelsey.~
@@ -1212,7 +1212,7 @@
 @1322 = ~Oh... et puis zut, j'aime bien tes coudes. Je le ferai, pour un navet.~
 @1323 = ~D'une certaine manière seulement. Ce moineau prépare une question à ton intention, si tu veux bien l'entendre.~
 @1324 = ~Hélas, je dois l'avouer, je suis un grand indiscret. À plusieurs reprises déjà, je t'ai entendu médire de ton don si singulier. Qu'est-ce qui te rend si malheureux ?~
-@1325 = ~Difficile d'échapper à l'impression que tu te crois doté de « mauvais sang ». De l'avis de ce moineau, tu ne sais tout simplement pas de quoi tu parles.~
+@1325 = ~Difficile d'échapper à l'impression que tu te crois doté de " mauvais sang ". De l'avis de ce moineau, tu ne sais tout simplement pas de quoi tu parles.~
 @1326 = ~Mais oui ! Ouvre les yeux, mon garçon ! Mon cœur pompe le sang des démons ! Je suis seul, ou à peu de chose près, sur ce plan. Quant à toi... les gens de ton espèce ne sont pas si rares, d'après mon expérience.~
 @1327 = ~Non. Être normal, c'est être ennuyeux, un grain de poussière insignifiant dans le multivers. Pour que nos âmes soient vraiment libres, nous devons embrasser ce qui nous rend différents.~
 @1328 = ~Alors, quel effet cela fait-il de savoir que tu es peut-être le plus grand gaspillage de talent magique inné de tout l'Amn ?~
@@ -1237,7 +1237,7 @@
 @1347 = ~Euh, ouais ! À moins que je décide que je préfère rentrer prendre un bain et faire un gâteau ou un truc comme ça.~
 @1348 = ~Alors disons que je promets probablement.~
 @1349 = ~Merci, Kelsey ! Espèce de grosse mauviette.~
-@1350 = ~Euh, j'ai dit : « J'espère que je leur manque ! »~
+@1350 = ~Euh, j'ai dit : " J'espère que je leur manque ! "~
 @1351 = ~Kelsey, j'ai une question, et Bouh est d'accord pour dire que tu es une bonne personne à qui la poser.~
 @1352 = ~Ah, non, ce n'est pas cette question-là cette fois. Je me demande depuis quelque temps d'où vient la magie. Bouh, à ma grande surprise, n'en est pas certain.~
 @1353 = ~Mais tu portes ces robes, et Bouh et moi sommes tous les deux absolument convaincus d'avoir vu de la magie jaillir de tes doigts, de tes yeux et de ton nombril à plusieurs reprises !~
@@ -1250,7 +1250,7 @@
 @1360 = ~Hé, les gars, vous voulez bien éviter d'enterrer Imoen avant qu'elle soit morte ?~
 @1361 = ~Kelly, tu peux m'accorder un petit moment pour discuter ? De marchand-mage à marchand-mage un peu plus petit mais plus beau ?~
 @1362 = ~Eh bien, Carrie, je dois dire que tu te révèles assez décevant au combat.~
-@1363 = ~<CHARNAME> ne regarde que le nombre de cadavres, Katie, et de ce côté-là tu en as fait assez pour rendre fier même le Jansen le plus sanguinaire de tous les temps, Oswald Ernest Frindo « l'Écorcheur de carottes » Jansen. Oswald n'a pas reçu ce nom parce qu'il écorchait des carottes. Non, Ozzie écorchait ses ennemis AVEC des carottes. Un procédé assez ingénieux, surtout quand on sait qu'il aiguisait les carottes sur les ongles de pied de ses victimes. Évidemment, Ozzie fut une petite déception pour la famille. Le registre officiel de son reniement prétend que c'était à cause du carnage, mais entre toi, moi et le tonneau de biscuits, aucun Jansen digne de ses parties intimes courtes et frisées ne devrait brutalement écorcher ses victimes avec autre chose qu'un navet. Pas que j'aie essayé souvent, bien sûr.~
+@1363 = ~<CHARNAME> ne regarde que le nombre de cadavres, Katie, et de ce côté-là tu en as fait assez pour rendre fier même le Jansen le plus sanguinaire de tous les temps, Oswald Ernest Frindo " l'Écorcheur de carottes " Jansen. Oswald n'a pas reçu ce nom parce qu'il écorchait des carottes. Non, Ozzie écorchait ses ennemis AVEC des carottes. Un procédé assez ingénieux, surtout quand on sait qu'il aiguisait les carottes sur les ongles de pied de ses victimes. Évidemment, Ozzie fut une petite déception pour la famille. Le registre officiel de son reniement prétend que c'était à cause du carnage, mais entre toi, moi et le tonneau de biscuits, aucun Jansen digne de ses parties intimes courtes et frisées ne devrait brutalement écorcher ses victimes avec autre chose qu'un navet. Pas que j'aie essayé souvent, bien sûr.~
 @1364 = ~Non, non, Calista, je ne parle pas du fond. Le résultat final n'est qu'une toute petite partie du travail d'un mage consciencieux. Je parle du style, mon petit. Et là, disons simplement que tu as montré moins de talent et de panache dans tes incantations que mon cousin adoptif Plesival, et nous sommes tous à peu près certains que Plessy ne lançait pas réellement Sommeil : il gagnait simplement beaucoup de concours de regard. Surtout contre les corbeaux qu'il gardait dans les marmites dont il bordait le tertre qu'il avait récupéré de...~
 @1365 = ~Je me doutais que tu résisterais, Chelsea, mais je vais te faire une offre que tu ne pourras pas refuser. Pendant mon temps libre, j'ai fabriqué spécialement pour toi une Sphère Jansen d'amélioration visuelle pour sorcier. Ce n'est qu'un prototype, mais elle garantit absolument de faire de toi un lanceur de sorts qui éblouit, sidère et, en gros, fiche une peur bleue à quiconque croise ton chemin. Sauf les aveugles, bien sûr, mais il n'y a aucune raison de les traiter différemment. Dis-leur simplement qu'ils auraient peur s'ils pouvaient te voir. La psychologie du combat est un merveilleux domaine d'étude, et tante Clématite était la meilleure prof de tout Faerûn... ou au moins de mon pâté de maisons.~
 @1366 = ~Oh, il n'y a rien à craindre, Kristen. Les produits Jansen AdventureWear sont presque toujours fiables, et la sécurité est rarement un sujet d'inquiétude. Je crois que je peux facilement compter le nombre d'accidents mortels sur les doigts de mes deux mains.~
@@ -1266,12 +1266,12 @@
 @1405 = ~Tu me blesses également en me prenant pour un vulgaire détrousseur... et je ne doute pas que tu blesserais très certainement tout vulgaire détrousseur qui te prendrait pour sa proie naturelle.~
 @1406 = ~Content qu'on soit d'accord.~
 @1407 = ~D'accord sur tout, sauf sur le genre d'homme que tu es vraiment, Kelsey. Il y a ceux qui préfèrent vivre de leur esprit et ceux qui préfèrent s'en remettre à la fortune, et je n'arrive toujours pas à savoir à quelle catégorie tu appartiens.~
-@1408 = ~Je crois que le seul jeu auquel je suis prêt à miser quoi que ce soit contre toi s'appelle « Face, je gagne ; pile, tu perds ».~
+@1408 = ~Je crois que le seul jeu auquel je suis prêt à miser quoi que ce soit contre toi s'appelle " Face, je gagne ; pile, tu perds ".~
 @1409 = ~Ah. Tu es donc de cette troisième catégorie, celle qui veut jouer selon ses propres règles ou ne pas jouer du tout.~
 @1410 = ~J'y peux rien. Face à certains adversaires, je crois que le seul moyen de gagner, c'est de ne pas jouer.~
 
 @1411 = ~Mazzy, comment une chevalière sait-elle quand elle a fini ?~ [FWKLSYG1]
-@1412 = ~« Fini » ? Au sens de « finie pour de bon » ?~
+@1412 = ~" Fini " ? Au sens de " finie pour de bon " ?~
 @1413 = ~Non, je veux dire : fini, terminé. Un garde sait qu'il a fini quand sa relève arrive, un marchand sait qu'il a fini lorsqu'il ferme boutique.~
 @1414 = ~Mais personne ne vient jamais relever une chevalière itinérante, n'est-ce pas ? Alors comment peux-tu cesser de travailler avant de finir par mourir d'épuisement ?~
 @1415 = ~Tu plaisantes, j'espère.~
@@ -1364,7 +1364,7 @@
 @1572 = ~Oh, allez donc vous occuper ailleurs maintenant.~
 @1573 = ~Tu es tourmenté à la fois par des dons et par un mépris que tu estimes immérités. Accueille les premiers en toi, et apprends à ignorer le second venu de l'extérieur, ou tu seras consumé par un tourment de ta propre création.~
 @1574 = ~J'imagine que tout le monde devrait essayer d'être plus autonome. J'aurais pu vous dire ça gratuitement.~
-@1575 = ~Et à combien s'élève exactement ce « sacrifice financier » ?~
+@1575 = ~Et à combien s'élève exactement ce " sacrifice financier " ?~
 @1576 = ~Ça ne va pas être joli, <CHARNAME>. Les Mages Cagoulés détiennent pratiquement un monopole sur la magie, et les monopoles maintiennent les prix élevés et les quantités faibles...~
 @1577 = ~Aïe ! C'était encore pire que je ne le pensais. Mais si ça signifie que je peux lancer librement des sorts quand nous sommes en ville, alors ça en valait peut-être la peine. Je doute toutefois que nous échappions complètement à leur surveillance.~
 @1578 = ~Hé. J'adore quand des prêtres de mauvaise humeur essaient de me faire sentir chaleureusement accueilli. Ils sont tellement mauvais à ça !~
@@ -1390,15 +1390,15 @@
 @1598 = ~Oui, je vais voir ce que vous avez.~
 @1599 = ~Psst ! Tu réalises quand même qu'on ne parle pas de soutenir quelques receleurs à Athkatla, mais que tu proposes de commercer avec les Drows, là, hein ?~
 @1600 = ~Ah, eh bien, si vous voulez conclure un marché la lame sous la gorge, on dirait que nous sommes la bande à qui parler ces temps-ci...~
-@1601 = ~Pourquoi, vous avez cette histoire disponible sous forme de livre ? D'après mon expérience, quiconque utilise le mot « je vous prie » essaie généralement de vendre quelque chose.~ [FWKLSYF6]
-@1602 = ~Tu réponds souvent à « ma dame », Kelsey ? Tu devrais peut-être faire examiner tes délicates oreilles, histoire de savoir quand on ne s'adresse pas à toi.~
+@1601 = ~Pourquoi, vous avez cette histoire disponible sous forme de livre ? D'après mon expérience, quiconque utilise le mot " je vous prie " essaie généralement de vendre quelque chose.~ [FWKLSYF6]
+@1602 = ~Tu réponds souvent à " ma dame ", Kelsey ? Tu devrais peut-être faire examiner tes délicates oreilles, histoire de savoir quand on ne s'adresse pas à toi.~
 @1603 = ~<CHARNAME>, veuillez pardonner cette interruption. Je suis prêt à partager. Les lacunes de vos connaissances concernant mes exploits sont effectivement considérables.~
 @1604 = ~Je n'ai aucune envie d'entendre parler de tes voyages, Anomen.~
 @1605 = ~Et c'est exactement comme ça que je préfère les choses.~
 @1606 = ~Très bien, alors... raconte-moi tes voyages, si tu le souhaites.~
 @1607 = ~Désolé, Anomen, ce n'est pas le moment de parler.~
 @1608 = ~Laisse-moi deviner. Tu l'as fondé, et tu as sculpté au couteau à beurre les colonnes qui soutiennent la caserne.~ [FWKLSYF7]
-@1609 = ~Ton sarcasme mesquin ne saurait atteindre l'honneur de l'Ordre, mais il en dit certainement long sur toi. Le seul « ordre » qui t'attende est une commande de tissus et de bibelots.~
+@1609 = ~Ton sarcasme mesquin ne saurait atteindre l'honneur de l'Ordre, mais il en dit certainement long sur toi. Le seul " ordre " qui t'attende est une commande de tissus et de bibelots.~
 @1610 = ~Je ne mords pas à cet hameçon. J'apprécie un bon paladin autant que n'importe qui, mais à t'entendre, tout s'écroulerait sans toi.~
 @1611 = ~Tes interruptions mettent ma patience à rude épreuve. Ce n'était pas à toi que je parlais, garçon, mais à <CHARNAME>, qui sait apprécier à la fois l'Ordre et mes importantes contributions.~
 @1612 = ~Ma dame, avant que nous ne soyons si grossièrement interrompus, je vous avais posé une question. Je me dois de vous la poser de nouveau : connaissez-vous quelque peu l'Ordre du Cœur Radieux ?~
@@ -1547,7 +1547,7 @@ Bodhi m'a tendu une embuscade peu avant que j'atteigne son repaire. Elle m'a ave
 @1751 = ~Et j'en ai déjà assez vu pour soupçonner le pire. J'espère que ta nouvelle vie... te satisfera.~
 @1752 = ~(soupir) Je me sens coupable d'avoir dû te demander ça, <CHARNAME>, mais ça m'aurait vraiment mis très mal à l'aise. Merci.~
 @1753 = ~Vraiment. Je suis très déçu d'apprendre que tu trouves parfaitement acceptable de vivre en volant le salaire durement gagné des autres.~
-@1754 = ~Il existe certainement un dicton sur « le moindre de deux maux » qui justifie tout ça. Enfin, presque.~
+@1754 = ~Il existe certainement un dicton sur " le moindre de deux maux " qui justifie tout ça. Enfin, presque.~
 @1755 = ~Ce n'est ni une ruse ni la dernière illusion d'un mage mourant... nous sommes vraiment en Enfer, n'est-ce pas ? J'espère que tes étranges pouvoirs signifient que le voyage n'était pas à sens unique, mais je combattrai à tes côtés même si nous sommes coincés ici.~ [FWKLSYE7]
 @1756 = ~Il était un mage accidentel--~
 @1757 = ~Hé, je te connais, non ? Tu es le gnome rimailleur complètement fou qui a vendu à mon père ces contrats à terme sur les navets il y a des années !~
@@ -1578,7 +1578,7 @@ Bodhi m'a tendu une embuscade peu avant que j'atteigne son repaire. Elle m'a ave
 @1816 = ~Enfin, le monstre disparaît à l'horizon. (Il a de la chance, il allait finir dans un Feu solaire s'il s'attardait encore beaucoup plus longtemps...) ~
 @1817 = ~Que veux-tu que je dise ? Je suis désolé de t'avoir entraîné là-dedans. Je te jure que si j'avais eu la moindre idée que cette Ceara était aussi... bizarre, je t'aurais prévenu de la situation dès notre rencontre.~ [FWKLSYC5]
 @1818 = ~Essaie de ne pas t'inquiéter pour elle. Si c'était tout ce qu'elle avait de mieux, aucun problème.~
-@1819 = ~Je ne comprends même pas où elle a pu trouver une bande de brutes pareille. Elle doit bénéficier du soutien des Mages Cagoulés pour ses « recherches »... oh, je ne veux même pas y penser. Partons, c'est tout.~
+@1819 = ~Je ne comprends même pas où elle a pu trouver une bande de brutes pareille. Elle doit bénéficier du soutien des Mages Cagoulés pour ses " recherches "... oh, je ne veux même pas y penser. Partons, c'est tout.~
 @1820 = ~Pas encore. Écoutez, quoi que vous vendiez, je n'achète pas. Surtout après tout ce harcèlement.~ [FWKLSYC6]
 @1821 = ~Madame, je me souviens que vous étiez incroyablement bizarre. Maintenant, vous êtes incroyablement bizarre ET incroyablement désagréable. Alors non, je ne me sens pas particulièrement spécial.~ [FWKLSYC7]
 @1822 = ~Nous avons parlé de sorcellerie, si je me souviens bien, pendant une heure ou deux parce que je pensais que ça suffirait pour que vous me laissiez tranquille. Pour le reste, débrouillez-vous.~ [FWKLSYC8]
@@ -1693,7 +1693,7 @@ Bodhi m'a tendu une embuscade peu avant que j'atteigne son repaire. Elle m'a ave
 @1931 = ~Oui, j'en ai entendu parler... eh bien, personne ne paraît aussi dangereux quand on a un compagnon fiable dans son dos. Tu peux compter sur moi.~
 @1932 = ~Imoen est ton amie qui lance des sorts ? Bien sûr, je serais heureux d'aider. J'espère que les Mages Cagoulés ne seront pas trop durs avec elle en attendant, pour son bien.~
 @1933 = ~Imoen ? C'est le nom de la fille mage ? Le plan me va. Dis-moi, <CHARNAME>, vous n'êtes pas... ensemble toutes les deux, hein ? Elle a un petit ami ?~
-@1934 = ~Pour commencer, il était assez difficile de savoir qui faisait quoi à qui là-dedans. Et ensuite, mon « aide » m'aurait probablement valu d'être embarqué au même endroit que tes amis lanceurs de sorts.~
+@1934 = ~Pour commencer, il était assez difficile de savoir qui faisait quoi à qui là-dedans. Et ensuite, mon " aide " m'aurait probablement valu d'être embarqué au même endroit que tes amis lanceurs de sorts.~
 @1935 = ~Tu es donc mage ?~
 @1936 = ~Tu es un magicien, garçon ? Je me disais bien que tu avais l'air d'un faible.~
 @1937 = ~C'est fascinant, mais j'ai autre chose à faire.~
@@ -1856,11 +1856,11 @@ Bodhi m'a tendu une embuscade peu avant que j'atteigne son repaire. Elle m'a ave
 @3029=~Viens, <CHARNAME>... nous aurons bien assez de temps pour en reparler plus tard, mais je crois que nous avons du travail important aujourd'hui.~
 @3030=~Ce soir, ce sera une autre histoire, bien sûr. Mais je ne veux rien présumer. Laisse-moi t'aider à te relever, mon amour... je suis sûr de me souvenir où nous avons mis ton haut...~
 @3031=~Je ne te pousse pas, idiote. Je te le rappelle simplement.~
-@3032=~Je me demande depuis un moment ce qu'il vend là-bas. Tout ce que je sais, c'est que de temps en temps ça implique quelqu'un qui hurle « Mes yeux ! », alors...~
+@3032=~Je me demande depuis un moment ce qu'il vend là-bas. Tout ce que je sais, c'est que de temps en temps ça implique quelqu'un qui hurle " Mes yeux ! ", alors...~
 @3033=~Il a raison sur la façon dont les choses se passaient avant, <CHARNAME>. Je suis passé plusieurs fois par Franc-Marché au fil des ans et personne ne m'a jamais parlé de problème. À ma connaissance, chacun vivait et laissait vivre.~
 @3034=~Regardez mes mains. Est-ce que ça ressemble à des mains de fermier ou à des mains de propriétaire de château ?~
 @3035=~Euhhhh, des mains de fermier, sans hésiter.~
-@3036=~VOUS le voyez. *MOI* je le vois. Pourquoi EUX ne le voient pas ? Ma terre est classée comme un « château » et je reçois cette énorme facture fiscale pour du mortier, des douves, des catapultes et toutes ces autres folies que je n'ai pas ! J'ai deux pièces, une femme et trois chiens !~
+@3036=~VOUS le voyez. *MOI* je le vois. Pourquoi EUX ne le voient pas ? Ma terre est classée comme un " château " et je reçois cette énorme facture fiscale pour du mortier, des douves, des catapultes et toutes ces autres folies que je n'ai pas ! J'ai deux pièces, une femme et trois chiens !~
 @3037=~Euhhh...~
 @3038=~Mais leurs agents disent que c'est un château ! J'ai presque envie de me faire fabriquer des armoiries et une bannière, puis de me prendre mes propres serfs ! Ho ho !~
 @3039=~Eh bien, si vous avez fait tout votre possible et que le système refuse de fonctionner pour vous, faites fonctionner le système à votre avantage.~
@@ -1868,7 +1868,7 @@ Bodhi m'a tendu une embuscade peu avant que j'atteigne son repaire. Elle m'a ave
 
 // Dec 10 2002
 
-@3041=~« Joignez-vous à moi » ? J'ai une assez bonne idée de ce que ÇA signifie. <CHARNAME>, les Voleurs de l'Ombre sont loin d'être mes amis, mais quoi qu'elle ait en tête, nous ne devrions pas y prendre part.~
+@3041=~" Joignez-vous à moi " ? J'ai une assez bonne idée de ce que ÇA signifie. <CHARNAME>, les Voleurs de l'Ombre sont loin d'être mes amis, mais quoi qu'elle ait en tête, nous ne devrions pas y prendre part.~
 
 // Dec 14 2002 (new flirts)
 
@@ -1880,7 +1880,7 @@ Bodhi m'a tendu une embuscade peu avant que j'atteigne son repaire. Elle m'a ave
 
 @3047=~(Sourire à Kelsey)~
 @3048=~(Kelsey te rend ton sourire, les yeux légèrement plissés tandis qu'il savoure l'attention que tu lui portes.)~
-@3049=~(Il jette un bref coup d'œil autour de lui pour s'assurer que tu le regardes, puis lève la main droite au niveau de sa poitrine et te fait signe en articulant silencieusement « Salut ».)~
+@3049=~(Il jette un bref coup d'œil autour de lui pour s'assurer que tu le regardes, puis lève la main droite au niveau de sa poitrine et te fait signe en articulant silencieusement " Salut ".)~
 @3050=~(Ses yeux rayonnants rencontrent pleinement les tiens et t'en disent bien davantage qu'un simple sourire rendu.)~
 
 @3051=~(Jouer avec les cheveux de Kelsey)~
@@ -1894,10 +1894,10 @@ Bodhi m'a tendu une embuscade peu avant que j'atteigne son repaire. Elle m'a ave
 @3059=~(En suivant la naissance de ses cheveux, tu t'arrêtes pour lui masser lentement les lobes d'oreille. Il incline légèrement la tête en arrière et respire de plus en plus fort et profondément tandis que tu les pétris entre le pouce et l'index.)~
 @3060=~(Lorsque tu as terminé, il laisse échapper un long et lent soupir de satisfaction puis te sourit droit dans les yeux, les joues légèrement rouges, comme s'il regrettait que tu aies cessé de le toucher.)~
 
-@3061=~(Bousculer Kelsey, « accidentellement exprès »)~
+@3061=~(Bousculer Kelsey, " accidentellement exprès ")~
 @3062=~(Le coup de hanche que tu donnes à Kelsey n'a rien de subtil. Cela ne le dérange pas le moins du monde, hormis un bref air de surprise qui se transforme vite en une acceptation malicieuse et pleine d'espoir.)~
 @3063=~(Il ne te rend pas la pareille, mais ses oreilles sont nettement plus roses qu'avant que tu ne te frottes à lui. Mission accomplie.)~
-@3064=~(En arrivant derrière lui, tu perds « distraitement » de vue où tu mets les pieds et lui rentres dedans, la paume idéalement placée pour empoigner gratuitement un morceau de chair de sorcier. Le choc le fait bondir d'un bon pas et demi en avant.)~
+@3064=~(En arrivant derrière lui, tu perds " distraitement " de vue où tu mets les pieds et lui rentres dedans, la paume idéalement placée pour empoigner gratuitement un morceau de chair de sorcier. Le choc le fait bondir d'un bon pas et demi en avant.)~
 @3065=~Quoi... <CHARNAME> ? Je ne sais pas comment je ne t'ai pas entendu arriver, ni comment tu as pu ne pas me voir... (Son regard ne révèle pas s'il t'accorde ou non le bénéfice du doute.)~
 @3066=~(Kelsey fouille dans quelques notes et paraît assez distrait. Tu passes donc à côté de lui, entres dans son espace personnel puis le dépasses, faisant pivoter ta foulée exactement au bon moment pour frôler sa poitrine et sa cuisse avec les tiennes.)~
 @3067=~(Sa tête se relève brusquement de ses papiers et se tourne à moitié vers toi, mais, à court de mots, il ravale littéralement le commentaire ou le compliment qu'il tentait de formuler dans un soupir accompagné d'un claquement contenu des dents.)~
@@ -1923,7 +1923,7 @@ Bodhi m'a tendu une embuscade peu avant que j'atteigne son repaire. Elle m'a ave
 @3084=~(Se pencher pour offrir à Kelsey une vue plongeante sur ton décolleté)~
 @3085=~(Remarquant que ta garde est baissée, Kelsey parvient presque à ne pas regarder, mais tu le surprends à jeter au moins quatre coups d'œil. C'est l'inclinaison de sa tête qui le trahit : entre chaque regard, elle revient toujours exactement au même endroit.)~
 @3086=~(Il te regardait dans les yeux, mais la distraction l'emporte sur les bonnes manières et son regard est manifestement attiré vers le sud.)~
-@3087=~(Kelsey possède assez de maîtrise et de bon goût pour qu'on ne puisse pas dire qu'il te « dévore » exactement des yeux, mais il te grignote au moins un peu.)~
+@3087=~(Kelsey possède assez de maîtrise et de bon goût pour qu'on ne puisse pas dire qu'il te " dévore " exactement des yeux, mais il te grignote au moins un peu.)~
 @3088=~(Après avoir longuement et avidement contemplé le V de tes seins, Kelsey fait un effort très délibéré pour détourner la tête, mais tu entends un petit grognement de frustration.)~
 
 @3089=~(Donner un coup de coude taquin dans les côtes de Kelsey)~
@@ -2145,8 +2145,8 @@ Combat, combat, combat~ [FWKLSYNG]
 @3257=~Je t'aime, <CHARNAME>. Je sais que tu pourrais avoir n'importe quel homme que tu voudrais. Merci de... de m'avoir choisi.~ [FWKLSYNK]
 
 @3258=~(Kelsey passe près de toi et glisse quelque chose dans ta poche, avec adresse mais assez clairement pour que tu le remarques. En fouillant, tu découvres un petit morceau de papier qui n'y était pas auparavant.)~
-@3259=~(Tu le déplies et le lis. Cela commence comme une liste d'équipement pour une expédition, mais certains éléments sont nettement plus inhabituels, comme « 20 roses jaunes » et « un massage des pieds ».)~
-@3260=~(Puis vient toute une série de courtes mentions dans des langues que tu ne connais pas... jusqu'au bas de la liste, où tu commences à reconnaître certaines des langues les plus courantes de la région. Kelsey a écrit « Je t'aime » dans autant de langues qu'il a pu trouver.)~
+@3259=~(Tu le déplies et le lis. Cela commence comme une liste d'équipement pour une expédition, mais certains éléments sont nettement plus inhabituels, comme " 20 roses jaunes " et " un massage des pieds ".)~
+@3260=~(Puis vient toute une série de courtes mentions dans des langues que tu ne connais pas... jusqu'au bas de la liste, où tu commences à reconnaître certaines des langues les plus courantes de la région. Kelsey a écrit " Je t'aime " dans autant de langues qu'il a pu trouver.)~
 
 @3261=~<CHARNAME>... on a un peu de temps pour se détendre ? J'aimerais passer un moment spécial seuls tous les deux, si c'est possible.~ [FWKLSYNI]
 @3262=~Pas maintenant, Kelsey.~
@@ -2435,7 +2435,7 @@ Combat, combat, combat~ [FWKLSYNG]
 @3546=~Cette regrettable distraction n'a rien changé à ma résolution, <CHARNAME>. Je vous présente une demande de pardon et de compréhension sincère et sans condition.~
 
 @3547=~Économise ton souffle, Kelsey. Tes excuses tardives sont aussi dénuées de sens pour ma dame que tes avances malavisées. Aucune ne mérite son attention, et nous serons soulagés d'en voir la fin.~
-@3548=~Qui ça, « nous », Anomen ? Tu as peut-être tes responsabilités auprès de l'Ordre, mais je doute que qui que ce soit t'ait chargé de penser et parler en son nom.~ [FWKLSYP4]
+@3548=~Qui ça, " nous ", Anomen ? Tu as peut-être tes responsabilités auprès de l'Ordre, mais je doute que qui que ce soit t'ait chargé de penser et parler en son nom.~ [FWKLSYP4]
 @3549=~Tu n'es même pas un dixième de l'homme qu'il faut être pour apprendre les disciplines enseignées aux plus valeureux de l'Ordre ! Et tu n'es pas digne non plus de faire perdre son temps à <CHARNAME> avec tes flagorneries bavardes.~
 @3550=~Et à qui devrait-elle perdre son temps à écouter ? Toi ?~
 @3551=~Je considère <CHARNAME> comme une excellente juge de caractère lorsqu'il s'agit de choisir ses partenaires pour discuter de stratégie militaire comme d'honneur personnel. Dis-moi donc, Kelsey, qu'est-ce qu'elle t'a dit dernièrement ?~
@@ -2447,7 +2447,7 @@ Combat, combat, combat~ [FWKLSYNG]
 @3556=~Tu t'attends à ce que ma dame fuie devant l'adversité ? Je ne suis pas surpris de t'entendre vouloir céder à la lâcheté, mais je ne resterai pas les bras croisés pendant que tu essaies de faire d'elle la complice de ta honte.~
 @3557=~Anomen, je partageais une fantaisie parfaitement innocente, et tu n'en faisais absolument pas partie quand je l'ai commencée, et je tiens absolument à ce que tu continues à ne pas en faire partie.~ [FWKLSYP5]
 @3558=~Une fantaisie ?! Par Heaum, je devrais t'abattre sur-le-champ pour un tel affront ! <CHARNAME> ne se souillerait jamais dans quelque aventure sordide !~
-@3559=~C'est ridicule. Je n'ai pas à justifier mes pensées devant toi, Anomen, et je suis presque certain d'avoir en ce moment quelques pensées qui te dérangeraient bien davantage que n'importe quelle « aventure ».~
+@3559=~C'est ridicule. Je n'ai pas à justifier mes pensées devant toi, Anomen, et je suis presque certain d'avoir en ce moment quelques pensées qui te dérangeraient bien davantage que n'importe quelle " aventure ".~
 @3560=~Peuh. Je dirais bien que ça ressemblait à une menace si je pouvais t'attribuer la moindre colonne vertébrale.~
 @3561=~Bien. Si tu ne vas pas vraiment le dire, alors je vais finir ce que j'étais en train de dire à mon amie <CHARNAME>.~
 @3562=~Tu auras bientôt de mes nouvelles.~
