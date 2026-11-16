@@ -68,10 +68,10 @@ LANGUAGE ~Russian (Translated by Prowler)~
          ~kelsey/tra/english/setup.tra~
          ~kelsey/tra/english/game.tra~
          ~kelsey/tra/russian/game.tra~
-LANGUAGE ~Chinese~
+LANGUAGE ~Simplified Chinese~
          ~schinese~
-         ~kelsey/tra/schinese/setup.tra~
-         ~kelsey/tra/schinese/game.tra~
+         ~%MOD_FOLDER%/tra/schinese/setup.tra~
+         ~%tra_path%/schinese/game.tra~
 
 BEGIN @1 DESIGNATED 0
 
