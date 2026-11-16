@@ -68,7 +68,10 @@ LANGUAGE ~Russian (Translated by Prowler)~
          ~kelsey/tra/english/setup.tra~
          ~kelsey/tra/english/game.tra~
          ~kelsey/tra/russian/game.tra~
-
+LANGUAGE ~Simplified Chinese~
+         ~schinese~
+         ~%MOD_FOLDER%/tra/schinese/setup.tra~
+         ~%tra_path%/schinese/game.tra~
 
 BEGIN @1 DESIGNATED 0
 
@@ -814,12 +817,12 @@ ACTION_IF GAME_IS ~tob bgt bg2ee eet~ BEGIN
         override_SoA = "J#KLSY"
         override_ToB = "J#KLSY25"
         dialog_ToB = "J#KLSY25"
-        traFile = EVAL "kelsey/tra/%LANGUAGE%/kelseyg.tra"
+        traFile = EVAL "%tra_path%/%LANGUAGE%/kelseyg.tra"
         string = "@6001" //Bring me Kelsey, the human sorceror.
         stringPosDV = "Khalid"
     END
   END ELSE BEGIN
-    COMPILE ~kelsey/d/FATESP.d~ USING ~kelsey/tra/%LANGUAGE%/kelseyg.tra~
+    COMPILE ~kelsey/d/FATESP.d~ USING ~%tra_path%/%LANGUAGE%/kelseyg.tra~
   END
 
 END
